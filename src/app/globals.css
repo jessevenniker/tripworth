@@ -1,26 +1,235 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --night: #0b1b2b;
+  --ink: #14212e;
+  --sand: #f6efe4;
+  --paper: #fffaf2;
+  --coral: #ff6b4a;
+  --sea: #0e7c86;
+  --muted: #5b6875;
+  --line: #e4d9c8;
+  --intro-delay: 2.1s;
+}
+
+html[data-intro-seen] {
+  --intro-delay: 0s;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-night: var(--night);
+  --color-ink: var(--ink);
+  --color-sand: var(--sand);
+  --color-paper: var(--paper);
+  --color-coral: var(--coral);
+  --color-sea: var(--sea);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-fraunces);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--sand);
+  color: var(--ink);
+}
+
+/* ---------- Arrival intro ----------
+   A sky-coloured curtain covers the page. The plane sits on its left edge;
+   as the curtain slides off to the right, the plane flies across and the
+   destinations appear behind it. */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  background: linear-gradient(180deg, #0b1b2b 0%, #1f4e79 45%, #f4a261 100%);
+  animation: curtain-out 1.9s cubic-bezier(0.65, 0, 0.25, 1) 0.6s forwards;
+}
+
+.intro-plane {
+  position: absolute;
+  top: 46%;
+  left: -150px;
+  width: 132px;
+  height: 132px;
+  color: #fff;
+  transform: rotate(90deg);
+  filter: drop-shadow(0 10px 18px rgb(0 0 0 / 0.35));
+  animation: plane-bob 1.9s ease-in-out 0.6s;
+}
+
+.intro-trail {
+  position: absolute;
+  top: calc(46% + 64px);
+  left: calc(-52vw - 96px);
+  width: 52vw;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.9));
+}
+
+.intro-label {
+  animation: label-out 0.5s ease-in 0.5s forwards;
+}
+
+@keyframes curtain-out {
+  to {
+    transform: translateX(calc(100vw + 70vw));
+  }
+}
+
+@keyframes plane-bob {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -22px;
+  }
+}
+
+@keyframes label-out {
+  to {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+html[data-intro-seen] .intro-curtain {
+  display: none;
+}
+
+/* Content rises into place once the plane has passed. */
+.rise {
+  animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: calc(var(--intro-delay) + var(--i, 0) * 70ms);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.97);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-curtain {
+    display: none;
+  }
+  .rise {
+    animation: none;
+  }
+}
+
+/* ---------- Hero slideshow ---------- */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: hero-fade 28s linear infinite;
+  animation-delay: calc(var(--slide) * 7s);
+}
+
+@keyframes hero-fade {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  4%,
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+    transform: scale(1.09);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.09);
+  }
+}
+
+/* ---------- Departure board ---------- */
+.board-track {
+  display: flex;
+  width: max-content;
+  animation: board-scroll 60s linear infinite;
+}
+
+.board-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes board-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ---------- Reveal on scroll ---------- */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 45%;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(48px) scale(0.97);
+  }
+}
+
+/* ---------- Photo cards ---------- */
+.photo-card img {
+  transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.photo-card:hover img {
+  transform: scale(1.07);
+}
+
+.scroll-row {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.scroll-row::-webkit-scrollbar {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide {
+    animation: none;
+  }
+  .hero-slide:first-of-type {
+    opacity: 1;
+  }
+  .board-track,
+  .reveal {
+    animation: none;
+  }
+  .photo-card img {
+    transition: none;
+  }
 }
