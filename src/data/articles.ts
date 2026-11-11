@@ -1,6 +1,7 @@
 import type { Locale } from "@/i18n/config";
 import type { ImageKey } from "./images";
 import { arubaArticles } from "./articles/aruba";
+import { cancunArticles } from "./articles/cancun";
 import { parisArticles } from "./articles/paris";
 import { romeArticles } from "./articles/rome";
 
@@ -57,7 +58,7 @@ export type Article = {
   nl?: ArticleContent;
 };
 
-export const articles: Article[] = [...romeArticles, ...arubaArticles, ...parisArticles];
+export const articles: Article[] = [...romeArticles, ...arubaArticles, ...parisArticles, ...cancunArticles];
 
 export function articlesFor(destinationId: string, locale: Locale): Article[] {
   return articles.filter((article) => article.destinationId === destinationId && article[locale]);
