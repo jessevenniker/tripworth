@@ -4,6 +4,7 @@ import { arubaArticles } from "./articles/aruba";
 import { barcelonaArticles } from "./articles/barcelona";
 import { cancunArticles } from "./articles/cancun";
 import { londonArticles } from "./articles/london";
+import { newYorkArticles } from "./articles/new-york";
 import { parisArticles } from "./articles/paris";
 import { romeArticles } from "./articles/rome";
 
@@ -60,7 +61,7 @@ export type Article = {
   nl?: ArticleContent;
 };
 
-export const articles: Article[] = [...romeArticles, ...arubaArticles, ...parisArticles, ...cancunArticles, ...londonArticles, ...barcelonaArticles];
+export const articles: Article[] = [...romeArticles, ...arubaArticles, ...parisArticles, ...cancunArticles, ...londonArticles, ...barcelonaArticles, ...newYorkArticles];
 
 export function articlesFor(destinationId: string, locale: Locale): Article[] {
   return articles.filter((article) => article.destinationId === destinationId && article[locale]);
