@@ -12,7 +12,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { Marked, type Tokens } from "marked";
 import puppeteer from "puppeteer";
-import { bookingLinks } from "../src/data/articles";
+import { articleBookingLinks, articles, bookingLinks } from "../src/data/articles";
 import { products, type Product } from "../src/data/products";
 import { SITE_NAME, locales, type Locale } from "../src/i18n/config";
 
@@ -87,9 +87,16 @@ function createMarkdown(locale: Locale) {
       // [label](book:search query) becomes the label plus a Viator and a GetYourGuide link, both with our partner IDs.
       link(token: Tokens.Link) {
         const label = this.parser.parseInline(token.tokens);
-        if (token.href.startsWith("book:")) {
-          const query = decodeURIComponent(token.href.slice(5)).trim();
-          const chips = bookingLinks(query)
+        // [label](pick:article-id) links to the specific products picked for that article in src/data/bookings.ts.
+        const isPick = token.href.startsWith("pick:");
+        if (isPick || token.href.startsWith("book:")) {
+          const value = decodeURIComponent(token.href.slice(5)).trim();
+          // A book: query that matches an article's bookingQuery also gets that article's specific products.
+          const article = articles.find((item) => (isPick ? item.id === value : item.bookingQuery === value));
+          if (isPick && !article) throw new Error(`Unknown article id in pick: link: ${value}`);
+          const links = article ? articleBookingLinks(article, locale) : bookingLinks(value);
+          if (!links.length) throw new Error(`No booking links for ${token.href}`);
+          const chips = links
             .map((link) => `<a class="chip" href="${escapeHtml(link.url)}">${link.partner}</a>`)
             .join("");
           return `<span class="book"><span class="book-label">${label}</span><span class="chips" aria-label="${ui[locale].book}">${chips}</span></span>`;
