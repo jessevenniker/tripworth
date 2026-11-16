@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { localePath, SITE_NAME, type Locale } from "@/i18n/config";
+import { company } from "@/data/company";
 import { getDictionary } from "@/i18n/dictionaries";
 
 export function PlaneIcon({ className }: { className?: string }) {
@@ -63,8 +64,14 @@ export function Footer({ locale }: { locale: Locale }) {
         <p className="max-w-2xl">{t.footer.disclosure}</p>
         <p className="mt-3 flex flex-wrap gap-x-5 gap-y-1">
           <span>
-            © {SITE_NAME}. {t.footer.rights}
+            © {company.legalName || SITE_NAME}. {t.footer.rights}
           </span>
+          <Link href={localePath(locale, "/privacy")} className="hover:underline">
+            {t.legal.privacy}
+          </Link>
+          <Link href={localePath(locale, "/terms")} className="hover:underline">
+            {t.legal.terms}
+          </Link>
           <Link href={localePath(locale, "/credits")} className="hover:underline">
             {t.ui.credits}
           </Link>

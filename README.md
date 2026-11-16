@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Travel platform
 
-## Getting Started
+Bilingual (English/Dutch) affiliate travel site built with Next.js. The full plan is in [BOUWPLAN.md](BOUWPLAN.md).
 
-First, run the development server:
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env.local   # then fill in what you need
+npm install
+npm run dev                  # http://localhost:3000, Dutch on /nl
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Content lives in `src/data/` (destinations, articles per city, products, images).
+- Interface text lives in `src/i18n/dictionaries.ts`; routing and translated URL segments in `src/i18n/config.ts` and `src/proxy.ts`.
+- Business details for the legal pages: `src/data/company.ts`. Privacy policy and terms text: `src/data/legal.ts`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Launch checklist
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Decisions and accounts (outside the code):
 
-## Learn More
+- [ ] Brand name and domain. Then update `SITE_NAME` in `src/i18n/config.ts`.
+- [ ] Fill in `src/data/company.ts` (legal name, address, KvK, VAT number, email). Until then the legal pages show `[...]` placeholders.
+- [ ] Have `src/data/legal.ts` checked by a lawyer.
+- [ ] Re-check prices and opening hours in every article and set `updated` to the month of the check.
 
-To learn more about Next.js, take a look at the following resources:
+Hosting:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] Push the repository to GitHub and import it in Vercel.
+- [ ] In Vercel, set the environment variables from `.env.example` (at least `NEXT_PUBLIC_SITE_URL` with the real domain).
+- [ ] Connect the domain in Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Measuring:
 
-## Deploy on Vercel
+- [ ] Add the site in Plausible and set `NEXT_PUBLIC_PLAUSIBLE_DOMAIN`. In Plausible, add the goals "Affiliate Click" and "Outbound Link: Click" with custom properties `partner`, `destination` and `article`.
+- [ ] Verify the domain in Google Search Console (DNS record, or `GOOGLE_SITE_VERIFICATION`) and submit `https://<domain>/sitemap.xml`. Do the same in Bing Webmaster Tools.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Payments (only once there are PDFs to sell):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Stripe live keys and webhook (`/api/stripe/webhook`, event `checkout.session.completed`).
+- [ ] Turn on Stripe Tax and set `STRIPE_TAX_ENABLED=true`.
+- [ ] Enter the terms URL in Stripe (Settings > Public details) and set `STRIPE_REQUIRE_TERMS=true` for the withdrawal-waiver checkbox.
+- [ ] PDFs: `private/pdfs/*.pdf` is git-ignored, so Vercel will not have them. Either commit them (private repository only) or move them to private storage such as Vercel Blob.
+
+## What is indexed
+
+- Destination hubs without any article in a language are `noindex` and left out of the sitemap until content exists.
+- Article pages with booking links show an affiliate disclosure above the content (FTC) linking to the terms.

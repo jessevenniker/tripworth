@@ -93,6 +93,13 @@ const en = {
     credits: "Photo credits",
     creditsLead: "Photos on this site come from Wikimedia Commons and are used under the licence shown.",
     photoBy: "Photo",
+    disclosureTop: "This page contains affiliate links. If you book through them we earn a commission, at no extra cost to you.",
+    howWeEarn: "How we make money",
+  },
+  legal: {
+    privacy: "Privacy",
+    terms: "Terms",
+    lastUpdated: "Last updated",
   },
 };
 
@@ -191,6 +198,13 @@ const nl: Dictionary = {
     credits: "Fotocredits",
     creditsLead: "De foto's op deze site komen van Wikimedia Commons en worden gebruikt onder de vermelde licentie.",
     photoBy: "Foto",
+    disclosureTop: "Deze pagina bevat affiliate-links. Boek je via zo'n link, dan ontvangen wij een commissie, zonder extra kosten voor jou.",
+    howWeEarn: "Hoe wij geld verdienen",
+  },
+  legal: {
+    privacy: "Privacy",
+    terms: "Voorwaarden",
+    lastUpdated: "Laatst bijgewerkt",
   },
 };
 

@@ -39,7 +39,18 @@ export async function POST(request: Request) {
       },
     ],
     automatic_tax: { enabled: process.env.STRIPE_TAX_ENABLED === "true" },
-    custom_text: { submit: { message: t.guides.waiver } },
+    // EU law needs express consent to lose the withdrawal right. With STRIPE_REQUIRE_TERMS=true Checkout shows a
+    // required checkbox; that needs the terms URL set under Settings > Public details in the Stripe dashboard.
+    ...(process.env.STRIPE_REQUIRE_TERMS === "true"
+      ? {
+          consent_collection: { terms_of_service: "required" as const },
+          custom_text: {
+            terms_of_service_acceptance: {
+              message: `${t.guides.waiver} [${t.legal.terms}](${absoluteUrl(localePath(locale, "/terms"))})`,
+            },
+          },
+        }
+      : { custom_text: { submit: { message: t.guides.waiver } } }),
     metadata: { productId: product.id, locale },
     success_url: `${absoluteUrl(localePath(locale, "/guides/thanks"))}?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: absoluteUrl(localePath(locale, "/guides")),

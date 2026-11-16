@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@/components/Analytics";
 import { isLocale, locales, localeSettings, SITE_NAME, SITE_URL } from "@/i18n/config";
 import "../globals.css";
 
@@ -11,6 +12,8 @@ const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: SITE_NAME, template: `%s | ${SITE_NAME}` },
+  // Search Console ownership check. A DNS record on the domain works too and covers every subdomain.
+  verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : undefined,
 };
 
 export function generateStaticParams() {
@@ -39,7 +42,10 @@ export default async function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: introScript }} />
       </head>
-      <body className="flex min-h-full flex-col font-sans">{children}</body>
+      <body className="flex min-h-full flex-col font-sans">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

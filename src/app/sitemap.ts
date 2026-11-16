@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
-import { articles } from "@/data/articles";
+import { articles, articlesFor } from "@/data/articles";
 import { destinations } from "@/data/destinations";
 import { absoluteUrl, locales, localePath } from "@/i18n/config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const internalPath of ["/", "/guides"]) {
+  for (const internalPath of ["/", "/guides", "/privacy", "/terms"]) {
     const languages = Object.fromEntries(locales.map((l) => [l, absoluteUrl(localePath(l, internalPath))]));
     for (const locale of locales) {
       entries.push({ url: languages[locale], alternates: { languages } });
@@ -17,7 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const languages: Record<string, string> = {};
     for (const locale of locales) {
       const content = destination[locale];
-      if (content) languages[locale] = absoluteUrl(localePath(locale, `/${content.slug}`));
+      // Hubs without articles are noindex placeholders, so they stay out of the sitemap.
+      if (content && articlesFor(destination.id, locale).length > 0) {
+        languages[locale] = absoluteUrl(localePath(locale, `/${content.slug}`));
+      }
     }
     for (const url of Object.values(languages)) {
       entries.push({ url, alternates: { languages } });

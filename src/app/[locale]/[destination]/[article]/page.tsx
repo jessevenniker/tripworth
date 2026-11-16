@@ -6,9 +6,11 @@ import { Photo, PhotoCredit } from "@/components/Photo";
 import { Footer, Header } from "@/components/SiteChrome";
 import { articles, articlesFor, bookingLinks, getArticleBySlug, type Article } from "@/data/articles";
 import { destinations, getDestinationBySlug, type Destination } from "@/data/destinations";
+import { imageUrl } from "@/data/images";
 import { products } from "@/data/products";
 import { absoluteUrl, isLocale, locales, localePath, localeSettings, SITE_NAME, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import { affiliateEventClass } from "@/lib/analytics";
 
 type Props = { params: Promise<{ locale: string; destination: string; article: string }> };
 
@@ -56,6 +58,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: content.title,
     description: content.description,
     alternates: { canonical: articleUrl(destination, article, locale), languages },
+    openGraph: {
+      type: "article",
+      title: content.title,
+      description: content.description,
+      url: articleUrl(destination, article, locale),
+      siteName: SITE_NAME,
+      locale: localeSettings[locale].htmlLang.replace("-", "_"),
+      modifiedTime: `${article.updated}-01`,
+      images: [{ url: imageUrl(article.image, 1280), width: 1280 }],
+    },
+    twitter: { card: "summary_large_image" },
   };
 }
 
@@ -158,6 +171,15 @@ export default async function ArticlePage({ params }: Props) {
             </span>
             <PhotoCredit image={article.image} label={t.ui.photoBy} className="normal-case tracking-normal" />
           </p>
+          {links.length > 0 && (
+            // FTC: the affiliate disclosure has to be visible before the first affiliate link.
+            <p className="mt-5 max-w-2xl text-sm leading-snug text-white/80">
+              {t.ui.disclosureTop}{" "}
+              <Link href={`${localePath(locale, "/terms")}#affiliate-links`} className="underline underline-offset-2 hover:text-white">
+                {t.ui.howWeEarn}
+              </Link>
+            </p>
+          )}
         </div>
       </section>
 
@@ -242,7 +264,8 @@ export default async function ArticlePage({ params }: Props) {
                         href={link.url}
                         target="_blank"
                         rel="sponsored nofollow noopener"
-                        className={`flex items-center justify-between rounded-full px-5 py-3 font-medium transition hover:-translate-y-0.5 ${
+                        // Plausible tagged events: counts each click as "Affiliate Click" with these properties.
+                        className={`${affiliateEventClass(link.partner, destination.id, article.id)} flex items-center justify-between rounded-full px-5 py-3 font-medium transition hover:-translate-y-0.5 ${
                           index === 0 ? "bg-coral text-white hover:bg-[#f2573a]" : "border border-white/30 hover:bg-white hover:text-night"
                         }`}
                       >

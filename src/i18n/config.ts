@@ -24,6 +24,8 @@ export const localizedSegments: Record<string, Record<Locale, string>> = {
   guides: { en: "guides", nl: "gidsen" },
   thanks: { en: "thanks", nl: "bedankt" },
   credits: { en: "photo-credits", nl: "fotocredits" },
+  privacy: { en: "privacy", nl: "privacy" },
+  terms: { en: "terms", nl: "voorwaarden" },
 };
 
 /** Public path for an internal path such as "/guides/thanks". English lives at the root. */

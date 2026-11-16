@@ -8,7 +8,8 @@ import { Footer, Header } from "@/components/SiteChrome";
 import { articlesFor, articleTypeOrder } from "@/data/articles";
 import { destinationsFor, getDestinationBySlug, type Destination } from "@/data/destinations";
 import { products } from "@/data/products";
-import { absoluteUrl, formatPrice, isLocale, locales, localePath, localeSettings, type Locale } from "@/i18n/config";
+import { imageUrl } from "@/data/images";
+import { absoluteUrl, formatPrice, isLocale, locales, localePath, localeSettings, SITE_NAME, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 
 type Props = { params: Promise<{ locale: string; destination: string }> };
@@ -47,6 +48,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: absoluteUrl(localePath(locale, `/${content.slug}`)),
       languages: languageUrls(destination),
     },
+    // A hub without articles is only a placeholder: keep it out of search until there is content.
+    robots: articlesFor(destination.id, locale).length === 0 ? { index: false, follow: true } : undefined,
+    openGraph: {
+      title: t.hub.title(content.name),
+      description: t.hub.metaDescription(content.name),
+      url: absoluteUrl(localePath(locale, `/${content.slug}`)),
+      siteName: SITE_NAME,
+      locale: localeSettings[locale].htmlLang.replace("-", "_"),
+      images: [{ url: imageUrl(destination.id, 1280), width: 1280 }],
+    },
+    twitter: { card: "summary_large_image" },
   };
 }
 
