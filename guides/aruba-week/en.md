@@ -169,7 +169,7 @@ Lunch, then the beach.
 | On foot | A hot, exposed hike. Go with a guide and start early |
 
 :::warn Before you go
-Entry is $22 per adult, free under 17, and ticket sales stop mid-afternoon. The pool closes to swimmers when the sea is rough, and nobody can promise it will be open on your day. The ride is bumpy: not for bad backs or pregnancy.
+Entry is $22 per adult, free under 17. The park is open daily: the San Fuego entrance from 8:00 am to 3:30 pm, Vader Piet from 8:30 am to 3:00 pm. ATVs, UTVs and motorbikes are not allowed inside, so choose a jeep tour. The pool closes to swimmers when the sea is rough, and nobody can promise it will be open on your day. The ride is bumpy: not for bad backs or pregnancy.
 :::
 
 # Days 5 and 6 | The rest of the island by car

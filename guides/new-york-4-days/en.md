@@ -19,10 +19,10 @@ New York is too big to "do", so this guide doesn't try. It gives each of four da
 Expect 8 to 10 miles a day once you add wandering. Twenty street blocks make a mile.
 
 :::booking Book in this order
-1. **Three to four months ahead, if you want the crown:** the [Statue of Liberty](book:Statue of Liberty Ellis Island tickets) from Statue City Cruises, the only authorized seller. Crown access is tiny and goes first; pedestal access sells out weeks ahead; general admission (roughly $26 to $33) is easy until a few days before. Pick the first ferry of day 2.
+1. **Three to four months ahead, if you want the crown:** the [Statue of Liberty](book:Statue of Liberty Ellis Island tickets) from Statue City Cruises, the only authorized seller. Crown access is tiny and goes first; pedestal access sells out weeks ahead; general admission ($26; pedestal and crown cost only 30 cents more) is easy until a few days before. Pick the first ferry of day 2.
 2. **When your dates are fixed:** the one [Broadway show](book:Broadway show tickets New York) you must see, from its official seller. The biggest hits rarely discount. For anything else, wait and buy same-day (see day 1).
 3. **A week ahead:** one [observation deck](book:New York observation deck tickets) for an hour before sunset on day 1. Sunset slots cost more and sell out first. Check the forecast the day before; most tickets can be moved for a fee.
-4. **A week ahead:** the 9/11 Museum for the afternoon of day 2, roughly $33 to $36, and the Tenement Museum if you add it.
+4. **A week ahead:** the 9/11 Museum for the afternoon of day 2, up to $36, and the Tenement Museum if you add it.
 5. **Optional:** an [airport transfer](book:New York JFK airport transfer) for families and late arrivals.
 :::
 
@@ -30,15 +30,15 @@ Expect 8 to 10 miles a day once you add wandering. Twenty street blocks make a m
 - **Monday:** most Broadway theaters are dark. Don't put day 1 on a Monday if a show matters to you.
 - **Wednesday and Saturday:** matinee days. An afternoon show frees your evening.
 - **The Met:** closed on Wednesdays. Don't put day 3 on a Wednesday.
-- **Monday evening:** the 9/11 Museum is free, with a limited number of tickets released online that morning.
+- **Monday evening:** the 9/11 Museum is free from 5:30 to 7 pm, with a limited number of tickets released online at 7 am that day.
 :::
 
 ## Should you buy the CityPASS?
 
-The New York CityPASS costs about $154 to $164 per adult and covers five attractions over nine days: the Empire State Building and the American Museum of Natural History, plus three you choose, such as the Statue ferry, the 9/11 Museum and Top of the Rock. Bought separately those five come to roughly $180 to $200.
+The New York CityPASS costs $149 per adult plus a $2 processing fee and covers any five of ten attractions over nine days, among them the Empire State Building, Top of the Rock, Edge, the American Museum of Natural History, the Statue ferry and the 9/11 Museum. Bought separately, five of those come to roughly $180 to $200.
 
-- **Buy it** if you were going to visit at least four of the five anyway. In this plan: the Empire State Building (day 1), the Statue ferry and 9/11 Museum (day 2), and the Natural History Museum (day 3). Make the timed reservations through the pass the day you buy it.
-- **Skip it** if you want Top of the Rock as your only deck, crown or pedestal access (not included), or a trip that is mostly neighborhoods, food and parks.
+- **Buy it** if you were going to visit at least four of your five anyway. In this plan: one observation deck (day 1), the Statue ferry and 9/11 Museum (day 2), and the Natural History Museum (day 3). Make the timed reservations through the pass the day you buy it.
+- **Skip it** if you want crown or pedestal access, SUMMIT or One World Observatory (none are included), or a trip that is mostly neighborhoods, food and parks.
 - **Passes sold by the day** only pay off at three or more paid sights a day, which leaves no time for the city itself.
 
 ## Where to stay
@@ -64,7 +64,7 @@ Hotel prices peak in the first three weeks of December, during the UN General As
 | LaGuardia | Taxi on the meter | 25 to 45 minutes | Roughly $40 to $60 |
 | Newark | AirTrain plus train to Penn Station | About 30 minutes | Train fare |
 
-- **From JFK:** With two or more people and luggage the taxi is worth it; alone, take the train. The flat fare covers anywhere in Manhattan below 96th Street. Join the official line outside the terminal and ignore anyone offering a ride inside. Ride apps are usually close to the taxi price and higher at busy times.
+- **From JFK:** With two or more people and luggage the taxi is worth it; alone, take the train. The flat fare covers all of Manhattan; a $5 surcharge applies on weekdays from 4 to 8 pm. Join the official line outside the terminal and ignore anyone offering a ride inside. Ride apps are usually close to the taxi price and higher at busy times.
 - **From LaGuardia:** There is no train. The free express bus runs from the terminals to the subway in Queens.
 - **From Newark:** You are in New Jersey; taxis into Manhattan are the most expensive of the three airports. Take the train.
 - **Prefer a driver waiting?** Book a [private transfer](book:New York JFK airport transfer).
@@ -124,10 +124,10 @@ Shows run 2 to 3 hours with an intermission. Eat before; the pre-theater menus o
 | Deck | From | Choose it for |
 |---|---|---|
 | Top of the Rock | About $45 | The best overall view: Central Park to the north, the Empire State Building in your photo. Open-air terraces |
-| Empire State Building | $44 | The icon itself, an open-air 86th floor and a good museum. Quieter late at night |
+| Empire State Building | $46 | The icon itself, an open-air 86th floor and a good museum. Quieter late at night |
 | SUMMIT One Vanderbilt | Varies | Mirrored rooms; more experience than viewpoint. Great with teenagers. Wear pants: the floors reflect |
-| Edge | About $36 to $45 | A glass floor over the street and the best sunset over the Hudson |
-| One World Observatory | About $31 to $44 | The highest, indoors; harbor and bridges. Pairs with day 2 |
+| Edge | $44 | A glass floor over the street and the best sunset over the Hudson |
+| One World Observatory | $39 | The highest, indoors; harbor and bridges. Pairs with day 2 |
 
 One deck is enough. First time in New York: Top of the Rock. If you bought a CityPASS, use the deck it includes and don't pay for a second. On a hazy or low-cloud day the view is poor at any height.
 
@@ -168,7 +168,7 @@ The Stock Exchange, Federal Hall (where Washington was inaugurated) and Trinity 
 Free, no ticket. Two square pools fill the footprints of the Twin Towers, with the names of the nearly 3,000 people killed cut into the bronze edges. A white rose is placed on a name on that person's birthday.
 
 3:45 pm | 9/11 Museum
-Seven stories underground, at the foundations of the towers. Thorough and hard to walk through; allow two hours. Not suitable for young children.
+Seven stories underground, at the foundations of the towers. Thorough and hard to walk through; allow 90 minutes. Not suitable for young children.
 
 6:00 pm | The Oculus
 The white, winged transit hall beside the memorial. Free to walk through.

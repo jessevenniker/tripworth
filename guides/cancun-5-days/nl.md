@@ -22,7 +22,7 @@ Blijf je langer, wat na een vlucht van elf uur voor de hand ligt, gebruik deze v
 :::booking Boek in deze volgorde
 1. **Voor vertrek:** een [privétransfer vanaf het vliegveld](book:Cancun airport transfer). Ongeveer $35 tot $55 per voertuig naar de hotelzone van Cancún, $50 tot $80 naar Playa del Carmen. De boeking die dag 1 het meest verbetert. Reis je met een pakketreis, dan zit de transfer er meestal al in.
 2. **Voor vertrek, of op dag 1:** een [tour naar Chichén Itzá met vroege toegang of in een kleine groep](book:Chichen Itza tour from Cancun) voor dag 3. Bij de excursiebalie van het hotel en bij de hostess betaal je meestal meer dan online.
-3. **Een paar dagen vooraf, als je met kinderen reist:** [Xcaret](book:Xcaret park tickets) in plaats van dag 5. $100 tot $160 per volwassene; blijf tot het eind van de avondshow.
+3. **Een paar dagen vooraf, als je met kinderen reist:** [Xcaret](book:Xcaret park tickets) in plaats van dag 5. Ongeveer $150 tot $200 per volwassene; blijf tot het eind van de avondshow.
 4. **De dag ervoor is vroeg genoeg:** een [catamaran naar Isla Mujeres](book:Isla Mujeres catamaran from Cancun) als je liever zeilt en snorkelt dan op het strand ligt, of een [tour naar Tulum met cenote](book:Tulum ruins tour cenote) als je niet zelf wilt gaan.
 5. **Online, op elk moment voor je Mexico verlaat:** de Visitax, de toeristenbelasting van de deelstaat van ongeveer 290 peso per persoon, alleen op de officiële site van de deelstaat.
 :::
@@ -128,7 +128,7 @@ De lange dag. Een van de grote Mayasteden, een duik in een cenote en, bij de bet
 Hoe vroeger de tour, hoe koeler en leger het terrein. Tours vanuit de Riviera Maya vertrekken eerder en zijn later terug dan tours vanuit Cancún. Trek je zwemkleding onder je kleren aan en neem een handdoek mee.
 
 08:00 tot 09:00 (lokale tijd) | Aankomst in Chichén Itzá
-De entree voor buitenlandse bezoekers is ongeveer 680 tot 700 peso (ruwweg €32 tot €35), te betalen bij de ingang; check of die bij de prijs van je tour zit. Loop eerst over het open plein naar de grote piramide, voordat de hitte toeneemt. Daarna het balspelveld, de Tempel van de Krijgers en de heilige cenote. Twee tot drie uur.
+De entree voor buitenlandse bezoekers is ongeveer 700 peso (ruwweg €35) op één gecombineerd ticket, te betalen bij de ingang; check of die bij de prijs van je tour zit. Loop eerst over het open plein naar de grote piramide, voordat de hitte toeneemt. Daarna het balspelveld, de Tempel van de Krijgers en de heilige cenote. Twee tot drie uur.
 
 12:00 | Zwemmen in een cenote en lunch
 De meeste tours stoppen er bij één. Douche voordat je erin gaat en gebruik geen gewone zonnebrand.
@@ -213,8 +213,8 @@ Er liggen er meerdere binnen twintig minuten van de ruïnes. De logische tweede 
 13:00 | Lunch, daarna het strand
 :::
 
-:::warn Entree Tulum: neem tot 650 peso mee
-De ruïnes liggen nu in het Parque del Jaguar, en een bezoek kan uit drie losse bedragen bestaan: de archeologische zone, het beschermde gebied en het park. De bedragen zijn in januari 2026 verhoogd en volgens berichten in juli weer verlaagd; websites noemen nog alle oude prijzen. Alleen de kassa bij de ingang van het park weet het zeker. Het strand onder de klif is soms dicht voor broedende schildpadden, dus reken niet op zwemmen bij de ruïnes.
+:::warn Entree Tulum: check het bij de kassa
+De ruïnes liggen nu in het Parque del Jaguar, en de tarieven zijn in 2026 meer dan eens gewijzigd. Recente berichten noemen 265 peso voor de ruïnes plus 100 peso voor het park eromheen, samen ongeveer 365 peso; websites noemen nog oudere bedragen. Neem voor de zekerheid 500 peso contant mee: alleen de kassa bij de ingang van het park weet het zeker. Het strand onder de klif is soms dicht voor broedende schildpadden, dus reken niet op zwemmen bij de ruïnes.
 :::
 
 Liever met gids? Een [tour naar Tulum met cenote](book:Tulum ruins tour cenote) is de uitleg waard: er staan weinig bordjes.
@@ -229,7 +229,7 @@ Een groot park rond natuurlijke inhammen en grotten, net ten zuiden van Playa de
 | Plus | Met buffet, snorkelspullen en een betere kleedruimte. Voor een hele dag het geld waard |
 | Met vervoer | Met de bus vanaf je hotel; handig vanuit Cancún, ruim een uur rijden |
 
-Reken op $100 tot $160 per volwassene voor [Xcaret](book:Xcaret park tickets). In het water mag alleen biologisch afbreekbare zonnebrand: neem die zelf mee, in het park is hij duur. Alternatieven: Xel-Há, een natuurlijke lagune met eten en drinken inbegrepen en zonder show, of op eigen houtje naar cenotes voor een fractie van de prijs.
+Reken op ongeveer $150 tot $200 per volwassene voor [Xcaret](book:Xcaret park tickets). In het water mag alleen biologisch afbreekbare zonnebrand: neem die zelf mee, in het park is hij duur. Alternatieven: Xel-Há, een natuurlijke lagune met eten en drinken inbegrepen en zonder show, of op eigen houtje naar cenotes voor een fractie van de prijs.
 
 # Extra tijd | Voorbij de resorts
 

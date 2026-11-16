@@ -16,10 +16,10 @@ Paris is bigger than Rome and flatter than it looks on a map, and its famous sig
 | 3A | Versailles | Palace of Versailles | About 7 miles |
 | 3B | Musée d'Orsay, Montmartre | None required | About 5 miles |
 
-Expect 7 to 9 miles a day once you add wandering. Budget about €130 (roughly $150) per adult for tickets: since 2026 the Louvre and Versailles charge visitors from outside Europe more than European residents.
+Expect 7 to 9 miles a day once you add wandering. Budget €130 to €150 (roughly $150 to $175) per adult for tickets: since 2026 the Louvre and Versailles charge visitors from outside Europe more than European residents.
 
 :::booking Book in this order
-1. **Up to 2 months ahead, as early as you can:** the [Eiffel Tower](book:Eiffel Tower tickets summit) for a morning slot on day 1. Buy on the official site first; summit slots sell out before anything else. €36.70 by lift to the summit, €23.50 to the second floor.
+1. **90 days ahead, when lift tickets go on sale:** the [Eiffel Tower](book:Eiffel Tower tickets summit) for a morning slot on day 1. Buy on the official site first; summit slots sell out before anything else. €36.70 by lift to the summit, €23.50 to the second floor.
 2. **Next:** the [Louvre](book:Louvre Museum tickets) for 9 am on day 2, €32 for visitors from outside Europe. A slot is not strictly required, but without one you can wait an hour or more.
 3. **If you choose Versailles:** the [Passport ticket with the 9 am Palace slot](book:Versailles Palace tickets from Paris) for day 3. €35 from April to October, €25 in winter.
 4. **A few days ahead:** a one-hour [Seine cruise](book:Seine river cruise Paris) for sunset on day 1 or your arrival evening. Pick a ticket you can move if it rains.

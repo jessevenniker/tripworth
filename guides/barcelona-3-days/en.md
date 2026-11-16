@@ -179,10 +179,10 @@ Old anti-aircraft batteries on a hilltop with the full panorama. Take a taxi up.
 
 | | Casa Batlló | La Pedrera (Casa Milà) |
 |---|---|---|
-| Price | From about €29, more close to the date | About €25 online, €29 at the door |
+| Price | From about €29, more close to the date | From €29 online |
 | Best for | The most striking interior; one photo-filled hour | The rooftop of warrior-like chimneys; how the building works |
 | Feel | Tablet and light effects; busier | Calmer; includes a furnished period flat |
-| Watch for | The basic ticket no longer includes the roof | Book online for the lower price |
+| Watch for | The basic ticket no longer includes the roof | Every ticket includes the rooftop |
 
 If you have seen the Sagrada Família, one house is enough for most people. Both run evening visits with rooftop light shows at a higher price: atmospheric, but you see less of the architecture.
 
@@ -204,7 +204,7 @@ If you have seen the Sagrada Família, one house is enough for most people. Both
 
 A monastery set among saw-toothed rock, an hour away by train, with easy mountain walks. Worth it from four days in Barcelona; with three, stay in town.
 
-- **On your own:** The R5 train from Plaça d'Espanya, then the rack railway or the cable car up. A combined ticket costs roughly €22 to €29. Allow 6 to 8 hours door to door.
+- **On your own:** The R5 train from Plaça d'Espanya, then the rack railway or the cable car up. The all-in Trans Montserrat ticket costs €50 and covers the train, the ride up and the funiculars. Allow 6 to 8 hours door to door.
 - **[Half-day tour](book:Montserrat day trip from Barcelona):** Usually €50 to €80, with a coach and a guide, home by early afternoon.
 - **Tour with winery:** Adds a cava or wine tasting; the most relaxed way to do it.
 - **Skip it** on days of low cloud and on Sundays and holidays, when it is most crowded. It is several degrees cooler up there: bring a layer.

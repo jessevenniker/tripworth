@@ -178,7 +178,7 @@ Lunch, daarna het strand.
 | Te voet | Een hete wandeling zonder schaduw. Ga met een gids en begin vroeg |
 
 :::warn Voordat je gaat
-De entree is $22 per volwassene, gratis onder de 17, en de kaartverkoop stopt halverwege de middag. Bij ruwe zee gaat het bassin dicht voor zwemmers, en niemand kan beloven dat het op jouw dag open is. De rit is hobbelig: niet doen met een slechte rug of als je zwanger bent.
+De entree is $22 per volwassene, gratis onder de 17. Het park is dagelijks open: ingang San Fuego van 08:00 tot 15:30 uur, Vader Piet van 08:30 tot 15:00 uur. Quads, UTV's en motoren mogen het park niet in, dus kies een jeeptour. Bij ruwe zee gaat het bassin dicht voor zwemmers, en niemand kan beloven dat het op jouw dag open is. De rit is hobbelig: niet doen met een slechte rug of als je zwanger bent.
 :::
 
 # Dag 5 en 6 | De rest van het eiland met de auto

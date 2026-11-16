@@ -68,7 +68,7 @@ export const products: Product[] = [
   {
     id: "new-york-4-days",
     destinationId: "new-york",
-    pages: { en: 19, nl: 24 },
+    pages: { en: 19, nl: 23 },
     price: { usd: 1700, eur: 1600 },
     file: { en: "new-york-4-days-en.pdf", nl: "new-york-4-dagen-nl.pdf" },
     title: { en: "New York in 4 days", nl: "New York in 4 dagen" },

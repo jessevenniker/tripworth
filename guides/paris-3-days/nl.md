@@ -16,10 +16,10 @@ Parijs is groter dan het op de kaart lijkt, maar de bekende bezienswaardigheden 
 | 3A | Versailles | Paleis van Versailles | Ongeveer 11 km |
 | 3B | Musée d'Orsay, Montmartre | Niets verplicht | Ongeveer 8 km |
 
-Reken op 11 tot 15 km per dag als je het slenteren meetelt, en op ongeveer €110 per volwassene aan tickets. Ben je jonger dan 26 en woon je in de EU, dan zijn het Louvre, Versailles en de meeste andere musea gratis: neem je identiteitsbewijs mee.
+Reken op 11 tot 15 km per dag als je het slenteren meetelt, en op €110 tot €130 per volwassene aan tickets. Ben je jonger dan 26 en woon je in de EU, dan zijn het Louvre, Versailles en de meeste andere musea gratis: neem je identiteitsbewijs mee.
 
 :::booking Boek in deze volgorde
-1. **Tot 2 maanden vooraf, zo vroeg als het kan:** de [Eiffeltoren](book:Eiffel Tower tickets summit) voor een ochtendslot op dag 1. Koop eerst op de officiële site; de tijdsloten voor de top zijn het eerst weg. €36,70 met de lift naar de top, €23,50 naar de tweede verdieping.
+1. **90 dagen vooraf, zodra de liftkaartjes in de verkoop gaan:** de [Eiffeltoren](book:Eiffel Tower tickets summit) voor een ochtendslot op dag 1. Koop eerst op de officiële site; de tijdsloten voor de top zijn het eerst weg. €36,70 met de lift naar de top, €23,50 naar de tweede verdieping.
 2. **Daarna:** het [Louvre](book:Louvre Museum tickets) voor 09:00 uur op dag 2, €22 voor inwoners van de EER. Een tijdslot is niet verplicht, maar zonder sta je al snel een uur in de rij.
 3. **Kies je Versailles:** het [Passport-ticket met het paleisslot van 09:00 uur](book:Versailles Palace tickets from Paris) voor dag 3. Voor Europese inwoners €32 van april tot en met oktober en €22 in de winter.
 4. **Een paar dagen vooraf:** een [rondvaart over de Seine](book:Seine river cruise Paris) van een uur, rond zonsondergang op dag 1 of je aankomstavond. Neem een ticket dat je kunt verzetten als het regent.

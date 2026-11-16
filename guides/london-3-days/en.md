@@ -20,7 +20,7 @@ Expect 7 to 9 miles a day once you add wandering. Budget about £70 (roughly $90
 :::booking Book in this order
 1. **Before anything else:** the UK ETA, the travel authorisation every US visitor now needs. £20 per person, children included, through the official UK ETA app or the UK government website only.
 2. **If you want it, as early as possible:** the [Harry Potter Studio Tour](book:Harry Potter Warner Bros Studio Tour London tickets transfer) for day 3. There are no tickets at the door and popular dates sell out weeks or months ahead.
-3. **Two to three weeks ahead:** the [Tower of London](book:Tower of London tickets Crown Jewels) for opening time on day 2, about £37.
+3. **Two to three weeks ahead:** the [Tower of London](book:Tower of London tickets Crown Jewels) for opening time on day 2, £38 (£19 for ages 5 to 15).
 4. **Same day:** [Westminster Abbey](book:Westminster Abbey tickets) for the first slot on day 1, £32. Not on a Sunday: the Abbey is open for services only.
 5. **As soon as slots open:** the free Sky Garden for sunset on day 2. Slots are released a few weeks ahead on its own website and go fast.
 6. **Optional:** a West End show, and a [day trip to Windsor, Stonehenge or Bath](book:Stonehenge Windsor Bath day trip from London) if you have a fourth day.
@@ -34,7 +34,7 @@ Expect 7 to 9 miles a day once you add wandering. Budget about £70 (roughly $90
 
 ## Is the London Pass worth it?
 
-For this plan, no. A one-day pass costs roughly £80 to £100 and you need about three major paid sights in a single day to break even. The Tower (about £37) plus the Abbey (£32) comes to £69, and the rest of this guide is free: the British Museum, the National Gallery, Tate Modern, the parks, the markets and the Sky Garden. Consider a multi-day pass only if you want to add several paid sights and Windsor Castle, and are happy to start at opening time every day.
+For this plan, no. A one-day pass costs £105 at full price and you need about three major paid sights in a single day to break even. The Tower (£38) plus the Abbey (£32) comes to £70, and the rest of this guide is free: the British Museum, the National Gallery, Tate Modern, the parks, the markets and the Sky Garden. Consider a multi-day pass only if you want to add several paid sights and Windsor Castle, and are happy to start at opening time every day.
 
 ## Where to stay
 
@@ -65,7 +65,7 @@ Most US flights land at Heathrow. From the East Coast the flight takes about 7 h
 |---|---|---|---|
 | Elizabeth line | About 35 minutes | £15.50 | Most hotels; room for luggage |
 | Piccadilly line (Tube) | 50 to 60 minutes | £5.90 | Lowest budget, light bags |
-| Heathrow Express | 15 minutes to Paddington | About £25 | Hotels near Paddington |
+| Heathrow Express | 15 minutes to Paddington | £26 on the day, from £10 booked ahead | Hotels near Paddington |
 | Black cab | 45 to 90 minutes | About £60 to £100 | Late arrivals |
 | [Pre-booked car](book:London Heathrow airport transfer) | 45 to 90 minutes | Usually less than a cab | Families with luggage |
 
@@ -166,7 +166,7 @@ A free viewing garden at the top of a City skyscraper, two minutes from St Dunst
 
 | Option | Price | Notes |
 |---|---|---|
-| Standard ticket | About £37 | Crown Jewels, White Tower and Yeoman Warder tour included |
+| Standard ticket | £38 | Crown Jewels, White Tower and Yeoman Warder tour included |
 | [Early-access guided tour](book:Tower of London tickets Crown Jewels) | About twice as much | In before the public; an almost empty Crown Jewels room |
 | Ceremony of the Keys | A few pounds | The nightly locking of the Tower, about 700 years old; sells out months ahead |
 
@@ -227,7 +227,7 @@ The City, the financial district, is quiet at weekends: its lanes are best on a 
 
 | Trip | Cost | Verdict |
 |---|---|---|
-| Windsor Castle by train | About £31 to £36, 30 to 50 minutes each way | The best for most; half a day, great with children. Check opening days |
+| Windsor Castle by train | £32 booked ahead, £36 on the day; 30 to 50 minutes each way | The best for most; half a day, great with children. Check opening days |
 | Bath by train | About 1 hour 20 minutes from Paddington | The most relaxed: a Georgian city, the Roman Baths and a proper lunch |
 | [Stonehenge half-day coach tour](book:Stonehenge Windsor Bath day trip from London) | Usually £60 to £80 | The practical way; Stonehenge is awkward on your own |
 | Stonehenge, Windsor and Bath in one day | Usually £90 to £130, 12 hours | Three rushed stops. Only if you want to say you saw them |

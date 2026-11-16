@@ -18,7 +18,7 @@ Rome is een stad waar een plan zich terugbetaalt. De twee grote trekkers, het Co
 Reken op 13 tot 16 km per dag als je het slenteren meetelt, en op ongeveer €70 per persoon voor de tickets met tijdslot in dit plan.
 
 :::booking Boek in deze volgorde
-1. **Zodra je data vaststaan:** [Vaticaanse Musea met tijdslot](book:Vatican Museums Sistine Chapel tickets) voor de ochtend van dag 2, ongeveer €25 online. Een rondleiding of een tour met vroege toegang is het alternatief als je de Sixtijnse Kapel zonder drukte wilt zien.
+1. **Zodra je data vaststaan:** [Vaticaanse Musea met tijdslot](book:Vatican Museums Sistine Chapel tickets) voor de ochtend van dag 2, €25 online. Een rondleiding of een tour met vroege toegang is het alternatief als je de Sixtijnse Kapel zonder drukte wilt zien.
 2. **Dezelfde dag:** [Galleria Borghese](book:Borghese Gallery tickets) voor 09:00 uur op dag 3. Je komt alleen binnen met een tijdslot van twee uur, en de weekenden zijn het eerst vol.
 3. **Precies 30 dagen voor dag 1:** het [Colosseum](book:Colosseum Rome tickets) voor het eerste tijdslot van de ochtend. Officiële tickets komen ongeveer 30 dagen vooraf vrij en zomerslots zijn binnen een paar uur weg. Wil je de arenavloer op of de kelders in? Boek dan de [Full Experience of een ondergrondse tour](book:Colosseum underground tour).
 4. **Optioneel:** een [privétransfer vanaf het vliegveld](book:Rome Fiumicino airport transfer) als je laat landt of met kinderen reist, en een [tour langs de catacomben en de Via Appia](book:Rome catacombs Appian Way tour) als je een vierde ochtend hebt.
@@ -61,10 +61,10 @@ Neem een vroege heenvlucht en een late terugvlucht. Land je voor de middag, dan 
 | Leonardo Express (trein) | 32 minuten naar Termini | Ongeveer €14 | Slapen bij Termini of in Monti |
 | Regionale trein FL1 | Ongeveer 45 minuten | Ongeveer €8 | Slapen in Trastevere |
 | Officiële witte taxi | 45 tot 60 minuten | €55 vast, per auto | Twee of meer personen met bagage |
-| Vliegveldbus | 55 minuten of langer | Ongeveer €7 | Het kleinste budget |
+| Vliegveldbus | 55 minuten of langer | Ongeveer €6 tot €7 | Het kleinste budget |
 | [Privétransfer](book:Rome Fiumicino airport transfer) | 45 tot 60 minuten | Vanaf ongeveer €60 | Gezinnen, late aankomst |
 
-- **Het taxitarief ligt vast:** €55 per auto naar adressen binnen de oude stadsmuren, voor taxi's met een vergunning van de stad Rome. Taxi's met een vergunning van de gemeente Fiumicino mogen meer rekenen, dus vraag het tarief voordat je instapt.
+- **Het taxitarief ligt vast:** €55 per auto naar adressen binnen de oude stadsmuren, inclusief alle toeslagen. Bevestig het voordat je instapt. Vanaf Ciampino is het vaste tarief €40.
 - **Negeer iedereen die je in de terminal een taxi aanbiedt.** Loop door naar de officiële standplaats buiten.
 - **Papieren treinkaartjes stempel je af** in de groene automaten op het perron voordat je instapt, anders riskeer je een boete.
 - **Met twee personen** scheelt de taxi maar weinig met twee treinkaartjes plus een rit vanaf Termini. Met drie of vier is hij goedkoper.
@@ -119,9 +119,9 @@ Eet in Monti en loop daarna terug langs het Colosseum als de lichten aan zijn. H
 
 | Ticket | Prijs | Wat je krijgt |
 |---|---|---|
-| Standaard (24 uur) | Ongeveer €18 | Colosseum plus Forum en Palatijn |
-| Full Experience Arena | Ongeveer €24, 2 dagen geldig | Ook de arenavloer en extra plekken op het Forum |
-| Full Experience Underground en Arena | Ongeveer €6 extra op een ticket | Ook de gangen onder de arena |
+| Standaard (24 uur) | €18 | Colosseum plus Forum en Palatijn |
+| Full Experience Arena | €24, 2 dagen geldig | Ook de arenavloer en extra plekken op het Forum. Online pas te koop vanaf 7 dagen voor je bezoek |
+| Full Experience Underground en Arena | €24, 2 dagen geldig | Ook de gangen onder de arena; zolang er plek is |
 | Tour in kleine groep | Meestal €50 tot €70 | 3 uur met gids, inclusief Forum |
 | Ondergrondse tour | Meestal €90 tot €130 | De gangen met gids |
 
@@ -165,9 +165,9 @@ Het marktplein is overdag toeristisch en 's avonds levendig. De betere tafels vi
 
 ## Het Vaticaan, stap voor stap
 
-- **Ticket met tijdslot:** Ongeveer €25 online (€20 plus reserveringskosten). Inclusief de musea en de Sixtijnse Kapel.
+- **Ticket met tijdslot:** €25 online (€20 plus €5 reserveringskosten). Inclusief de musea en de Sixtijnse Kapel.
 - **Sint-Pietersbasiliek:** Gratis, met een aparte ingang. Betaal nooit iemand op straat voor "tickets zonder wachtrij" voor de basiliek.
-- **Beste tijdstip:** Het eerste tijdslot zit vol groepen. Lukt een ochtendslot niet, dan is het na 14:00 uur meestal rustiger: de ochtendgroepen zijn weg en de musea blijven tot in de avond open. Draai de volgorde dan om en doe de basiliek daarna.
+- **Beste tijdstip:** Het eerste tijdslot zit vol groepen. Lukt een ochtendslot niet, dan is het na 14:00 uur meestal rustiger: de ochtendgroepen zijn weg en de musea zijn tot 20:00 uur open, met de laatste toegang om 18:00 uur. Draai de volgorde dan om en doe de basiliek daarna.
 - **Vermijd:** maandag (andere musea in Rome zijn dan dicht, dus iedereen komt hier), de gratis laatste zondag van de maand en woensdagochtend, als de pauselijke audiëntie het plein vult.
 - **In de Sixtijnse Kapel:** Niet fotograferen en niet praten. De bewakers letten op allebei, dus stop je telefoon weg en kijk omhoog.
 
@@ -252,7 +252,7 @@ De oorspronkelijke Romeinse weg ligt er nog, geplaveid met basalt en omzoomd doo
 Het centrum van Rome is klein. Van het Colosseum naar het Pantheon loop je in 25 minuten, en de meeste bezoekers gebruiken het ov minder dan ze denken. Bij de metropoortjes check je in met je bankpas. Een ov-kaart voor 72 uur kost €22.
 
 :::note Is de Roma Pass het waard?
-Meestal niet. De pas voor 72 uur kost €62,90 en dekt twee bezienswaardigheden plus het ov, maar niet het Vaticaan, en je moet nog steeds een tijdslot voor het Colosseum reserveren. Colosseum (ongeveer €18) plus Borghese (ongeveer €18) plus een ov-kaart voor 72 uur (€22) is los €58. Koop de pas alleen als je buiten het centrum slaapt en vier keer per dag of vaker het ov neemt.
+Meestal niet. De pas voor 72 uur kost €62,90 en dekt twee bezienswaardigheden plus het ov, maar niet het Vaticaan, en je moet nog steeds een tijdslot voor het Colosseum reserveren. Colosseum (€18) plus Borghese (€18) plus een ov-kaart voor 72 uur (€22) is los €58. Koop de pas alleen als je buiten het centrum slaapt en vier keer per dag of vaker het ov neemt.
 :::
 
 ## Weer en beste reistijd

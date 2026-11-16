@@ -18,7 +18,7 @@ Rome rewards a plan more than almost any city in Europe. The two big sights, the
 Expect 8 to 10 miles a day on foot once you add wandering, and budget roughly €70 (about $80) per person for the timed tickets in this plan.
 
 :::booking Book in this order
-1. **As soon as your dates are fixed:** [Vatican Museums timed ticket](book:Vatican Museums Sistine Chapel tickets) for the morning of day 2, about €25 online. A guided or early-entry tour is the alternative if you want the Sistine Chapel without the crush.
+1. **As soon as your dates are fixed:** [Vatican Museums timed ticket](book:Vatican Museums Sistine Chapel tickets) for the morning of day 2, €25 online. A guided or early-entry tour is the alternative if you want the Sistine Chapel without the crush.
 2. **Same day:** [Borghese Gallery](book:Borghese Gallery tickets) for 9 am on day 3. Entry is by two-hour slot only, and weekends go first.
 3. **Exactly 30 days before day 1:** the [Colosseum](book:Colosseum Rome tickets) for the first slot of the morning. Official tickets are released about 30 days ahead and summer slots go within hours. Want the arena floor or the underground? Book the [Full Experience or an underground tour](book:Colosseum underground tour) instead.
 4. **Optional:** a [private airport transfer](book:Rome Fiumicino airport transfer) if you land with children or late at night, and a [catacombs and Appian Way tour](book:Rome catacombs Appian Way tour) if you add a fourth morning.
@@ -61,10 +61,10 @@ Don't schedule a timed ticket on the day you land. Drop your bags, take a shower
 | Leonardo Express train | 32 minutes to Termini | About €14 | Staying near Termini or Monti |
 | FL1 regional train | About 45 minutes | About €8 | Staying in Trastevere |
 | Official white taxi | 45 to 60 minutes | €55 fixed, per car | Two or more people with luggage |
-| Airport bus | 55 minutes or more | About €7 | Lowest budget |
+| Airport bus | 55 minutes or more | About €6 to €7 | Lowest budget |
 | [Private transfer](book:Rome Fiumicino airport transfer) | 45 to 60 minutes | From about €60 | Families, late arrivals |
 
-- **The taxi fare is fixed:** €55 per car to addresses inside the old city walls, for taxis licensed by the city of Rome. Taxis licensed in the town of Fiumicino can charge more, so confirm the fare before you get in.
+- **The taxi fare is fixed:** €55 per car to addresses inside the old city walls, with all supplements included. Confirm it before you get in.
 - **Ignore anyone who offers a taxi inside the terminal.** Use the official rank outside.
 - **Paper train tickets must be stamped** in the green machines on the platform before boarding, or you risk a fine.
 
@@ -118,9 +118,9 @@ Eat in Monti, then walk back past the Colosseum when it is lit. It is the best f
 
 | Ticket | Price | What you get |
 |---|---|---|
-| Standard (24 hours) | About €18 | Colosseum plus Forum and Palatine |
-| Full Experience Arena | About €24, valid 2 days | Adds the arena floor and extra Forum sites |
-| Full Experience Underground and Arena | About €6 more on a ticket | Adds the tunnels below the arena |
+| Standard (24 hours) | €18 | Colosseum plus Forum and Palatine |
+| Full Experience Arena | €24, valid 2 days | Adds the arena floor and extra Forum sites. Sold online only from 7 days before the visit |
+| Full Experience Underground and Arena | €24, valid 2 days | Adds the tunnels below the arena; subject to availability |
 | Small-group tour | Usually €50 to €70 | 3 hours with a guide, Forum included |
 | Underground tour | Usually €90 to €130 | The tunnels with a guide |
 
@@ -164,9 +164,9 @@ The market square is touristy by day and lively at night. The side streets towar
 
 ## The Vatican, step by step
 
-- **Timed ticket:** About €25 online (€20 plus booking fee). Includes the museums and the Sistine Chapel.
+- **Timed ticket:** €25 online (€20 plus a €5 booking fee). Includes the museums and the Sistine Chapel.
 - **St. Peter's Basilica:** Free, separate entrance. Never pay anyone for "skip-the-line basilica tickets" outside.
-- **Best entry time:** The first slot fills with tour groups. If you can't get a morning slot, after 2 pm is usually calmer: morning groups have left and the museums stay open into the evening. In that case, swap the order and do the basilica afterwards.
+- **Best entry time:** The first slot fills with tour groups. If you can't get a morning slot, after 2 pm is usually calmer: morning groups have left and the museums stay open until 8 pm, with last entry at 6 pm. In that case, swap the order and do the basilica afterwards.
 - **Avoid:** Mondays (other Rome museums are closed, so everyone comes here), the free last Sunday of the month, and Wednesday mornings, when the papal audience fills the square.
 - **In the Sistine Chapel:** No photos and no talking. Guards enforce both, so put your phone away and look up.
 
@@ -250,7 +250,7 @@ The original Roman road is still paved with basalt and lined with tombs. It is c
 Central Rome is small. From the Colosseum to the Pantheon is a 25-minute walk, and most visitors use transit less than they expect. Tap a contactless card at the metro gates. A 72-hour transport ticket costs €22.
 
 :::note Is the Roma Pass worth it?
-Usually not. The 72-hour pass costs €62.90 and covers two sights plus transport, but not the Vatican, and you still have to reserve a Colosseum slot. The Colosseum (about €18) plus the Borghese (about €18) plus a 72-hour transport ticket (€22) comes to €58 bought separately. Buy the pass only if you stay outside the centre and ride transit four or more times a day.
+Usually not. The 72-hour pass costs €62.90 and covers two sights plus transport, but not the Vatican, and you still have to reserve a Colosseum slot. The Colosseum (€18) plus the Borghese (€18) plus a 72-hour transport ticket (€22) comes to €58 bought separately. Buy the pass only if you stay outside the centre and ride transit four or more times a day.
 :::
 
 ## Weather and when to go

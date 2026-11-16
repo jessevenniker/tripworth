@@ -20,10 +20,10 @@ Reken op 13 tot 16 km per dag als je het slenteren meetelt. Prijzen in deze gids
 
 :::booking Boek in deze volgorde
 1. **Eerst van alles:** de ESTA, de reistoestemming voor de Verenigde Staten. Ongeveer $40, twee jaar geldig, aan te vragen op de officiële site van de Amerikaanse overheid, minstens drie dagen voor vertrek. Andere sites rekenen een veelvoud voor dezelfde aanvraag.
-2. **Drie tot vier maanden vooraf, als je de kroon in wilt:** het [Vrijheidsbeeld](book:Statue of Liberty Ellis Island tickets) bij Statue City Cruises, de enige officiële verkoper. De kroon is het eerst vol; het voetstuk is weken vooraf uitverkocht; het gewone ticket (ruwweg $26 tot $33) lukt tot een paar dagen vooraf. Kies de eerste boot van dag 2.
+2. **Drie tot vier maanden vooraf, als je de kroon in wilt:** het [Vrijheidsbeeld](book:Statue of Liberty Ellis Island tickets) bij Statue City Cruises, de enige officiële verkoper. De kroon is het eerst vol; het voetstuk is weken vooraf uitverkocht; het gewone ticket ($26; voetstuk en kroon kosten maar 30 cent meer) lukt tot een paar dagen vooraf. Kies de eerste boot van dag 2.
 3. **Zodra je data vaststaan:** de [Broadwayshow](book:Broadway show tickets New York) die je per se wilt zien, bij de officiële verkoper. De grootste hits geven zelden korting. Voor al het andere wacht je en koop je op de dag zelf (zie dag 1).
 4. **Een week vooraf:** één [uitkijkplatform](book:New York observation deck tickets) voor een uur voor zonsondergang op dag 1. Die tijdsloten zijn duurder en het eerst weg. Check de dag ervoor het weerbericht; de meeste tickets kun je tegen een toeslag verzetten.
-5. **Een week vooraf:** het 9/11 Museum voor de middag van dag 2, ruwweg $33 tot $36.
+5. **Een week vooraf:** het 9/11 Museum voor de middag van dag 2, tot $36.
 6. **Optioneel:** een [transfer vanaf het vliegveld](book:New York JFK airport transfer).
 :::
 
@@ -31,7 +31,7 @@ Reken op 13 tot 16 km per dag als je het slenteren meetelt. Prijzen in deze gids
 - **Maandag:** de meeste Broadwaytheaters zijn dicht. Zet dag 1 niet op maandag als een show belangrijk voor je is.
 - **Woensdag en zaterdag:** matineedagen. Met een middagvoorstelling houd je je avond vrij.
 - **The Met:** woensdag dicht. Zet dag 3 niet op woensdag.
-- **Maandagavond:** het 9/11 Museum is gratis, met een beperkt aantal tickets dat die ochtend online komt.
+- **Maandagavond:** het 9/11 Museum is gratis van 17:30 tot 19:00 uur, met een beperkt aantal tickets dat die dag om 07:00 uur online komt.
 :::
 
 ## Wat kost het echt?
@@ -40,10 +40,10 @@ New York is duur, en de prijs op het bordje is niet wat je betaalt. In winkels e
 
 ## Loont de CityPASS?
 
-De New York CityPASS kost ongeveer $154 tot $164 per volwassene en geldt negen dagen voor vijf attracties: het Empire State Building en het American Museum of Natural History, plus drie naar keuze, zoals de veerboot naar het Vrijheidsbeeld, het 9/11 Museum en Top of the Rock. Los kosten die vijf samen ruwweg $180 tot $200.
+De New York CityPASS kost $149 per volwassene plus $2 administratiekosten en geldt negen dagen voor vijf attracties naar keuze uit tien, waaronder het Empire State Building, Top of the Rock, Edge, het American Museum of Natural History, de veerboot naar het Vrijheidsbeeld en het 9/11 Museum. Los kosten vijf daarvan samen ruwweg $180 tot $200.
 
-- **Kopen** als je er toch minstens vier van zou bezoeken. In dit plan: het Empire State Building (dag 1), de veerboot en het 9/11 Museum (dag 2) en het Natural History Museum (dag 3). Reserveer de tijdsloten via de pas op de dag dat je hem koopt.
-- **Overslaan** als je Top of the Rock als enige platform wilt, de kroon of het voetstuk in wilt (niet inbegrepen), of vooral voor wijken, eten en parken komt.
+- **Kopen** als je er toch minstens vier van zou bezoeken. In dit plan: één uitkijkplatform (dag 1), de veerboot en het 9/11 Museum (dag 2) en het Natural History Museum (dag 3). Reserveer de tijdsloten via de pas op de dag dat je hem koopt.
+- **Overslaan** als je de kroon of het voetstuk in wilt, of naar SUMMIT of One World Observatory wilt (geen van alle inbegrepen), of vooral voor wijken, eten en parken komt.
 
 ## Waar slaap je
 
@@ -79,7 +79,7 @@ Vanaf Amsterdam vlieg je in ongeveer 8 uur rechtstreeks naar New York (JFK of Ne
 | JFK | AirTrain plus metro | Ruim een uur | Ongeveer $11,75 |
 | Newark | AirTrain plus trein naar Penn Station | Ongeveer 30 minuten | Treinkaartje |
 
-- **Vanaf JFK:** Met twee of meer personen en koffers is de taxi het geld waard; alleen neem je de trein. Het vaste tarief geldt voor heel Manhattan onder 96th Street. Sluit aan bij de officiële rij buiten de terminal en negeer iedereen die je binnen een rit aanbiedt.
+- **Vanaf JFK:** Met twee of meer personen en koffers is de taxi het geld waard; alleen neem je de trein. Het vaste tarief geldt voor heel Manhattan; op werkdagen van 16:00 tot 20:00 uur komt er $5 toeslag bij. Sluit aan bij de officiële rij buiten de terminal en negeer iedereen die je binnen een rit aanbiedt.
 - **Vanaf Newark:** Dat ligt in New Jersey; een taxi naar Manhattan is hier het duurst. Neem de trein.
 - **Na een lange vlucht liever opgehaald worden?** Boek een [privétransfer](book:New York JFK airport transfer).
 
@@ -134,10 +134,10 @@ Een voorstelling duurt 2 tot 3 uur met pauze. Eet vooraf; de theatermenu's aan N
 | Platform | Vanaf | Kies het voor |
 |---|---|---|
 | Top of the Rock | Ongeveer $45 | Het beste totaaluitzicht: Central Park in het noorden, het Empire State Building op je foto. Open terrassen |
-| Empire State Building | $44 | Het icoon zelf, een open 86e verdieping en een goed museum. Laat op de avond rustiger |
+| Empire State Building | $46 | Het icoon zelf, een open 86e verdieping en een goed museum. Laat op de avond rustiger |
 | SUMMIT One Vanderbilt | Wisselt | Spiegelzalen; meer belevenis dan uitkijkpunt. Leuk met tieners. Draag een broek: de vloeren spiegelen |
-| Edge | Ongeveer $36 tot $45 | Een glazen vloer boven de straat en de mooiste zonsondergang boven de Hudson |
-| One World Observatory | Ongeveer $31 tot $44 | Het hoogst, binnen; haven en bruggen. Past bij dag 2 |
+| Edge | $44 | Een glazen vloer boven de straat en de mooiste zonsondergang boven de Hudson |
+| One World Observatory | $39 | Het hoogst, binnen; haven en bruggen. Past bij dag 2 |
 
 Eén platform is genoeg. Eerste keer in New York: Top of the Rock. Heb je een CityPASS, gebruik dan het platform dat erin zit en betaal niet voor een tweede. Bij nevel of laaghangende bewolking is het uitzicht op elke hoogte matig.
 
@@ -178,7 +178,7 @@ De beurs, Federal Hall (waar Washington werd beëdigd) en Trinity Church liggen 
 Gratis, zonder ticket. Twee vierkante bassins vullen de plek waar de Twin Towers stonden, met de namen van de bijna 3000 slachtoffers in de bronzen rand. Op de verjaardag van een slachtoffer ligt er een witte roos bij de naam.
 
 15:45 | 9/11 Museum
-Zeven verdiepingen onder de grond, bij de fundamenten van de torens. Grondig en zwaar; reken op twee uur. Niet geschikt voor jonge kinderen.
+Zeven verdiepingen onder de grond, bij de fundamenten van de torens. Grondig en zwaar; reken op anderhalf uur. Niet geschikt voor jonge kinderen.
 
 18:00 | De Oculus
 De witte, gevleugelde stationshal naast het monument. Gratis om doorheen te lopen.

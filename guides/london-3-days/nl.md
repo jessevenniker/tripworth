@@ -21,7 +21,7 @@ Reken op 11 tot 15 km per dag als je het slenteren meetelt, en op ongeveer £70 
 1. **Eerst van alles:** check je paspoort (een identiteitskaart is niet genoeg) en vraag de UK ETA aan, de reistoestemming die ook Nederlanders nodig hebben. £20 per persoon, ook voor kinderen, alleen via de officiële UK ETA-app of de site van de Britse overheid.
 2. **De Eurostar of je vlucht:** hoe eerder, hoe goedkoper.
 3. **Als je hem wilt, zo vroeg mogelijk:** de [Harry Potter Studio Tour](book:Harry Potter Warner Bros Studio Tour London tickets transfer) voor dag 3. Aan de deur zijn geen kaartjes en populaire data zijn weken tot maanden vooruit vol.
-4. **Twee tot drie weken vooraf:** de [Tower of London](book:Tower of London tickets Crown Jewels) voor openingstijd op dag 2, ongeveer £37.
+4. **Twee tot drie weken vooraf:** de [Tower of London](book:Tower of London tickets Crown Jewels) voor openingstijd op dag 2, £38 (£19 van 5 tot 15 jaar).
 5. **Dezelfde dag:** [Westminster Abbey](book:Westminster Abbey tickets) voor het eerste tijdslot op dag 1, £32. Niet op zondag: dan is de Abbey alleen open voor diensten.
 6. **Zodra de slots vrijkomen:** de gratis Sky Garden voor zonsondergang op dag 2. De tijdsloten komen een paar weken vooraf online en zijn snel weg.
 :::
@@ -38,7 +38,7 @@ Ga je van vrijdag tot en met zondag, doe dan vrijdag dag 1 (Abbey), zaterdag dag
 
 ## Loont de London Pass?
 
-Voor dit plan niet. Een dagpas kost ruwweg £80 tot £100 en je hebt ongeveer drie grote betaalde bezienswaardigheden op één dag nodig om eruit te komen. De Tower (ongeveer £37) plus de Abbey (£32) is £69, en de rest van deze gids is gratis: het British Museum, de National Gallery, Tate Modern, de parken, de markten en de Sky Garden.
+Voor dit plan niet. Een dagpas kost voor de volle prijs £105 en je hebt ongeveer drie grote betaalde bezienswaardigheden op één dag nodig om eruit te komen. De Tower (£38) plus de Abbey (£32) is £70, en de rest van deze gids is gratis: het British Museum, de National Gallery, Tate Modern, de parken, de markten en de Sky Garden.
 
 ## Waar slaap je
 
@@ -69,7 +69,7 @@ De Eurostar rijdt in ongeveer vier uur rechtstreeks van Amsterdam en Rotterdam n
 |---|---|---|
 | Heathrow, Elizabeth line | Ongeveer 35 minuten | £15,50 |
 | Heathrow, metro (Piccadilly line) | 50 tot 60 minuten | £5,90 |
-| Heathrow Express | 15 minuten naar Paddington | Ongeveer £25 |
+| Heathrow Express | 15 minuten naar Paddington | £26 op de dag zelf, vanaf £10 vooraf |
 | Gatwick, Stansted, Luton | 30 tot 50 minuten met de trein | Tel het kaartje op bij je vlucht |
 | London City | Lichtmetro voor de deur | Het dichtst bij het centrum |
 
@@ -170,7 +170,7 @@ Een gratis uitzichttuin boven in een wolkenkrabber in de City, op twee minuten v
 
 | Optie | Prijs | Toelichting |
 |---|---|---|
-| Standaardticket | Ongeveer £37 | Inclusief kroonjuwelen, White Tower en rondleiding van een Yeoman Warder |
+| Standaardticket | £38 | Inclusief kroonjuwelen, White Tower en rondleiding van een Yeoman Warder |
 | [Rondleiding met vroege toegang](book:Tower of London tickets Crown Jewels) | Ongeveer het dubbele | Voor het publiek naar binnen; een bijna lege zaal met kroonjuwelen |
 | Ceremony of the Keys | Een paar pond | Het nachtelijke sluiten van de Tower, al zo'n 700 jaar; maanden vooruit uitverkocht |
 
@@ -231,7 +231,7 @@ De City, het financiële district, is in het weekend rustig: de steegjes zijn he
 
 | Trip | Kosten | Oordeel |
 |---|---|---|
-| Windsor Castle met de trein | Ongeveer £31 tot £36, 30 tot 50 minuten per rit | Voor de meesten de beste; een halve dag, leuk met kinderen. Check de openingsdagen |
+| Windsor Castle met de trein | £32 vooraf, £36 op de dag zelf; 30 tot 50 minuten per rit | Voor de meesten de beste; een halve dag, leuk met kinderen. Check de openingsdagen |
 | Bath met de trein | Ongeveer 1 uur en 20 minuten vanaf Paddington | De meest ontspannen: een Georgiaanse stad, de Romeinse baden en een echte lunch |
 | [Stonehenge, halve dag met de bus](book:Stonehenge Windsor Bath day trip from London) | Meestal £60 tot £80 | De praktische manier; op eigen houtje is Stonehenge lastig te bereiken |
 | Stonehenge, Windsor en Bath op één dag | Meestal £90 tot £130, 12 uur | Drie gehaaste stops. Alleen als je ze gezien wilt hebben |

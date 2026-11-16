@@ -178,12 +178,12 @@ Oud luchtafweergeschut op een heuveltop, met het volledige panorama. Neem een ta
 
 | | Casa Batlló | La Pedrera (Casa Milà) |
 |---|---|---|
-| Prijs | Vanaf ongeveer €29, duurder kort vooraf | Ongeveer €25 online, €29 aan de deur |
+| Prijs | Vanaf ongeveer €29, duurder kort vooraf | Vanaf €29 online |
 | Sterk in | Het opvallendste interieur; één uur vol foto's | Het dak met schoorstenen als krijgers; hoe het gebouw werkt |
 | Sfeer | Tablet en lichteffecten; drukker | Rustiger; met een ingericht appartement uit die tijd |
-| Let op | Het basisticket is zonder dakterras | Boek online voor de lagere prijs |
+| Let op | Het basisticket is zonder dakterras | Het dak zit bij elk ticket in |
 
-Heb je de Sagrada Família gezien, dan is één huis voor de meeste mensen genoeg. Met een klein budget: bekijk beide gevels gratis vanaf de straat en ga alleen La Pedrera in.
+Heb je de Sagrada Família gezien, dan is één huis voor de meeste mensen genoeg. Met een klein budget: bekijk beide gevels gratis vanaf de straat en ga alleen La Pedrera in, waar het dak bij de prijs zit.
 
 # Extra tijd | Verborgen plekken en Montserrat
 
@@ -203,7 +203,7 @@ Heb je de Sagrada Família gezien, dan is één huis voor de meeste mensen genoe
 
 Een klooster tussen gekartelde rotsen, een uur met de trein, met makkelijke bergwandelingen. De moeite waard vanaf vier dagen Barcelona; blijf met drie dagen in de stad.
 
-- **Op eigen houtje:** De trein R5 vanaf de Plaça d'Espanya, daarna de tandradbaan of de kabelbaan omhoog. Een gecombineerd ticket kost ruwweg €22 tot €29. Reken op 6 tot 8 uur van deur tot deur.
+- **Op eigen houtje:** De trein R5 vanaf de Plaça d'Espanya, daarna de tandradbaan of de kabelbaan omhoog. Het alles-in-één-ticket Trans Montserrat kost €50 en dekt de trein, de rit omhoog en de kabelspoorbanen. Reken op 6 tot 8 uur van deur tot deur.
 - **[Halvedagtour](book:Montserrat day trip from Barcelona):** Meestal €50 tot €80, met bus en gids, begin van de middag terug.
 - **Tour met wijnhuis:** Met een proeverij van cava of wijn; de meest ontspannen manier.
 - **Sla het over** bij laaghangende bewolking en op zon- en feestdagen, als het er het drukst is. Boven is het een paar graden koeler: neem een extra laag mee.

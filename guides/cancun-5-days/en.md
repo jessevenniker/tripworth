@@ -20,7 +20,7 @@ The mistake most visitors make here is trying to see everything. The distances a
 :::booking Book in this order
 1. **Before you fly:** a [private airport transfer](book:Cancun airport transfer). About $35 to $55 per vehicle to the Cancún Hotel Zone, $50 to $80 to Playa del Carmen. It is the single booking that most improves day 1.
 2. **Before you fly, or on day 1:** an [early-access or small-group Chichén Itzá tour](book:Chichen Itza tour from Cancun) for day 3. Prices at the hotel tour desk are usually higher than online.
-3. **A few days ahead, if you're traveling with children:** [Xcaret](book:Xcaret park tickets) as a swap for day 5. $100 to $160 per adult; plan to stay until the evening show ends.
+3. **A few days ahead, if you're traveling with children:** [Xcaret](book:Xcaret park tickets) as a swap for day 5. About $150 to $200 per adult; plan to stay until the evening show ends.
 4. **The day before is fine:** an [Isla Mujeres catamaran](book:Isla Mujeres catamaran from Cancun) if you want sailing and snorkeling more than beach time, or a [Tulum and cenote tour](book:Tulum ruins tour cenote) if you'd rather not go on your own.
 5. **Online, any time before you leave Mexico:** the Visitax, the state tourist tax of about 290 pesos per person, on the official state website only.
 :::
@@ -122,7 +122,7 @@ The long day. One of the great Maya cities, a swim in a cenote and, on the bette
 The earlier the tour, the cooler and emptier the site. Tours from the Riviera Maya start earlier and return later than tours from Cancún. Wear a swimsuit under your clothes and bring a towel.
 
 8:00 to 9:00 am (local time) | Arrive at Chichén Itzá
-Entry for foreign visitors is about 680 to 700 pesos ($35 to $40), paid at the gate; check whether your tour price includes it. Walk the open plaza and the great pyramid first, before the heat builds. Then the ball court, the Temple of the Warriors and the sacred cenote. Two to three hours.
+Entry for foreign visitors is about 700 pesos (roughly $40) on one combined ticket, paid at the gate; check whether your tour price includes it. Walk the open plaza and the great pyramid first, before the heat builds. Then the ball court, the Temple of the Warriors and the sacred cenote. Two to three hours.
 
 Noon | Cenote swim and lunch
 Most tours stop at one. Shower before you get in and skip regular sunscreen.
@@ -207,8 +207,8 @@ Several lie within twenty minutes of the ruins. The natural second half of the m
 1:00 pm | Lunch, then the beach
 :::
 
-:::warn Tulum entry fees: bring up to 650 pesos
-The ruins now lie inside Parque del Jaguar, and a visit can involve three separate charges: the archaeological site, the protected area and the park. The amounts were raised in January 2026 and reportedly cut again in July; websites still quote all the old figures. The ticket office at the park entrance is the only reliable source. The beach below the cliff is closed at times for nesting turtles, so don't count on swimming at the site.
+:::warn Tulum entry fees: check at the gate
+The ruins now lie inside Parque del Jaguar, and the fees changed more than once in 2026. Recent reports give 265 pesos for the ruins plus 100 pesos for the park around them, about 365 pesos in total; websites still quote older figures. Bring 500 pesos in cash to be safe: the ticket office at the park entrance is the only reliable source. The beach below the cliff is closed at times for nesting turtles, so don't count on swimming at the site.
 :::
 
 Prefer a guide? A [Tulum and cenote tour](book:Tulum ruins tour cenote) is worth it for the explanation: the site has few signs.
@@ -223,7 +223,7 @@ A large park built around natural inlets and caves, just south of Playa del Carm
 | Plus | Adds a buffet meal, snorkel gear and a nicer changing area. Worth it for a full day |
 | With transport | Adds a bus from your hotel; handy from Cancún, over an hour away |
 
-Expect $100 to $160 per adult for [Xcaret tickets](book:Xcaret park tickets). Only biodegradable sunscreen is allowed in the water: bring your own, the park's price is high. Alternatives: Xel-Há, a natural lagoon with food and drinks included and no show, or cenotes on your own for a fraction of the price.
+Expect about $150 to $200 per adult for [Xcaret tickets](book:Xcaret park tickets). Only biodegradable sunscreen is allowed in the water: bring your own, the park's price is high. Alternatives: Xel-Há, a natural lagoon with food and drinks included and no show, or cenotes on your own for a fraction of the price.
 
 # Extra time | Beyond the resorts
 
