@@ -427,3 +427,55 @@ dollar amount in this file must be re-checked by hand before launch.**
 - No changes.
 - Not verified: the three cruise piers (Punta Langosta, International, Puerta Maya; matches the
   11 November check of third-party sources), taxi and ferry times.
+
+---
+
+## Aruba (`aruba.ts`)
+
+### aruba-snorkeling-tours: OK, open items
+- No changes. Antilla wreck: 121 m / 398 ft, scuttled 10 May 1940 (confirmed 11 November 2026).
+- Not verified: tour prices ($60 to $100), stops and durations; these are operator prices.
+
+### aruba-arikok: OK
+- Changed: replaced "Go early: ticket sales stop mid-afternoon" with the official hours: open
+  daily, San Fuego entrance 8:00 to 15:30, Vader Piet 8:30 to 15:00. Replaced the vague line that
+  "the rules for off-road vehicles have changed" with the current rule: ATVs, UTVs and motorbikes
+  are prohibited in the park, so choose a jeep tour. Both languages.
+- Confirmed: conservation day pass $22 per adult, children under 17 free, sold at both entrances.
+  Park area 34 km², almost a fifth of the island. Natural Pool only by off-road vehicle, horse or
+  on foot (aruba.com, 11 November 2026).
+- Source: acf.aw "Experiences" (Parke Nacional Arikok visitor information).
+- Not verified: jeep tour prices, which rental contracts forbid driving to the Natural Pool.
+
+### aruba-flamingo-beach: OK, open items
+- No changes.
+- Not verified: the day pass. Third-party guides agree on about $125 per adult (some say $125 to
+  $150 in 2026), sold only when occupancy allows, released online on Saturdays for the next week.
+  The Renaissance resort's own page was not found. Also not verified: the beach rules for children.
+
+### aruba-one-week: OK, open items
+- No changes. Arikok and taxi facts match the confirmed figures.
+- Not verified (general knowledge): driving times, the itinerary stops.
+
+### aruba-hidden-gems: OK, open items
+- No changes.
+- Not verified (general knowledge): the list, driving times from Palm Beach (30 to 45 minutes to
+  the far south), the sunscreen rule, tap water.
+
+### aruba-best-time: OK, open items
+- No changes. 80 to 90 °F, about 18 inches of rain a year, showers October to December, outside
+  the hurricane belt (aruba.com, confirmed 11 November 2026).
+- Not verified: hotel price seasons.
+
+### aruba-airport: OK
+- No changes. Taxi fares from the official fare sheet of 18 May 2026: Oranjestad $26, Eagle
+  Beach $37, Palm Beach $41, per car up to four people, $5 surcharge on Sundays, holidays and
+  23:00 to 7:00, extra bags $3. ED card free, $20 sustainability fee for air arrivals, children
+  under 8 exempt. US-bound passengers at the airport three hours ahead.
+- Sources: visitaruba.com taxi guide, aruba.com, airportaruba.com (all confirmed 11 November
+  2026; not changed since).
+
+### aruba-shore-excursions: OK, open items
+- No changes. Cruise port location and walking times confirmed on aruba.com (11 November 2026);
+  the $20 fee applies only to air arrivals.
+- Not verified: excursion prices.
