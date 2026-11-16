@@ -1,30 +1,9 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// Since January 2026 several French state museums charge visitors from outside the
-// European Economic Area (EEA) more. The English pages quote the non-EEA price, the
-// Dutch pages the EEA price.
-//
-// Confirmed on official pages:
-// - Louvre (louvre.fr): EUR 32 non-EEA, EUR 22 EEA; free under 18 and for EEA residents
-//   under 26; closed Tuesdays; 9:00 to 18:00, Wednesday and Friday to 21:00; time slots
-//   recommended; free first Friday of the month after 18:00 except July and August.
-// - Versailles (chateauversailles.fr): Passport EUR 35 non-EEA / EUR 32 EEA from 1 April to
-//   31 October, EUR 25 / EUR 22 in low season; closed Mondays; Palace needs a time slot;
-//   Trianon EUR 15, opens at noon; park free.
-// - Eiffel Tower (toureiffel.paris rate sheet): stairs to 2nd floor EUR 14.80, lift to 2nd
-//   floor EUR 23.50, stairs plus lift to the top EUR 28, lift to the top EUR 36.70.
-// - Airport (parisjetaime.com, bonjour-ratp.fr): taxi flat fare EUR 56 Right Bank, EUR 65
-//   Left Bank; airport train ticket EUR 14; RoissyBus stopped on 1 March 2026.
-//
-// Only found on third-party sites or written from general knowledge. Re-check before launch:
-// - Paris Museum Pass prices (EUR 85 / 105 / 125; sources disagree).
-// - Eiffel Tower booking window (about 60 days) and the 2nd-floor versus top advice.
-// - Seine cruise prices (EUR 15 to 20) and operators.
-// - Notre-Dame: free entry, towers EUR 16, online only.
-// - RER B travel time from the airport (35 to 45 minutes), RER C time to Versailles, Eurostar travel time, the driving sticker, climate figures,
-//   closing days of the Musee d'Orsay, and the hidden-gems list.
+// Fact check, 16 November 2026. Since January 2026 several French state museums charge
+// visitors from outside the European Economic Area (EEA) more. The English pages quote the
+// non-EEA price, the Dutch pages the EEA price. Sources, changes and the items that could not
+// be verified on an official page are logged per article in FACTCHECK.md.
 
 export const parisArticles: Article[] = [
   {
@@ -47,7 +26,7 @@ export const parisArticles: Article[] = [
         ["Second floor by lift", "€23.50"],
         ["Second floor by stairs", "€14.80"],
         ["Time needed", "2 to 3 hours with the summit"],
-        ["Book ahead", "As early as possible, up to about 2 months"],
+        ["Book ahead", "Lift tickets go on sale 90 days ahead"],
       ],
       sections: [
         {
@@ -91,7 +70,7 @@ export const parisArticles: Article[] = [
         ["Tweede verdieping met de lift", "€23,50"],
         ["Tweede verdieping met de trap", "€14,80"],
         ["Benodigde tijd", "2 tot 3 uur met de top"],
-        ["Vooruit boeken", "Zo vroeg mogelijk, tot ongeveer 2 maanden"],
+        ["Vooruit boeken", "Lifttickets komen 90 dagen vooruit in de verkoop"],
       ],
       sections: [
         {
@@ -518,7 +497,7 @@ export const parisArticles: Article[] = [
         ["Closed days", "Louvre Tuesday, Versailles Monday"],
         ["Walking", "7 to 9 miles (11 to 15 km) a day"],
         ["Best base", "The Marais, Saint-Germain or near the Louvre"],
-        ["Budget for tickets", "About €130 per adult from the US"],
+        ["Budget for tickets", "About €130 to €150 per adult from the US"],
       ],
       sections: [
         {
@@ -566,7 +545,7 @@ export const parisArticles: Article[] = [
         ["Sluitingsdagen", "Louvre dinsdag, Versailles maandag"],
         ["Lopen", "11 tot 15 km per dag"],
         ["Beste uitvalsbasis", "De Marais, Saint-Germain of bij het Louvre"],
-        ["Budget voor tickets", "Ongeveer €110 per volwassene"],
+        ["Budget voor tickets", "Ongeveer €110 tot €130 per volwassene"],
       ],
       sections: [
         {
@@ -740,7 +719,7 @@ export const parisArticles: Article[] = [
       faq: [
         ["How much is a taxi from CDG to Paris?", "A flat fare of €56 to addresses on the Right Bank and €65 to the Left Bank, per car, luggage included."],
         ["Is the RER B from CDG safe?", "Yes. Keep your bags close and your phone away near the doors, as on any big-city train, and avoid the last trains if you arrive very late."],
-        ["Is there still a RoissyBus?", "No. It stopped on 1 March 2026. Use the RER B, a taxi, or the cheaper and slower express bus 9517."],
+        ["Is there still a RoissyBus?", "No. It stopped on 1 March 2026. Use the RER B, a taxi, or express bus 9517, which runs from Saint-Denis-Pleyel (metro line 14) to the airport in about 30 minutes on a bus ticket."],
       ],
     },
     nl: {
@@ -782,7 +761,7 @@ export const parisArticles: Article[] = [
       faq: [
         ["Hoe lang duurt de trein van Amsterdam naar Parijs?", "Ruim drie uur met de rechtstreekse Eurostar naar Gare du Nord."],
         ["Wat kost een taxi van Charles de Gaulle naar Parijs?", "Een vast tarief van €56 naar adressen op de rechteroever en €65 naar de linkeroever, per auto en inclusief bagage."],
-        ["Rijdt de RoissyBus nog?", "Nee. Die is op 1 maart 2026 gestopt. Neem de RER B, een taxi, of de goedkopere en tragere expresbus 9517."],
+        ["Rijdt de RoissyBus nog?", "Nee. Die is op 1 maart 2026 gestopt. Neem de RER B, een taxi, of expresbus 9517, die met een busticket in ongeveer 30 minuten van Saint-Denis-Pleyel (metrolijn 14) naar het vliegveld rijdt."],
       ],
     },
   },

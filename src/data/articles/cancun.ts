@@ -1,28 +1,8 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// NOTHING in this file was confirmed on an official page. Fees in Mexico changed several
-// times during 2026 and the sources disagree, so the articles give ranges and tell the
-// reader to check before going. Re-check every figure before launch.
-//
-// What the sources said:
-// - Chichen Itza: foreigners pay 676 to 697 pesos in total (Yucatan press); open 8:00 to
-//   16:00, with INAH giving last access at 15:00.
-// - Tulum ruins: totals reported for foreigners range from 100 to 625 pesos after fee
-//   changes in January and July 2026; opening hours also differ per source.
-// - Isla Mujeres ferry (Ultramar, Puerto Juarez): about 580 pesos round trip, 20 to 30
-//   minutes; catamaran tours $75 to $160.
-// - Airport: ADO bus about 140 pesos to downtown Cancun and 220 pesos to Playa del Carmen;
-//   private transfer $35 to $55 to the Hotel Zone, $50 to $80 to Playa del Carmen.
-// - Visitax: 285 to 293 pesos per person, paid at visitax.gob.mx.
-// - Sargassum: 2026 was reported as the worst season on record; Cancun and Isla Mujeres
-//   are usually cleaner than Tulum and the south.
-// - Xcaret: $100 to $160 depending on the ticket.
-// - Cozumel: three cruise piers; ferry to Playa del Carmen 30 to 45 minutes.
-//
-// From general knowledge, not looked up: the one-hour time difference with Chichen Itza,
-// driving times, hurricane season dates, the hidden-gems list and the rules at Akumal and Coba.
+// Fact check, 16 November 2026. Fees in Mexico changed several times during 2026 and no
+// official fee table could be read; most figures rest on press reports. Sources, changes and
+// open items are logged per article in FACTCHECK.md. Re-check every peso amount before launch.
 
 export const cancunArticles: Article[] = [
   {
@@ -38,9 +18,9 @@ export const cancunArticles: Article[] = [
       title: "Chichén Itzá from Cancún: entry fee, time zone and tour or drive",
       description: "What Chichén Itzá costs, why your watch is wrong when you get there, and whether to take a tour or drive.",
       answer:
-        "Entry to Chichén Itzá costs foreign visitors about 680 to 700 pesos, roughly $35 to $40, paid at the gate. The site is two and a half hours from Cancún and one hour behind it, so a 7 am departure gets you there soon after it opens at 8 am local time. Take a tour if you do not want to drive five hours in a day; rent a car if you want to arrive before the buses.",
+        "Entry to Chichén Itzá costs foreign visitors about 700 pesos, roughly $35 to $40, on a single ticket paid at the gate. The site is two and a half hours from Cancún and one hour behind it, so a 7 am departure gets you there soon after it opens at 8 am local time. Take a tour if you do not want to drive five hours in a day; rent a car if you want to arrive before the buses.",
       facts: [
-        ["Entry, foreign visitors", "About 680 to 700 pesos ($35 to $40)"],
+        ["Entry, foreign visitors", "About 700 pesos ($35 to $40), one ticket"],
         ["Open", "8 am to 4 pm, last entry around 3 pm"],
         ["Time zone", "One hour behind Cancún"],
         ["From Cancún", "About 2.5 hours each way"],
@@ -74,7 +54,7 @@ export const cancunArticles: Article[] = [
       ],
       tip: "Clap once in front of the main staircase of the pyramid. The echo comes back as a chirp, like the call of the quetzal bird.",
       faq: [
-        ["How much is the entrance fee to Chichén Itzá?", "About 680 to 700 pesos for foreign visitors in 2026, roughly $35 to $40. The fee has changed during the year, so check before you go."],
+        ["How much is the entrance fee to Chichén Itzá?", "About 700 pesos for foreign visitors, roughly $35 to $40, on one combined ticket since March 2026. The fee has changed during the year, so check before you go."],
         ["Is Chichén Itzá in a different time zone than Cancún?", "Yes. Chichén Itzá is in the state of Yucatán, one hour behind Cancún and the Riviera Maya."],
         ["Is Chichén Itzá worth the long day?", "Yes, once. It is one of the best-preserved Maya cities, but the day is long: go early or choose a closer site such as Cobá or Ek Balam."],
       ],
@@ -84,9 +64,9 @@ export const cancunArticles: Article[] = [
       title: "Chichén Itzá vanuit Cancún: entree, tijdsverschil en tour of zelf rijden",
       description: "Wat Chichén Itzá kost, waarom je horloge er niet klopt en of je een tour neemt of zelf rijdt.",
       answer:
-        "De entree van Chichén Itzá is voor buitenlandse bezoekers ongeveer 680 tot 700 peso, en je betaalt bij de ingang. Het ligt op tweeënhalf uur rijden van Cancún en het is er een uur vroeger, dus als je om 7.00 uur vertrekt ben je er kort na de opening om 8.00 uur lokale tijd. Neem een tour als je geen vijf uur op een dag wilt rijden; huur een auto als je er vóór de bussen wilt zijn.",
+        "De entree van Chichén Itzá is voor buitenlandse bezoekers ongeveer 700 peso, op één ticket dat je bij de ingang betaalt. Het ligt op tweeënhalf uur rijden van Cancún en het is er een uur vroeger, dus als je om 7.00 uur vertrekt ben je er kort na de opening om 8.00 uur lokale tijd. Neem een tour als je geen vijf uur op een dag wilt rijden; huur een auto als je er vóór de bussen wilt zijn.",
       facts: [
-        ["Entree, buitenlandse bezoekers", "Ongeveer 680 tot 700 peso"],
+        ["Entree, buitenlandse bezoekers", "Ongeveer 700 peso, één ticket"],
         ["Open", "8.00 tot 16.00 uur, laatste toegang rond 15.00 uur"],
         ["Tijdzone", "Een uur vroeger dan Cancún"],
         ["Vanuit Cancún", "Ongeveer 2,5 uur per rit"],
@@ -120,7 +100,7 @@ export const cancunArticles: Article[] = [
       ],
       tip: "Klap één keer in je handen voor de hoofdtrap van de piramide. De echo komt terug als een tjilp, als de roep van de quetzal.",
       faq: [
-        ["Wat kost de entree van Chichén Itzá?", "Ongeveer 680 tot 700 peso voor buitenlandse bezoekers in 2026. Het bedrag is in de loop van het jaar gewijzigd, dus controleer het voor je gaat."],
+        ["Wat kost de entree van Chichén Itzá?", "Ongeveer 700 peso voor buitenlandse bezoekers, sinds maart 2026 op één gecombineerd ticket. Het bedrag is in de loop van het jaar gewijzigd, dus controleer het voor je gaat."],
         ["Is het in Chichén Itzá een andere tijd dan in Cancún?", "Ja. Chichén Itzá ligt in de staat Yucatán, waar het een uur vroeger is dan in Cancún en de Riviera Maya."],
         ["Is Chichén Itzá de lange dag waard?", "Ja, één keer. Het is een van de best bewaarde Mayasteden, maar de dag is lang: ga vroeg, of kies een dichterbij gelegen plek zoals Cobá of Ek Balam."],
       ],
@@ -139,9 +119,9 @@ export const cancunArticles: Article[] = [
       title: "Tulum ruins: entry fees, opening hours and when to go",
       description: "The Tulum ruins now sit inside a national park with its own fees. What to expect at the gate and how to beat the crowds.",
       answer:
-        "The Tulum ruins are small, set on a cliff above the sea, and take about 90 minutes. Fees for foreign visitors changed more than once in 2026 and reports range from about 100 to more than 600 pesos, so bring up to 650 pesos and check the current price before you go. Arrive at opening: by 10 am the site is full of tour groups and there is no shade.",
+        "The Tulum ruins are small, set on a cliff above the sea, and take about 90 minutes. Fees for foreign visitors changed more than once in 2026; since the summer, reports give about 365 pesos in total, 265 for the ruins plus 100 for the Jaguar Park around them. Bring some margin in cash and check the current price before you go. Arrive at opening: by 10 am the site is full of tour groups and there is no shade.",
       facts: [
-        ["Entry, foreign visitors", "Changed in 2026: budget up to 650 pesos"],
+        ["Entry, foreign visitors", "About 365 pesos (ruins 265, Jaguar Park 100)"],
         ["Time on site", "About 90 minutes"],
         ["Best time", "At opening, around 8 am"],
         ["From Playa del Carmen", "About 1 hour"],
@@ -172,7 +152,7 @@ export const cancunArticles: Article[] = [
       ],
       tip: "Tulum town, the hotel strip on the beach and the ruins are three different places several kilometres apart. Check which one your tour or taxi actually goes to.",
       faq: [
-        ["How much does it cost to visit the Tulum ruins?", "The total changed several times in 2026. Reports for foreign visitors range from about 100 to more than 600 pesos, so bring up to 650 pesos and check locally."],
+        ["How much does it cost to visit the Tulum ruins?", "The total changed several times in 2026. Since the summer, foreign visitors pay about 365 pesos: 265 for the ruins and 100 for the Jaguar Park. Check locally, as fees may change again."],
         ["How long do you need at the Tulum ruins?", "About 90 minutes. The site is compact and most of it is seen from marked paths."],
         ["Tulum or Chichén Itzá?", "Tulum for the setting and a short visit, Chichén Itzá for the scale. If you have time for one long day and one short morning, do both."],
       ],
@@ -182,9 +162,9 @@ export const cancunArticles: Article[] = [
       title: "De ruïnes van Tulum: entree, openingstijden en wanneer je gaat",
       description: "De ruïnes van Tulum liggen nu in een nationaal park met eigen tarieven. Wat je bij de ingang kunt verwachten en hoe je de drukte voor bent.",
       answer:
-        "De ruïnes van Tulum zijn klein, liggen op een klif boven zee en kosten je ongeveer anderhalf uur. De tarieven voor buitenlandse bezoekers zijn in 2026 meer dan eens gewijzigd en de bedragen die genoemd worden lopen uiteen van ongeveer 100 tot ruim 600 peso; neem dus tot 650 peso mee en controleer de actuele prijs voor je gaat. Kom bij opening: om 10.00 uur staat het vol met groepen en schaduw is er niet.",
+        "De ruïnes van Tulum zijn klein, liggen op een klif boven zee en kosten je ongeveer anderhalf uur. De tarieven voor buitenlandse bezoekers zijn in 2026 meer dan eens gewijzigd; sinds de zomer gaat het om ongeveer 365 peso in totaal, 265 voor de ruïnes en 100 voor het Jaguarpark eromheen. Neem wat extra contant geld mee en controleer de actuele prijs voor je gaat. Kom bij opening: om 10.00 uur staat het vol met groepen en schaduw is er niet.",
       facts: [
-        ["Entree, buitenlandse bezoekers", "Gewijzigd in 2026: reken op maximaal 650 peso"],
+        ["Entree, buitenlandse bezoekers", "Ongeveer 365 peso (ruïnes 265, Jaguarpark 100)"],
         ["Tijd ter plekke", "Ongeveer anderhalf uur"],
         ["Beste moment", "Bij opening, rond 8.00 uur"],
         ["Vanuit Playa del Carmen", "Ongeveer 1 uur"],
@@ -215,7 +195,7 @@ export const cancunArticles: Article[] = [
       ],
       tip: "Het dorp Tulum, de hotelstrook aan het strand en de ruïnes zijn drie verschillende plekken die kilometers uit elkaar liggen. Kijk goed naar welke van de drie je tour of taxi gaat.",
       faq: [
-        ["Wat kost een bezoek aan de ruïnes van Tulum?", "Het totaal is in 2026 meerdere keren gewijzigd. Voor buitenlandse bezoekers worden bedragen genoemd van ongeveer 100 tot ruim 600 peso; neem dus tot 650 peso mee en vraag het ter plekke na."],
+        ["Wat kost een bezoek aan de ruïnes van Tulum?", "Het totaal is in 2026 meerdere keren gewijzigd. Sinds de zomer betalen buitenlandse bezoekers ongeveer 365 peso: 265 voor de ruïnes en 100 voor het Jaguarpark. Vraag het ter plekke na, want de tarieven kunnen weer veranderen."],
         ["Hoeveel tijd heb je nodig bij de ruïnes van Tulum?", "Ongeveer anderhalf uur. Het terrein is compact en het meeste zie je vanaf de aangegeven paden."],
         ["Tulum of Chichén Itzá?", "Tulum voor de ligging en een kort bezoek, Chichén Itzá voor de omvang. Heb je tijd voor één lange dag en één korte ochtend, doe dan allebei."],
       ],
@@ -331,9 +311,9 @@ export const cancunArticles: Article[] = [
       title: "Is Xcaret worth it?",
       description: "Xcaret is the most expensive day out on the Riviera Maya. Who gets their money's worth and who should pick something else.",
       answer:
-        "Xcaret is worth it for families and first-time visitors who want one big day with everything in it: underground rivers, wildlife, beaches and an evening show. Expect to pay $100 to $160 per adult depending on the ticket, and plan to stay from opening until the show ends. Skip it if you prefer nature without the theme-park setting, or if you only have half a day.",
+        "Xcaret is worth it for families and first-time visitors who want one big day with everything in it: underground rivers, wildlife, beaches and an evening show. Expect to pay about $150 to $200 per adult depending on the ticket, and plan to stay from opening until the show ends. Skip it if you prefer nature without the theme-park setting, or if you only have half a day.",
       facts: [
-        ["Price per adult", "About $100 to $160"],
+        ["Price per adult", "About $150 to $200"],
         ["Where", "Just south of Playa del Carmen"],
         ["Time needed", "A full day, including the evening show"],
         ["Best for", "Families and first-time visitors"],
@@ -365,7 +345,7 @@ export const cancunArticles: Article[] = [
       ],
       tip: "Only biodegradable sunscreen is allowed in the water. Bring your own: the park's price is high.",
       faq: [
-        ["How much does Xcaret cost?", "About $100 to $160 per adult in 2026, depending on the ticket type, the date and whether transport is included."],
+        ["How much does Xcaret cost?", "About $150 to $200 per adult in 2026, depending on the ticket type, the date and whether transport is included."],
         ["How many hours do you need at Xcaret?", "The whole day. Arrive at opening and stay for the evening show, which ends around 9 pm."],
         ["Xcaret or Xel-Há?", "Xcaret for variety and the show, Xel-Há for a relaxed day of snorkeling with food and drinks included."],
       ],
@@ -375,9 +355,9 @@ export const cancunArticles: Article[] = [
       title: "Is Xcaret de moeite waard?",
       description: "Xcaret is het duurste dagje uit aan de Riviera Maya. Voor wie het zijn geld waard is en wie beter iets anders kiest.",
       answer:
-        "Xcaret is de moeite waard voor gezinnen en voor wie hier voor het eerst is en één grote dag wil waar alles in zit: ondergrondse rivieren, dieren, stranden en een avondshow. Reken op $100 tot $160 per volwassene, afhankelijk van het ticket, en blijf van opening tot het einde van de show. Sla het over als je natuur liever zonder pretpark ziet, of als je maar een halve dag hebt.",
+        "Xcaret is de moeite waard voor gezinnen en voor wie hier voor het eerst is en één grote dag wil waar alles in zit: ondergrondse rivieren, dieren, stranden en een avondshow. Reken op ongeveer $150 tot $200 per volwassene, afhankelijk van het ticket, en blijf van opening tot het einde van de show. Sla het over als je natuur liever zonder pretpark ziet, of als je maar een halve dag hebt.",
       facts: [
-        ["Prijs per volwassene", "Ongeveer $100 tot $160"],
+        ["Prijs per volwassene", "Ongeveer $150 tot $200"],
         ["Waar", "Net ten zuiden van Playa del Carmen"],
         ["Benodigde tijd", "Een hele dag, inclusief de avondshow"],
         ["Het best voor", "Gezinnen en eerste bezoekers"],
@@ -409,7 +389,7 @@ export const cancunArticles: Article[] = [
       ],
       tip: "In het water mag alleen biologisch afbreekbare zonnebrand. Neem die zelf mee: in het park is hij duur.",
       faq: [
-        ["Wat kost Xcaret?", "Ongeveer $100 tot $160 per volwassene in 2026, afhankelijk van het soort ticket, de datum en of vervoer is inbegrepen."],
+        ["Wat kost Xcaret?", "Ongeveer $150 tot $200 per volwassene in 2026, afhankelijk van het soort ticket, de datum en of vervoer is inbegrepen."],
         ["Hoeveel uur heb je nodig in Xcaret?", "De hele dag. Kom bij opening en blijf voor de avondshow, die rond 21.00 uur eindigt."],
         ["Xcaret of Xel-Há?", "Xcaret voor de afwisseling en de show, Xel-Há voor een ontspannen dag snorkelen met eten en drinken inbegrepen."],
       ],
