@@ -229,3 +229,68 @@ Economic Area more. The English pages quote the non-EEA price, the Dutch pages t
 - No changes.
 - Not verified (general knowledge): climate figures, Buckingham Palace State Rooms in July to
   September, fewer Changing of the Guard days in winter.
+
+---
+
+## Barcelona (`barcelona.ts`)
+
+### barcelona-sagrada-familia: OK, open items
+- No changes. €26 with audioguide app, €30 with guided tour, €36 with towers, €40 with guided
+  tour and towers; under 30 €24; under 11 free (sagradafamilia.org, confirmed 11 November 2026).
+  Central tower (Tower of Jesus Christ) completed on 20 February 2026 at 172.5 metres (Vatican
+  News and Catalan News reports).
+- Not verified: opening hours and the age rule for the towers.
+
+### barcelona-park-guell: OK
+- No changes. €18 general, €13.50 for ages 7 to 12 and over 65, free under 7 with a ticket;
+  entry slots between 9:30 and 17:30; no re-entry (parkguell.barcelona, confirmed 11 November
+  2026).
+- Not verified: walking time from Lesseps or Vallcarca metro.
+
+### barcelona-gaudi-houses: OK, open items
+- Changed: La Pedrera now starts at €29 online (was "about €25 online, €29 at the door"), so it
+  is no longer the cheaper house on price alone. Rewritten: both start at about €29 online; every
+  La Pedrera ticket includes the rooftop, while the basic Casa Batlló ticket does not. The
+  "budget" bullet now points to the rooftop being included. Both languages.
+- Confirmed: Casa Batlló General Visit from €29, up to €15 cheaper booked in advance; the
+  Dragon's Rooftop is listed for the Silver tier and up. La Pedrera adult €29, 9:00 to 17:30 in
+  November.
+- Sources: casabatllo.es online tickets, lapedrera.com tickets and "La Pedrera by day".
+- Not verified: La Pedrera box-office price, the "tablet" at Casa Batlló (the ticket page lists
+  an audio guide in 15 languages), evening visit details.
+
+### barcelona-montserrat: OK, open items
+- Changed: the combined ticket. The official all-in Trans Montserrat ticket costs €50 (metro,
+  return FGC train to Monistrol, rack railway or cable car, Sant Joan and Santa Cova funiculars,
+  audiovisual space; open date until 31 December). The article said "roughly €22 to €29".
+  Also removed "cheapest" from the do-it-yourself option, since a half-day tour starts at a
+  similar price. Both languages.
+- Sources: cremallerademontserrat.cat and its ticket shop, fgc.cat Trans Montserrat FAQ.
+- Not verified: half-day tour prices (€50 to €80), train time (about one hour), boys' choir
+  schedule.
+
+### barcelona-3-days: OK, open items
+- No changes. Ticket budget €70 to €100 matches Sagrada Família €26, Park Güell €18 and one
+  Gaudí house from €29.
+- Not verified: meal times, the ten-trip card covering three days.
+
+### barcelona-hidden-gems: OK, open items
+- No changes.
+- Not verified (general knowledge): the list, Santa Maria del Mar built in 55 years, afternoon
+  closing times, Bunkers del Carmel access rules.
+
+### barcelona-airport: OK, open items
+- No changes.
+- Confirmed: Aerobús one way €7.75 (aerobusbarcelona.es rates); metro airport ticket €5.90
+  (tmb.cat airport ticket).
+- Not verified: R2 Nord train fare. The article says "about €5"; third-party sources give either
+  €2.90 (integrated single) or €5.50 (zone 4 single). Check rodalies.gencat.cat before launch.
+  Also not verified: taxi €35 to €40, journey times, the tourist tax. Press reports (Catalan
+  News, Moncloa) agree that the Barcelona tourist tax rose on 1 April 2026 and that a five-star
+  hotel now pays about €12 per person per night (€7 regional plus €5 city); one French source
+  says up to €15. The article's "up to about €12" was kept but needs the official rate table.
+
+### barcelona-best-time: OK, open items
+- No changes.
+- Not verified (general knowledge): climate and sea temperatures, La Mercè and Sant Jordi dates,
+  the mobile congress timing.

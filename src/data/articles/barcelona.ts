@@ -1,24 +1,7 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// Confirmed on official pages:
-// - Sagrada Familia (sagradafamilia.org/en/prices): EUR 26 with audioguide app, EUR 30 with
-//   guided tour, EUR 36 with towers, EUR 40 with guided tour and towers; under 30 EUR 24;
-//   under 11 free. The "temporarily closed" text on the tickets page is a stale fallback
-//   notice: the home page shows no closure and news reports visitors on 11 November 2026.
-// - Park Guell (parkguell.barcelona): EUR 18 general, EUR 13.50 for ages 7 to 12 and over 65,
-//   free under 7; timed tickets with entry between 9:30 and 17:30; no re-entry.
-//
-// Only found on third-party sites or written from general knowledge. Re-check before launch:
-// - Sagrada Familia central tower finished in February 2026 at 172.5 metres (news reports).
-// - Casa Batllo (EUR 29 to 45, dynamic, roof not in the basic ticket) and La Pedrera
-//   (EUR 25 online, EUR 29 on site).
-// - Airport: metro EUR 5.90, Aerobus EUR 7.75, train about EUR 5, taxi EUR 35 to 40.
-// - Montserrat combined ticket (sources give EUR 22 to 29) and travel time.
-// - Tourist tax doubled in April 2026, up to about EUR 12 per person per night.
-// - Opening hours of the Sagrada Familia, tower age rule, the Bunkers access rules,
-//   climate figures and the hidden-gems list.
+// Fact check, 16 November 2026. Sources, changes and the items that could not be
+// verified on an official page are logged per article in FACTCHECK.md.
 
 export const barcelonaArticles: Article[] = [
   {
@@ -226,10 +209,10 @@ export const barcelonaArticles: Article[] = [
       title: "Casa Batlló or La Pedrera: which Gaudí house to visit",
       description: "Two Gaudí houses on the same avenue, both expensive. What each offers and which to pick if you only do one.",
       answer:
-        "Choose Casa Batlló if you want the most striking interior: curved rooms, a blue-tiled light well and a façade like a skeleton. Choose La Pedrera for the rooftop, with its chimneys like helmeted warriors, and for a lower price of about €25 booked online. Casa Batlló starts around €29 and climbs with demand, and its basic ticket no longer includes the roof.",
+        "Choose Casa Batlló if you want the most striking interior: curved rooms, a blue-tiled light well and a façade like a skeleton. Choose La Pedrera for the rooftop, with its chimneys like helmeted warriors, which every ticket includes. Both start at about €29 booked online, but Casa Batlló climbs with demand and its basic ticket no longer includes the roof.",
       facts: [
         ["Casa Batlló", "From about €29, more close to the date"],
-        ["La Pedrera", "About €25 online, €29 at the door"],
+        ["La Pedrera", "From €29 online, rooftop included"],
         ["Distance apart", "Five minutes on foot"],
         ["Time needed", "1 to 1.5 hours each"],
         ["Free alternative", "Both façades from the street"],
@@ -247,7 +230,7 @@ export const barcelonaArticles: Article[] = [
           bullets: [
             "You want one photo-filled hour: Casa Batlló.",
             "You care about architecture and how it works: La Pedrera.",
-            "You are on a budget: La Pedrera, booked online in advance.",
+            "You are on a budget: La Pedrera, where the cheapest ticket already includes the roof.",
             "You want the roof at Casa Batlló: Check the ticket level; the roof terrace needs the next tier up.",
             "You have already seen the Sagrada Família: One house is enough for most people.",
           ],
@@ -270,10 +253,10 @@ export const barcelonaArticles: Article[] = [
       title: "Casa Batlló of La Pedrera: welk huis van Gaudí bezoek je",
       description: "Twee huizen van Gaudí aan dezelfde laan, allebei duur. Wat elk biedt en welke je kiest als je er maar één doet.",
       answer:
-        "Kies Casa Batlló als je het meest opvallende interieur wilt: gebogen kamers, een blauw betegelde lichtschacht en een gevel als een skelet. Kies La Pedrera voor het dak, met schoorstenen als gehelmde krijgers, en voor de lagere prijs van ongeveer €25 als je online boekt. Casa Batlló begint rond de €29 en wordt duurder bij drukte, en bij het basisticket zit het dak niet meer.",
+        "Kies Casa Batlló als je het meest opvallende interieur wilt: gebogen kamers, een blauw betegelde lichtschacht en een gevel als een skelet. Kies La Pedrera voor het dak, met schoorstenen als gehelmde krijgers, dat bij elk ticket zit. Allebei beginnen ze rond de €29 als je online boekt, maar Casa Batlló wordt duurder bij drukte en bij het basisticket zit het dak niet meer.",
       facts: [
         ["Casa Batlló", "Vanaf ongeveer €29, duurder kort vooraf"],
-        ["La Pedrera", "Ongeveer €25 online, €29 aan de deur"],
+        ["La Pedrera", "Vanaf €29 online, dak inbegrepen"],
         ["Afstand", "Vijf minuten lopen van elkaar"],
         ["Benodigde tijd", "1 tot 1,5 uur per huis"],
         ["Gratis alternatief", "Beide gevels vanaf de straat"],
@@ -291,7 +274,7 @@ export const barcelonaArticles: Article[] = [
           bullets: [
             "Je wilt één uur vol foto's: Casa Batlló.",
             "Je geeft om architectuur en hoe die werkt: La Pedrera.",
-            "Je let op je budget: La Pedrera, vooraf online geboekt.",
+            "Je let op je budget: La Pedrera, waar het dak al bij het goedkoopste ticket zit.",
             "Je wilt het dak van Casa Batlló op: Kijk naar het soort ticket; voor het dakterras heb je het volgende niveau nodig.",
             "Je hebt de Sagrada Família al gezien: Eén huis is voor de meeste mensen genoeg.",
           ],
@@ -323,10 +306,10 @@ export const barcelonaArticles: Article[] = [
       title: "Is Montserrat worth a day trip from Barcelona?",
       description: "A mountain monastery an hour from the city. Who should go, how to get there and whether to take a tour.",
       answer:
-        "Montserrat is worth a day trip if you have four days or more in Barcelona and want a break from the city: a monastery set among saw-toothed rock, an hour away by train, with easy mountain walks. With three days or fewer, stay in town. You can go on your own with a combined train and mountain-railway ticket of roughly €22 to €29, or take a tour that adds a guide and often a winery.",
+        "Montserrat is worth a day trip if you have four days or more in Barcelona and want a break from the city: a monastery set among saw-toothed rock, an hour away by train, with easy mountain walks. With three days or fewer, stay in town. You can go on your own with the Trans Montserrat ticket, €50 for the metro, the train, the ride up and the funiculars, or take a tour that adds a guide and often a winery.",
       facts: [
         ["From Barcelona", "About 1 hour by train, plus the ride up"],
-        ["Combined ticket", "Roughly €22 to €29"],
+        ["Combined ticket", "€50 (Trans Montserrat, all transport included)"],
         ["Half-day tour", "Usually €50 to €80"],
         ["Time needed", "6 to 8 hours door to door"],
         ["Verdict", "Worth it from four days in Barcelona"],
@@ -343,7 +326,7 @@ export const barcelonaArticles: Article[] = [
         {
           heading: "On your own or with a tour",
           bullets: [
-            "On your own: The R5 train from Plaça d'Espanya, then the rack railway or the cable car up. The combined ticket covers both. Cheapest and flexible.",
+            "On your own: The R5 train from Plaça d'Espanya, then the rack railway or the cable car up. The Trans Montserrat ticket covers both, plus the funiculars. Flexible: it has no fixed date.",
             "Half-day tour: A coach there and back with a guide, home by early afternoon. Good if your time is tight.",
             "Tour with winery: Adds a tasting at a cava or wine estate nearby. A full day, and the most relaxed way to do it.",
           ],
@@ -366,10 +349,10 @@ export const barcelonaArticles: Article[] = [
       title: "Is Montserrat een dagtrip vanuit Barcelona waard?",
       description: "Een bergklooster op een uur van de stad. Voor wie het iets is, hoe je er komt en of je een tour neemt.",
       answer:
-        "Montserrat is een dagtrip waard als je vier dagen of langer in Barcelona bent en even de stad uit wilt: een klooster tussen grillige rotspieken, op een uur met de trein, met makkelijke bergwandelingen. Met drie dagen of minder blijf je in de stad. Je kunt zelf gaan met een gecombineerd ticket voor trein en bergspoor van ruwweg €22 tot €29, of een tour nemen met een gids en vaak een wijnhuis.",
+        "Montserrat is een dagtrip waard als je vier dagen of langer in Barcelona bent en even de stad uit wilt: een klooster tussen grillige rotspieken, op een uur met de trein, met makkelijke bergwandelingen. Met drie dagen of minder blijf je in de stad. Je kunt zelf gaan met het Trans Montserrat-ticket, €50 voor de metro, de trein, de rit omhoog en de kabelspoortjes, of een tour nemen met een gids en vaak een wijnhuis.",
       facts: [
         ["Vanuit Barcelona", "Ongeveer 1 uur met de trein, plus de rit omhoog"],
-        ["Gecombineerd ticket", "Ruwweg €22 tot €29"],
+        ["Gecombineerd ticket", "€50 (Trans Montserrat, al het vervoer inbegrepen)"],
         ["Halvedagtour", "Meestal €50 tot €80"],
         ["Benodigde tijd", "6 tot 8 uur van deur tot deur"],
         ["Oordeel", "De moeite waard vanaf vier dagen Barcelona"],
@@ -386,7 +369,7 @@ export const barcelonaArticles: Article[] = [
         {
           heading: "Zelf of met een tour",
           bullets: [
-            "Zelf: De trein R5 vanaf Plaça d'Espanya, daarna de tandradbaan of de kabelbaan omhoog. Het gecombineerde ticket dekt beide. Het goedkoopst en flexibel.",
+            "Zelf: De trein R5 vanaf Plaça d'Espanya, daarna de tandradbaan of de kabelbaan omhoog. Het Trans Montserrat-ticket dekt beide, plus de kabelspoortjes. Flexibel: er staat geen vaste datum op.",
             "Halvedagtour: Een bus heen en terug met een gids, en aan het begin van de middag terug. Goed als je weinig tijd hebt.",
             "Tour met wijnhuis: Met een proeverij bij een cava- of wijnhuis in de buurt. Een hele dag, en de meest ontspannen manier.",
           ],
