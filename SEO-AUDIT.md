@@ -20,7 +20,7 @@
 | Boeklinks op de 12 artikelen die er geen hadden (24 pagina's) | Pas-artikelen linken nu naar de pas zelf (Roma Pass, Paris Museum Pass, London Pass, CityPASS); "beste reistijd" naar de stadspagina van de partner. |
 | Structured data uitgebreid | Artikel: afbeelding, datum, auteur en uitgever. Hub: broodkruimel en lijst van artikelen. Home: Organization en WebSite. |
 | `lastmod` in de sitemap | Zoekmachines zien nu welke pagina's zijn bijgewerkt. |
-| Lange titels zonder " \| Tripsworth" | 85 van de 144 titels waren langer dan 60 tekens; nu nog 53. |
+| Lange titels zonder " \| Tripsworth" | 85 van de 144 titels waren langer dan 60 tekens; nu nog 54. |
 | `/llms.txt` | Overzicht van alle gidsen voor AI-assistenten. |
 | AI-crawlers bij naam toegestaan in `robots.txt` | GPTBot, ClaudeBot, PerplexityBot en andere (geldt zodra `ALLOW_INDEXING=true`). |
 | Deelafbeelding voor home, gidsen en juridische pagina's | Die hadden geen `og:image`. |
@@ -51,7 +51,7 @@ Google en AI-antwoorden citeren bronnen die aantoonbaar weten waar ze over schri
 
 - Artikelen zijn gemiddeld 560 woorden (381 tot 668). De pagina's die nu bovenaan staan voor "Colosseum tickets" zitten op 1.500 tot 3.000.
 - [ ] Ticketpagina's uitbreiden met: prijstabel per tickettype, stappen om te boeken, wat te doen als het uitverkocht is, veelgemaakte fouten. Begin met de 10 pagina's met de hoogste koopintentie.
-- [ ] 53 titels zijn nog langer dan 60 tekens. Geef die artikelen een korte zoektitel (veld toevoegen in `ArticleContent`).
+- [ ] 54 titels zijn nog langer dan 60 tekens. Geef die artikelen een korte zoektitel (veld toevoegen in `ArticleContent`).
 - [ ] Links in de lopende tekst tussen artikelen. Nu linkt een artikel alleen via de drie kaarten onderaan.
 
 ### 3.4 Meer verdienen per bezoeker
