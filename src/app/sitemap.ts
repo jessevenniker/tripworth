@@ -22,8 +22,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages[locale] = absoluteUrl(localePath(locale, `/${content.slug}`));
       }
     }
+    // A hub changes whenever one of its articles does.
+    const newest = articlesFor(destination.id, "en")
+      .map((article) => article.updated)
+      .sort()
+      .at(-1);
     for (const url of Object.values(languages)) {
-      entries.push({ url, alternates: { languages } });
+      entries.push({ url, lastModified: newest && `${newest}-01`, alternates: { languages } });
     }
   }
 
@@ -38,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }
     }
     for (const url of Object.values(languages)) {
-      entries.push({ url, alternates: { languages } });
+      entries.push({ url, lastModified: `${article.updated}-01`, alternates: { languages } });
     }
   }
 

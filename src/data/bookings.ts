@@ -224,4 +224,31 @@ export const bookingPicks: Record<string, BookingPick[]> = {
     V("/tours/Aruba/Aruba-Shore-Excursion-4x4-Tour-and-Natural-Pool-Snorkeling/d28-6841PRTAUAPOOL", "Natural Pool jeep safari from the cruise port"),
     V("/tours/Aruba/Aruba-Shore-Excursion-The-Highlights-and-Delights-Tour/d28-89829P36", "Small-group island highlights from the port"),
   ],
+  // Passes ("is it worth it?"): the pass itself, for readers who decide it is.
+  "rome-roma-pass": [
+    G("/rome-l33/roma-pass-48-or-72-hour-city-card-t68896/", "Roma Pass: 48 or 72-hour city card"),
+    V("/Rome-tours/Sightseeing-Tickets-and-Passes/d511-g8", "Rome tickets and passes"),
+  ],
+  "paris-museum-pass": [
+    G("/paris-l16/paris-museum-pass-t49746/", "Paris Museum Pass: 2, 4 or 6 days"),
+    V("/tours/Paris/Paris-Museum-Pass-Your-Ticket-to-Art-History-and-Culture/d479-460119P14", "Paris Museum Pass: 2, 4 or 6 days"),
+  ],
+  "london-pass": [
+    V("/tours/London/London-Pass/d737-3138LONDON", "The London Pass: 1 to 10 days"),
+    G("/london-l57/london-london-passr-save-up-to-50-includes-london-eye-t26207/", "The London Pass: 100+ attractions"),
+  ],
+  "nyc-citypass": [
+    G("/new-york-city-l59/new-york-citypassr-save-up-to-41-at-5-top-attractions-t18597/", "New York CityPASS: 5 attractions"),
+    V("/tours/New-York-City/New-York-CityPass/d687-2640NYC", "New York CityPASS"),
+  ],
+
+  // "Best time to visit" and other pages without one obvious product: the partner's city page.
+  "rome-best-time": [V("/Rome/d511-ttd", "Top-rated tours in Rome"), G("/rome-l33/", "Best things to do in Rome")],
+  "paris-best-time": [V("/Paris/d479-ttd", "Top-rated tours in Paris"), G("/paris-l16/", "Best things to do in Paris")],
+  "london-best-time": [V("/London/d737-ttd", "Top-rated tours in London"), G("/london-l57/", "Best things to do in London")],
+  "barcelona-best-time": [V("/Barcelona/d562-ttd", "Top-rated tours in Barcelona"), G("/barcelona-l45/", "Best things to do in Barcelona")],
+  "nyc-best-time": [V("/New-York-City/d687-ttd", "Top-rated tours in New York"), G("/new-york-city-l59/", "Best things to do in New York")],
+  "cancun-best-time": [V("/Cancun/d631-ttd", "Top-rated tours in Cancún"), G("/cancun-l150/", "Best things to do in Cancún")],
+  "aruba-best-time": [V("/Aruba/d28-ttd", "Top-rated tours in Aruba"), G("/aruba-l169061/", "Best things to do in Aruba")],
+  "aruba-flamingo-beach": [V("/Aruba/d28-ttd", "Top-rated tours in Aruba"), G("/aruba-l169061/", "Best things to do in Aruba")],
 };

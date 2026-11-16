@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArticleCard } from "@/components/ArticleCard";
+import { ArticleCard, articleHref } from "@/components/ArticleCard";
 import { DestinationCard, formatCoords } from "@/components/DestinationCard";
 import { Photo, PhotoCredit } from "@/components/Photo";
 import { Footer, Header } from "@/components/SiteChrome";
-import { articlesFor, articleTypeOrder } from "@/data/articles";
+import { articleBookingLinks, articlesFor, articleTypeOrder } from "@/data/articles";
 import { destinationsFor, getDestinationBySlug, type Destination } from "@/data/destinations";
 import { products } from "@/data/products";
 import { imageUrl } from "@/data/images";
 import { absoluteUrl, formatPrice, isLocale, locales, localePath, localeSettings, SITE_NAME, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import { affiliateEventClass } from "@/lib/analytics";
+import { seoTitle } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string; destination: string }> };
 
@@ -42,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!destination || !content) return {};
   const t = getDictionary(locale);
   return {
-    title: t.hub.title(content.name),
+    title: seoTitle(t.hub.title(content.name)),
     description: t.hub.metaDescription(content.name),
     alternates: {
       canonical: absoluteUrl(localePath(locale, `/${content.slug}`)),
@@ -87,15 +89,52 @@ export default async function DestinationPage({ params }: Props) {
   );
 
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "TouristDestination",
-    name: content.name,
-    description: content.tagline,
-    url: absoluteUrl(localePath(locale, `/${content.slug}`)),
-    geo: { "@type": "GeoCoordinates", latitude: destination.lat, longitude: destination.lng },
-    includesAttraction: content.highlights.map((name) => ({ "@type": "TouristAttraction", name })),
-  };
+  // The bookings worth arranging ahead: the first pick of each ticket, tour and shore-excursion article.
+  const bookAhead = articles
+    .filter((article) => ["tickets", "comparisons", "shoreExcursions"].includes(article.type))
+    .flatMap((article) => {
+      const [link] = articleBookingLinks(article, locale);
+      // "Colosseum tickets: which one to buy" becomes "Colosseum tickets".
+      return link ? [{ article, link, label: article[locale]!.title.split(":")[0] }] : [];
+    })
+    .slice(0, 4);
+
+  const hubUrl = absoluteUrl(localePath(locale, `/${content.slug}`));
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristDestination",
+      name: content.name,
+      description: content.tagline,
+      url: hubUrl,
+      geo: { "@type": "GeoCoordinates", latitude: destination.lat, longitude: destination.lng },
+      includesAttraction: content.highlights.map((name) => ({ "@type": "TouristAttraction", name })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: SITE_NAME, item: absoluteUrl(localePath(locale, "/")) },
+        { "@type": "ListItem", position: 2, name: content.name },
+      ],
+    },
+    // The guides on this page, so search and answer engines see the hub as one collection.
+    ...(articles.length > 0
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: t.hub.title(content.name),
+            itemListElement: articles.map((article, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              name: article[locale]!.title,
+              url: absoluteUrl(articleHref(destination, article, locale)),
+            })),
+          },
+        ]
+      : []),
+  ];
 
   return (
     <>
@@ -123,6 +162,15 @@ export default async function DestinationPage({ params }: Props) {
             {t.hub.title(content.name)}
           </h1>
           <PhotoCredit image={destination.id} label={t.ui.photoBy} className="mt-6 inline-block text-white/50" />
+          {bookAhead.length > 0 && (
+            // FTC: the affiliate disclosure has to be visible before the first affiliate link.
+            <p className="mt-4 max-w-2xl text-sm leading-snug text-white/80">
+              {t.ui.disclosureTop}{" "}
+              <Link href={`${localePath(locale, "/terms")}#affiliate-links`} className="underline underline-offset-2 hover:text-white">
+                {t.ui.howWeEarn}
+              </Link>
+            </p>
+          )}
         </div>
       </section>
 
@@ -147,6 +195,37 @@ export default async function DestinationPage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {/* Direct bookings: hubs draw the broad "things to do" searches, so the top picks are one tap away. */}
+        {bookAhead.length > 0 && (
+          <section className="mx-auto max-w-6xl px-5 pt-16">
+            <div className="flex flex-wrap items-end justify-between gap-3">
+              <h2 className="font-display text-4xl font-semibold">{t.hub.bookAheadTitle}</h2>
+              <p className="max-w-sm text-sm text-muted">{t.hub.bookAheadLead}</p>
+            </div>
+            <ul className="mt-6 grid gap-4 sm:grid-cols-2">
+              {bookAhead.map(({ article, link, label }) => (
+                <li key={article.id} className="flex flex-col justify-between gap-4 rounded-3xl border border-line bg-paper p-5">
+                  <h3 className="font-display text-2xl font-semibold leading-tight">{label}</h3>
+                  <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="sponsored nofollow noopener"
+                      className={`${affiliateEventClass(link.partner, destination.id, `hub-${article.id}`)} inline-flex items-center gap-2 rounded-full bg-coral px-5 py-2.5 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-[#f2573a]`}
+                    >
+                      {t.ui.bookOn(link.partner)}
+                      <span>→</span>
+                    </a>
+                    <Link href={articleHref(destination, article, locale)} className="text-sm font-medium underline-offset-4 hover:underline">
+                      {t.hub.ourAdvice} →
+                    </Link>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Articles, grouped by type */}
         {articleTypeOrder.map((type) => {

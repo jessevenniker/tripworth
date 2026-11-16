@@ -11,6 +11,7 @@ import { products } from "@/data/products";
 import { absoluteUrl, isLocale, locales, localePath, localeSettings, SITE_NAME, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { affiliateEventClass } from "@/lib/analytics";
+import { organization, seoTitle } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string; destination: string; article: string }> };
 
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   languages["x-default"] = languages.en;
 
   return {
-    title: content.title,
+    title: seoTitle(content.title),
     description: content.description,
     alternates: { canonical: articleUrl(destination, article, locale), languages },
     openGraph: {
@@ -107,16 +108,54 @@ export default async function ArticlePage({ params }: Props) {
     new Date(`${article.updated}-01T00:00:00Z`),
   );
 
+  // Booking box. Shown in the sidebar on wide screens and right under the key facts on phones,
+  // where the sidebar would otherwise end up below the whole article.
+  const bookingBox = links.length > 0 && (
+    <div className="rounded-3xl bg-night p-6 text-white">
+      <h2 className="font-display text-2xl font-semibold">{t.ui.bookTitle}</h2>
+      <p className="mt-2 text-sm text-white/70">{t.ui.bookLead}</p>
+      <div className="mt-5 space-y-3">
+        {links.map((link, index) => (
+          <a
+            key={link.url}
+            href={link.url}
+            target="_blank"
+            rel="sponsored nofollow noopener"
+            // Plausible tagged events: counts each click as "Affiliate Click" with these properties.
+            className={`${affiliateEventClass(link.partner, destination.id, article.id)} block rounded-2xl px-5 py-3 transition hover:-translate-y-0.5 ${
+              index === 0 ? "bg-coral text-white hover:bg-[#f2573a]" : "border border-white/30 hover:bg-white hover:text-night"
+            }`}
+          >
+            {/* Product names come from the partner sites in English, so they are shown on English pages only. */}
+            {link.title && locale === "en" && (
+              <span className="block text-sm leading-snug opacity-85">{link.title}</span>
+            )}
+            <span className="mt-0.5 flex items-center justify-between font-medium">
+              {t.ui.bookOn(link.partner)}
+              <span>→</span>
+            </span>
+          </a>
+        ))}
+      </div>
+      <p className="mt-4 text-[11px] leading-snug text-white/50">{t.footer.disclosure}</p>
+    </div>
+  );
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "Article",
       headline: content.title,
       description: content.description,
+      image: [imageUrl(article.image, 1920), imageUrl(article.image, 1280)],
+      // Only the month of the last check is recorded, so it serves as both dates.
+      datePublished: `${article.updated}-01`,
       dateModified: `${article.updated}-01`,
       inLanguage: localeSettings[locale].htmlLang,
       mainEntityOfPage: articleUrl(destination, article, locale),
-      publisher: { "@type": "Organization", name: SITE_NAME },
+      about: { "@type": "TouristDestination", name: destinationContent.name },
+      author: organization,
+      publisher: organization,
     },
     {
       "@context": "https://schema.org",
@@ -143,7 +182,7 @@ export default async function ArticlePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative flex min-h-[64svh] flex-col overflow-hidden bg-night text-white">
-        <Photo image={article.image} alt="" eager className="absolute inset-0 h-full w-full object-cover" />
+        <Photo image={article.image} alt={content.title} eager className="absolute inset-0 h-full w-full object-cover" />
         <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/30 to-night/95" />
         <Header
           locale={locale}
@@ -167,7 +206,7 @@ export default async function ArticlePage({ params }: Props) {
           <p className="mt-5 flex flex-wrap gap-x-5 gap-y-1 font-mono text-xs uppercase tracking-widest text-white/65">
             <span>{t.ui.minRead(article.readMinutes)}</span>
             <span>
-              {t.ui.updated} {updated}
+              {t.ui.updated} <time dateTime={article.updated}>{updated}</time>
             </span>
             <PhotoCredit image={article.image} label={t.ui.photoBy} className="normal-case tracking-normal" />
           </p>
@@ -201,6 +240,8 @@ export default async function ArticlePage({ params }: Props) {
                 </div>
               ))}
             </dl>
+
+            {bookingBox && <div className="mt-10 lg:hidden">{bookingBox}</div>}
 
             {content.sections.map((section) => (
               <section key={section.heading} className="mt-12">
@@ -253,36 +294,7 @@ export default async function ArticlePage({ params }: Props) {
           {/* Sidebar: booking and guide, stays in view while reading */}
           <aside className="lg:pt-10">
             <div className="space-y-5 lg:sticky lg:top-6">
-              {links.length > 0 && (
-                <div className="rounded-3xl bg-night p-6 text-white">
-                  <h2 className="font-display text-2xl font-semibold">{t.ui.bookTitle}</h2>
-                  <p className="mt-2 text-sm text-white/70">{t.ui.bookLead}</p>
-                  <div className="mt-5 space-y-3">
-                    {links.map((link, index) => (
-                      <a
-                        key={link.url}
-                        href={link.url}
-                        target="_blank"
-                        rel="sponsored nofollow noopener"
-                        // Plausible tagged events: counts each click as "Affiliate Click" with these properties.
-                        className={`${affiliateEventClass(link.partner, destination.id, article.id)} block rounded-2xl px-5 py-3 transition hover:-translate-y-0.5 ${
-                          index === 0 ? "bg-coral text-white hover:bg-[#f2573a]" : "border border-white/30 hover:bg-white hover:text-night"
-                        }`}
-                      >
-                        {/* Product names come from the partner sites in English, so they are shown on English pages only. */}
-                        {link.title && locale === "en" && (
-                          <span className="block text-sm leading-snug opacity-85">{link.title}</span>
-                        )}
-                        <span className="mt-0.5 flex items-center justify-between font-medium">
-                          {t.ui.bookOn(link.partner)}
-                          <span>→</span>
-                        </span>
-                      </a>
-                    ))}
-                  </div>
-                  <p className="mt-4 text-[11px] leading-snug text-white/50">{t.footer.disclosure}</p>
-                </div>
-              )}
+              {bookingBox && <div className="hidden lg:block">{bookingBox}</div>}
               {guide && (
                 <Link href={localePath(locale, "/guides")} className="photo-card group relative block overflow-hidden rounded-3xl p-6 text-white">
                   <Photo image={destination.id} alt="" sizes="340px" className="absolute inset-0 h-full w-full object-cover" />

@@ -11,6 +11,7 @@ import type { ImageKey } from "@/data/images";
 import { products } from "@/data/products";
 import { absoluteUrl, formatPrice, isLocale, localePath, localeSettings, SITE_NAME, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import { organization } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -112,8 +113,23 @@ export default async function HomePage({ params }: Props) {
 
   const board = [...available, ...available];
 
+  // Tells search and answer engines who publishes the site and in which languages.
+  const jsonLd = [
+    { "@context": "https://schema.org", ...organization, description: t.home.metaDescription },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: absoluteUrl(localePath(locale, "/")),
+      inLanguage: localeSettings[locale].htmlLang,
+      publisher: { "@id": organization["@id"] },
+    },
+  ];
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
       {/* Arrival intro: the plane flies across and uncovers the page. */}
       <div className="intro-curtain" aria-hidden="true">
         <div className="intro-label flex h-full flex-col items-center justify-center text-white">

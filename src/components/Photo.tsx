@@ -25,6 +25,8 @@ export function Photo({
       sizes={sizes}
       alt={alt}
       loading={eager ? "eager" : "lazy"}
+      // The eager photo is the hero, which is the largest element on the page: fetch it first.
+      fetchPriority={eager ? "high" : undefined}
       decoding="async"
       className={className}
       style={style}
