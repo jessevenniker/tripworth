@@ -166,3 +166,66 @@ Economic Area more. The English pages quote the non-EEA price, the Dutch pages t
   25 December), Versailles Monday.
 - Sources: louvre.fr, musee-orsay.fr.
 - Not verified (general knowledge): climate figures and August closures.
+
+---
+
+## London (`london.ts`)
+
+### london-tower: OK, open items
+- Changed: adult ticket £38 (was "about £37"); added children 5 to 15 £19. Both languages.
+- Confirmed: Crown Jewels and Yeoman Warder tour included; November hours 10:00 to 16:30 on
+  Sunday and Monday (9:00 Tuesday to Saturday), last entry 15:00.
+- Source: hrp.org.uk Tower of London home and tickets page.
+- Not verified: length of the Yeoman Warder tour ("an hour"), Ceremony of the Keys details.
+
+### london-westminster-abbey: OK
+- No changes. Adults £32, 65+ and students £29, children 6 to 17 £14, under 6 free;
+  multimedia guide included in 14 languages; open Monday to Saturday, Sunday for services only.
+- Source: westminster-abbey.org "Opening times and prices" and "Visit us".
+- Not verified: Changing of the Guard schedule (the article only says it is not daily).
+
+### london-harry-potter: OK
+- Changed: under 4s go free (was "under 5 free"). Both languages. Note: the official page lists
+  child tickets as 5 to 15 and free entry for under 4s; it does not say what a 4-year-old pays.
+- Confirmed: adults £58.50 and children £47 in 2026, family £188; Euston to Watford Junction
+  about 20 minutes, free shuttle about 15 minutes. Package with transfer from £94 confirmed on
+  11 November 2026.
+- Source: wbstudiotour.co.uk "Tickets" and "Getting here".
+
+### london-day-trips: OK, open items
+- Changed: Windsor Castle £32 booked ahead, £36 on the day (was "about £31 to £36");
+  Stonehenge about £25 to £32 (was "about £22 to £27"). The official Stonehenge rates are
+  £24.65 to £27.20 online in advance and £29 to £32 on the day (without and with the optional
+  donation). Both languages.
+- Sources: rct.uk Windsor Castle, english-heritage.org.uk Stonehenge prices.
+- Not verified: coach tour prices (£60 to £80, £90 to £130), train times to Windsor and Bath.
+
+### london-pass: OK
+- Changed: one-day pass costs £105 at full price (was "roughly £80 to £100"); the London Eye is
+  included, so it was removed from "Not included"; the one-day sum is now Tower £38 + Abbey £32
+  = £70, and a third sight "reaches" (no longer "passes") the price of a pass. Both languages.
+- Source: londonpass.com product page "The London Pass" (adult £105, child £75) and home page.
+
+### london-3-days: OK, open items
+- No changes. Ticket budget "about £70" matches Tower £38 + Abbey £32.
+- Not verified: Changing of the Guard start time (about 11 am), the 12.5 percent service charge.
+
+### london-hidden-gems: OK, open items
+- No changes.
+- Not verified (general knowledge): the list itself, St Dunstan in the East history.
+
+### london-arrival: OK, open items
+- Changed: Heathrow Express £26 on the day, from £10 booked ahead (was "about £25").
+- Confirmed: UK ETA £20, valid two years or until the passport expires, stays up to six months
+  (gov.uk). Piccadilly line £5.90 and Elizabeth line £15.50 pay as you go from Heathrow to
+  central London (TfL fares API, fares from 1 November 2026; Elizabeth line to Paddington is
+  £14.60). Heathrow Express every 15 minutes, 15 minutes to Paddington.
+- Sources: gov.uk/eta, api.tfl.gov.uk fares, heathrowexpress.com.
+- Not verified: Heathrow Express fare from its own fares page (search results show £26; one
+  page says £25), black cab £60 to £100, Eurostar Amsterdam to London "about 4 hours", train
+  times from Gatwick, Stansted and Luton.
+
+### london-best-time: OK, open items
+- No changes.
+- Not verified (general knowledge): climate figures, Buckingham Palace State Rooms in July to
+  September, fewer Changing of the Guard days in winter.

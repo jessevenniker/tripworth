@@ -1,25 +1,7 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// Confirmed on official pages:
-// - Westminster Abbey (westminster-abbey.org): adults GBP 32, children 6 to 17 GBP 14,
-//   under 6 free, multimedia guide included.
-// - Harry Potter studio tour (wbstudiotour.co.uk): adults GBP 58.50, children 5 to 15 GBP 47
-//   in 2026; ticket-and-transfer package from central London from GBP 94.
-// - Tower of London (hrp.org.uk, via search): the Crown Jewels are included in the ticket.
-//   The adult price appears as GBP 37 and GBP 38 on different official pages.
-// - Stonehenge (english-heritage.org.uk, via search): booking ahead saves 15 percent.
-//
-// Only found on third-party sites or written from general knowledge. Re-check before launch:
-// - UK ETA: GBP 20, valid two years, required for US and EU citizens (official page not read).
-// - Heathrow fares: Piccadilly line GBP 5.90, Elizabeth line GBP 15.50, Heathrow Express
-//   about GBP 25, taxi GBP 60 to 100.
-// - London Pass prices (sources give GBP 79 to 99 for one day).
-// - Stonehenge (about GBP 22 to 27) and Windsor Castle (about GBP 31 to 36) prices.
-// - Changing of the Guard days, Abbey closed to visitors on Sundays, studio shuttle from
-//   Watford Junction, Eurostar journey time, passport rule for EU citizens, day-trip tour
-//   prices, climate figures and the hidden-gems list.
+// Fact check, 16 November 2026. Sources, changes and the items that could not be
+// verified on an official page are logged per article in FACTCHECK.md.
 
 export const londonArticles: Article[] = [
   {
@@ -35,9 +17,9 @@ export const londonArticles: Article[] = [
       title: "Tower of London tickets: price, Crown Jewels and the best time to go",
       description: "What a Tower of London ticket costs, what it includes and how to see the Crown Jewels without the line.",
       answer:
-        "A Tower of London ticket costs about £37 for adults and includes the Crown Jewels, the White Tower and a tour with a Yeoman Warder. Book online for a date in advance, arrive at opening and walk straight to the Crown Jewels: the line there is the longest in the fortress by late morning. Allow three hours.",
+        "A Tower of London ticket costs £38 for adults and includes the Crown Jewels, the White Tower and a tour with a Yeoman Warder. Book online for a date in advance, arrive at opening and walk straight to the Crown Jewels: the line there is the longest in the fortress by late morning. Allow three hours.",
       facts: [
-        ["Adult ticket", "About £37"],
+        ["Adult ticket", "£38, children 5 to 15 £19"],
         ["Includes", "Crown Jewels, White Tower, Yeoman Warder tour"],
         ["Time needed", "3 hours"],
         ["Best time", "At opening, on a weekday"],
@@ -80,9 +62,9 @@ export const londonArticles: Article[] = [
       title: "Tower of London-tickets: prijs, kroonjuwelen en het beste moment",
       description: "Wat een ticket voor de Tower of London kost, wat erbij zit en hoe je de kroonjuwelen ziet zonder rij.",
       answer:
-        "Een ticket voor de Tower of London kost ongeveer £37 voor volwassenen en is inclusief de kroonjuwelen, de White Tower en een rondleiding met een Yeoman Warder. Boek vooraf online voor een vaste datum, kom bij opening en loop meteen door naar de kroonjuwelen: daar staat aan het eind van de ochtend de langste rij van het fort. Reken op drie uur.",
+        "Een ticket voor de Tower of London kost £38 voor volwassenen en is inclusief de kroonjuwelen, de White Tower en een rondleiding met een Yeoman Warder. Boek vooraf online voor een vaste datum, kom bij opening en loop meteen door naar de kroonjuwelen: daar staat aan het eind van de ochtend de langste rij van het fort. Reken op drie uur.",
       facts: [
-        ["Ticket volwassene", "Ongeveer £37"],
+        ["Ticket volwassene", "£38, kinderen van 5 t/m 15 £19"],
         ["Inclusief", "Kroonjuwelen, White Tower, rondleiding"],
         ["Benodigde tijd", "3 uur"],
         ["Beste moment", "Bij opening, op een doordeweekse dag"],
@@ -232,7 +214,7 @@ export const londonArticles: Article[] = [
         "Tickets for the Warner Bros. Studio Tour cost £58.50 for adults and £47 for children aged 5 to 15, and must be booked in advance for a timed slot. Popular dates sell out weeks or months ahead. If the official site is full, a package with coach transfer from central London, from about £94, often still has places.",
       facts: [
         ["Adult ticket", "£58.50"],
-        ["Children 5 to 15", "£47, under 5 free"],
+        ["Children 5 to 15", "£47, under 4s free"],
         ["With coach from London", "From about £94"],
         ["Book ahead", "As early as possible; no tickets at the door"],
         ["Where", "Leavesden, near Watford, north-west of London"],
@@ -277,7 +259,7 @@ export const londonArticles: Article[] = [
         "Tickets voor de Warner Bros. Studio Tour kosten £58,50 voor volwassenen en £47 voor kinderen van 5 tot en met 15 jaar, en je moet ze vooraf boeken voor een vast tijdslot. Populaire data zijn weken of maanden vooruit uitverkocht. Is de officiële site vol, dan is er vaak nog plek in een pakket met busvervoer vanuit het centrum van Londen, vanaf ongeveer £94.",
       facts: [
         ["Ticket volwassene", "£58,50"],
-        ["Kinderen 5 t/m 15", "£47, onder 5 gratis"],
+        ["Kinderen 5 t/m 15", "£47, onder 4 jaar gratis"],
         ["Met bus vanuit Londen", "Vanaf ongeveer £94"],
         ["Vooruit boeken", "Zo vroeg mogelijk; geen verkoop aan de deur"],
         ["Waar", "Leavesden, bij Watford, ten noordwesten van Londen"],
@@ -330,8 +312,8 @@ export const londonArticles: Article[] = [
       answer:
         "The best day trip from London for most visitors is Windsor Castle by train: 30 to 50 minutes each way, no tour needed, and half a day is enough. Take a coach tour only for Stonehenge, which is awkward to reach on your own. The popular Stonehenge, Windsor and Bath tour covers all three in twelve hours, with little time at each.",
       facts: [
-        ["Windsor Castle", "About £31 to £36, half a day by train"],
-        ["Stonehenge", "About £22 to £27, cheaper booked ahead"],
+        ["Windsor Castle", "£32 booked ahead, £36 on the day; half a day by train"],
+        ["Stonehenge", "About £25 to £32, cheaper booked ahead"],
         ["Stonehenge coach tour", "Usually £60 to £80, 6 hours"],
         ["Three-stop coach tour", "Usually £90 to £130, 12 hours"],
         ["Bath by train", "About 1 hour 20 minutes from Paddington"],
@@ -370,8 +352,8 @@ export const londonArticles: Article[] = [
       answer:
         "De beste dagtrip vanuit Londen is voor de meeste bezoekers Windsor Castle met de trein: 30 tot 50 minuten per rit, geen tour nodig, en een halve dag is genoeg. Neem alleen een bustour voor Stonehenge, dat op eigen gelegenheid lastig te bereiken is. De populaire tour langs Stonehenge, Windsor en Bath doet alle drie in twaalf uur, met weinig tijd per plek.",
       facts: [
-        ["Windsor Castle", "Ongeveer £31 tot £36, halve dag met de trein"],
-        ["Stonehenge", "Ongeveer £22 tot £27, goedkoper vooraf geboekt"],
+        ["Windsor Castle", "£32 vooraf, £36 op de dag zelf; halve dag met de trein"],
+        ["Stonehenge", "Ongeveer £25 tot £32, goedkoper vooraf geboekt"],
         ["Bustour Stonehenge", "Meestal £60 tot £80, 6 uur"],
         ["Bustour met drie stops", "Meestal £90 tot £130, 12 uur"],
         ["Bath met de trein", "Ongeveer 1 uur en 20 minuten vanaf Paddington"],
@@ -416,19 +398,19 @@ export const londonArticles: Article[] = [
       title: "Is the London Pass worth it?",
       description: "London's best museums are free, which changes the maths. When the London Pass pays off and when it does not.",
       answer:
-        "For most visitors the London Pass is not worth it. A one-day pass costs roughly £80 to £100, and you need three major paid sights in a single day to break even. London's best museums, including the British Museum, the National Gallery and Tate Modern, are free, so most trips involve only two or three paid sights in total.",
+        "For most visitors the London Pass is not worth it. A one-day pass costs £105 at full price, often less in a sale, and you need three major paid sights in a single day to break even. London's best museums, including the British Museum, the National Gallery and Tate Modern, are free, so most trips involve only two or three paid sights in total.",
       facts: [
-        ["1-day pass", "Roughly £80 to £100"],
+        ["1-day pass", "£105 at full price, often discounted"],
         ["Break-even", "About three major paid sights per day"],
         ["Free anyway", "British Museum, National Gallery, Tate Modern, V&A"],
-        ["Not included", "Harry Potter Studio Tour, London Eye on most passes"],
+        ["Not included", "Harry Potter Studio Tour"],
         ["Verdict", "Skip it, unless you sightsee at full speed"],
       ],
       sections: [
         {
           heading: "The maths for one day",
           paragraphs: [
-            "The Tower of London (about £37) plus Westminster Abbey (£32) comes to £69. Add a third paid sight, such as St Paul's Cathedral or the view from The Shard, and you pass the price of a one-day pass. That is a full day with no time for a free museum, a park or a long lunch.",
+            "The Tower of London (£38) plus Westminster Abbey (£32) comes to £70. Add a third paid sight, such as St Paul's Cathedral or the view from The Shard, and you reach the price of a one-day pass. That is a full day with no time for a free museum, a park or a long lunch.",
           ],
         },
         {
@@ -457,19 +439,19 @@ export const londonArticles: Article[] = [
       title: "Is de London Pass de moeite waard?",
       description: "De beste musea van Londen zijn gratis, en dat verandert de rekensom. Wanneer de London Pass loont en wanneer niet.",
       answer:
-        "Voor de meeste bezoekers is de London Pass het niet waard. Een pas voor één dag kost ruwweg £80 tot £100, en je hebt drie grote betaalde bezienswaardigheden op één dag nodig om quitte te spelen. De beste musea van Londen, waaronder het British Museum, de National Gallery en Tate Modern, zijn gratis, dus de meeste reizen tellen in totaal maar twee of drie betaalde bezienswaardigheden.",
+        "Voor de meeste bezoekers is de London Pass het niet waard. Een pas voor één dag kost £105 voor de volle prijs, in een actie vaak minder, en je hebt drie grote betaalde bezienswaardigheden op één dag nodig om quitte te spelen. De beste musea van Londen, waaronder het British Museum, de National Gallery en Tate Modern, zijn gratis, dus de meeste reizen tellen in totaal maar twee of drie betaalde bezienswaardigheden.",
       facts: [
-        ["Pas voor 1 dag", "Ruwweg £80 tot £100"],
+        ["Pas voor 1 dag", "£105 voor de volle prijs, vaak met korting"],
         ["Quitte spelen", "Ongeveer drie grote betaalde bezienswaardigheden per dag"],
         ["Toch al gratis", "British Museum, National Gallery, Tate Modern, V&A"],
-        ["Niet inbegrepen", "Harry Potter Studio Tour, London Eye bij de meeste passen"],
+        ["Niet inbegrepen", "Harry Potter Studio Tour"],
         ["Oordeel", "Overslaan, tenzij je in hoog tempo wilt bezichtigen"],
       ],
       sections: [
         {
           heading: "De rekensom voor één dag",
           paragraphs: [
-            "De Tower of London (ongeveer £37) plus Westminster Abbey (£32) is samen £69. Met een derde betaalde bezienswaardigheid, zoals St Paul's Cathedral of het uitzicht vanaf The Shard, kom je boven de prijs van een dagpas uit. Dat is een volle dag, zonder tijd voor een gratis museum, een park of een lange lunch.",
+            "De Tower of London (£38) plus Westminster Abbey (£32) is samen £70. Met een derde betaalde bezienswaardigheid, zoals St Paul's Cathedral of het uitzicht vanaf The Shard, kom je op de prijs van een dagpas. Dat is een volle dag, zonder tijd voor een gratis museum, een park of een lange lunch.",
           ],
         },
         {
@@ -708,7 +690,7 @@ export const londonArticles: Article[] = [
         ["UK ETA", "£20, valid 2 years, apply before travel"],
         ["Elizabeth line", "£15.50, about 35 minutes"],
         ["Piccadilly line (Tube)", "£5.90, 50 to 60 minutes"],
-        ["Heathrow Express", "About £25, 15 minutes to Paddington"],
+        ["Heathrow Express", "£26 on the day, from £10 booked ahead; 15 minutes to Paddington"],
         ["Black cab", "About £60 to £100"],
         ["Paying", "Tap a contactless card; no ticket needed"],
       ],
