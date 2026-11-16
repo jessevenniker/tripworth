@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/ArticleCard";
 import { Photo, PhotoCredit } from "@/components/Photo";
 import { Footer, Header } from "@/components/SiteChrome";
-import { articles, articlesFor, bookingLinks, getArticleBySlug, type Article } from "@/data/articles";
+import { articleBookingLinks, articles, articlesFor, getArticleBySlug, type Article } from "@/data/articles";
 import { destinations, getDestinationBySlug, type Destination } from "@/data/destinations";
 import { imageUrl } from "@/data/images";
 import { products } from "@/data/products";
@@ -97,7 +97,7 @@ export default async function ArticlePage({ params }: Props) {
   const otherLocale: Locale = locale === "en" ? "nl" : "en";
   const hasOther = article[otherLocale] && destination[otherLocale];
   const hubHref = localePath(locale, `/${destinationContent.slug}`);
-  const links = article.bookingQuery ? bookingLinks(article.bookingQuery) : [];
+  const links = articleBookingLinks(article, locale);
   const guide = products.find((product) => product.destinationId === destination.id);
   const related = articlesFor(destination.id, locale)
     .filter((other) => other.id !== article.id)
@@ -260,17 +260,23 @@ export default async function ArticlePage({ params }: Props) {
                   <div className="mt-5 space-y-3">
                     {links.map((link, index) => (
                       <a
-                        key={link.partner}
+                        key={link.url}
                         href={link.url}
                         target="_blank"
                         rel="sponsored nofollow noopener"
                         // Plausible tagged events: counts each click as "Affiliate Click" with these properties.
-                        className={`${affiliateEventClass(link.partner, destination.id, article.id)} flex items-center justify-between rounded-full px-5 py-3 font-medium transition hover:-translate-y-0.5 ${
+                        className={`${affiliateEventClass(link.partner, destination.id, article.id)} block rounded-2xl px-5 py-3 transition hover:-translate-y-0.5 ${
                           index === 0 ? "bg-coral text-white hover:bg-[#f2573a]" : "border border-white/30 hover:bg-white hover:text-night"
                         }`}
                       >
-                        {t.ui.bookOn(link.partner)}
-                        <span>→</span>
+                        {/* Product names come from the partner sites in English, so they are shown on English pages only. */}
+                        {link.title && locale === "en" && (
+                          <span className="block text-sm leading-snug opacity-85">{link.title}</span>
+                        )}
+                        <span className="mt-0.5 flex items-center justify-between font-medium">
+                          {t.ui.bookOn(link.partner)}
+                          <span>→</span>
+                        </span>
                       </a>
                     ))}
                   </div>

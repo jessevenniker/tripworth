@@ -2,8 +2,8 @@ export const locales = ["en", "nl"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "en";
 
-// Placeholder until the brand name and domain are decided.
-export const SITE_NAME = "Wanderport";
+// Brand name. Domains: tripsworth.com (main) and tripsworth.nl, both still to be registered.
+export const SITE_NAME = "Tripsworth";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const localeSettings: Record<

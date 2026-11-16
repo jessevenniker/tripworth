@@ -2,7 +2,7 @@
 // Fill these in before launch (open decision 5 in BOUWPLAN.md: legal form and country).
 // Empty fields show up as "[...]" placeholders on the legal pages.
 export const company = {
-  /** Registered name, for example "Wanderport B.V." or the name of a sole trader. */
+  /** Registered name, for example "Tripsworth B.V." or the name of a sole trader. */
   legalName: "",
   /** Street, postcode and city. */
   address: "",
