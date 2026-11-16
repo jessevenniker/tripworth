@@ -94,3 +94,75 @@ peso prices where that is what is paid on the spot.
 ### rome-best-time: OK, open items
 - No changes.
 - Not verified (general knowledge): temperatures and the August restaurant closures.
+
+---
+
+## Paris (`paris.ts`)
+
+Since January 2026 several French state museums charge visitors from outside the European
+Economic Area more. The English pages quote the non-EEA price, the Dutch pages the EEA price.
+
+### paris-eiffel-tickets: OK
+- Changed: booking window. Lift tickets go on sale online 90 days ahead (was "up to about 2
+  months"). Both languages.
+- Confirmed: lift to the top €36.70, stairs plus lift to the top €28, lift to the 2nd floor
+  €23.50, stairs to the 2nd floor €14.80 (adults); opening 9:30 to 23:00 in November.
+- Sources: toureiffel.paris "Rates and opening times", ticket.toureiffel.paris.
+- Not verified: the 30 to 45 minute wait for the second lift, the 674 steps.
+
+### paris-louvre-tickets: OK
+- No changes. €32 non-EEA, €22 EEA; free under 18 and for EEA residents under 26; closed
+  Tuesdays and on 1 January, 1 May, 25 December; 9:00 to 18:00, Wednesday and Friday to 21:00;
+  free on the first Friday of the month after 18:00 except July and August.
+- Source: louvre.fr "Hours and admission".
+- Not verified: "about 35,000 works".
+
+### paris-versailles: OK, open items
+- No changes. Passport €35 non-EEA / €32 EEA from 1 April to 31 October, €25 / €22 in low
+  season; closed Mondays; Palace needs a time slot; Trianon opens at noon.
+- Source: chateauversailles.fr (confirmed 11 November 2026; the ticket page moved and was not
+  re-read on 16 November).
+- Not verified: RER C journey time (about 40 minutes), walking time to the Trianon.
+
+### paris-seine-cruises: OK, open items
+- No changes. Batobus (hop-on boat) day pass €23 adult, matching "about €20 to €25".
+- Source: batobus.com.
+- Not verified: one-hour cruise prices (€15 to €20) and dinner cruises from €90. Operator sites
+  (Bateaux Mouches, Vedettes du Pont Neuf, Bateaux Parisiens) did not show prices to a fetch.
+
+### paris-museum-pass: OK
+- No changes. €85 for 2 days, €105 for 4 days, €125 for 6 days (hours count from the first
+  visit). The sums in the article hold: Orsay €16, Sainte-Chapelle €22 non-EEA / €16 EEA.
+- Sources: parismuseumpass.fr, musee-orsay.fr, sainte-chapelle.fr.
+
+### paris-3-days: OK
+- Changed: ticket budget. With Eiffel summit €36.70, Arc de Triomphe €16 to €22, Louvre,
+  Sainte-Chapelle and Versailles or Orsay, the US total is €130 to €150 (was "about €130") and
+  the EEA total €110 to €130 (was "about €110"). Both languages.
+- Confirmed: Notre-Dame ground floor free, towers €16 and included in the Museum Pass; Arc de
+  Triomphe €22 April to September (except Wednesdays, €16), €16 October to March.
+- Sources: paris-arc-de-triomphe.fr, tours-notre-dame-de-paris.fr, parismuseumpass.fr,
+  plus the ticket sources above.
+
+### paris-hidden-gems: OK, open items
+- No changes.
+- Not verified (general knowledge): the covered passages (about twenty surviving), free
+  permanent collections of the city museums, and the rest of the list.
+
+### paris-airport: OK, open items
+- Changed: the FAQ called bus 9517 "the cheaper and slower" replacement. According to
+  Île-de-France Mobilités it runs from Saint-Denis-Pleyel (metro 13 and 14, RER D) to RoissyPôle
+  in about 30 minutes on a Bus-Tram ticket, not from central Paris. Rewritten in both languages.
+- Confirmed: RoissyBus stopped on 1 March 2026; RER B airport fare €14, a train every 6 to 15
+  minutes. Taxi flat fares €56 Right Bank, €65 Left Bank (parisjetaime.com, confirmed
+  11 November 2026).
+- Sources: iledefrance-mobilites.fr "End of the RoissyBus".
+- Not verified: RER B journey time (35 to 45 minutes), the €7 charge for a booked taxi, Orly
+  flat fares, private transfer from €70, Eurostar Amsterdam to Paris "just over three hours",
+  the Crit'Air sticker rule.
+
+### paris-best-time: OK, open items
+- No changes. Closing days confirmed: Louvre Tuesday, Musée d'Orsay Monday (and 1 May,
+  25 December), Versailles Monday.
+- Sources: louvre.fr, musee-orsay.fr.
+- Not verified (general knowledge): climate figures and August closures.
