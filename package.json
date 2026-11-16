@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "build:guides": "tsx scripts/build-guides.ts"
+    "build:guides": "tsx scripts/build-guides.ts",
+    "upload:guides": "tsx --env-file-if-exists=.env.local scripts/upload-guides.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.9.0",

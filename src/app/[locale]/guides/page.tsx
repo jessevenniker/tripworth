@@ -60,7 +60,7 @@ export default async function GuidesPage({ params }: Props) {
                 <div className="flex flex-1 flex-col p-5">
                   <p className="text-sm text-muted">{product.description[locale]}</p>
                   <p className="mt-3 font-mono text-xs uppercase tracking-widest text-muted">
-                    PDF · {product.pages} {t.guides.pages}
+                    PDF · {product.pages[locale]} {t.guides.pages}
                   </p>
                   <form action="/api/checkout" method="POST" className="mt-auto flex items-center justify-between gap-3 pt-5">
                     <input type="hidden" name="productId" value={product.id} />

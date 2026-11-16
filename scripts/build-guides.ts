@@ -289,7 +289,7 @@ async function main() {
         await writeFile(target, pdf);
 
         const pages = countPages(pdf);
-        const note = pages === product.pages ? "" : `  (products.ts says ${product.pages})`;
+        const note = pages === product.pages[locale] ? "" : `  (products.ts says ${product.pages[locale]})`;
         if (note) mismatches.push(`${product.file[locale]}: ${pages} pages${note}`);
         console.log(`✓ ${path.relative(root, target)}  ${pages} pages${note}`);
       }

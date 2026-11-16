@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { Footer, Header } from "@/components/SiteChrome";
-import { getProduct } from "@/data/products";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { createDownloadToken } from "@/lib/download";
+import { downloadsLeft, downloadTokenFor, orderFromSession } from "@/lib/orders";
 import { getStripe } from "@/lib/stripe";
 
 type Props = {
@@ -30,11 +29,22 @@ async function OrderResult({ locale, searchParams }: { locale: Locale; searchPar
   } catch {
     return <p className="text-muted">{t.thanks.missing}</p>;
   }
-  if (session.payment_status !== "paid") return <p className="text-muted">{t.thanks.unpaid}</p>;
+  if (session.payment_status === "unpaid") return <p className="text-muted">{t.thanks.unpaid}</p>;
 
-  const product = getProduct(session.metadata?.productId ?? "");
-  const token = product && createDownloadToken(product.id, locale);
-  if (!product || !token) return <p className="text-muted">{t.thanks.missing}</p>;
+  // The link in the confirmation email also lands here, so this page works for the whole download period.
+  const order = orderFromSession(session);
+  if (!order) return <p className="text-muted">{t.thanks.missing}</p>;
+  const product = order.product;
+  const left = downloadsLeft(order);
+  const token = left > 0 ? downloadTokenFor(order) : null;
+  if (!token) {
+    return (
+      <>
+        <h1 className="font-display text-4xl font-semibold sm:text-5xl">{product.title[locale]}</h1>
+        <p className="mt-4 text-lg text-muted">{t.thanks.used}</p>
+      </>
+    );
+  }
 
   return (
     <>
@@ -46,7 +56,10 @@ async function OrderResult({ locale, searchParams }: { locale: Locale; searchPar
       >
         {t.thanks.download}
       </a>
-      <p className="mt-3 text-sm text-muted">{t.thanks.expires}</p>
+      <p className="mt-3 text-sm text-muted">
+        {t.thanks.expires} {t.thanks.left.replace("{count}", String(left))}
+      </p>
+      {order.email ? <p className="mt-1 text-sm text-muted">{t.thanks.emailed.replace("{email}", order.email)}</p> : null}
     </>
   );
 }

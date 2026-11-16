@@ -288,7 +288,7 @@ export default async function ArticlePage({ params }: Props) {
                   <Photo image={destination.id} alt="" sizes="340px" className="absolute inset-0 h-full w-full object-cover" />
                   <span aria-hidden="true" className="absolute inset-0 bg-night/65" />
                   <span className="relative block font-mono text-[11px] uppercase tracking-widest text-white/70">
-                    PDF · {guide.pages} {t.guides.pages}
+                    PDF · {guide.pages[locale]} {t.guides.pages}
                   </span>
                   <span className="relative mt-1 block font-display text-2xl font-semibold">{guide.title[locale]}</span>
                   <span className="relative mt-3 inline-block text-sm font-medium underline-offset-4 group-hover:underline">

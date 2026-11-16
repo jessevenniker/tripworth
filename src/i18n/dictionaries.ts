@@ -54,7 +54,10 @@ const en = {
   thanks: {
     title: "Thank you. Your guide is ready.",
     download: "Download your guide",
-    expires: "This link works for 7 days.",
+    expires: "This link works for 7 days after your purchase.",
+    left: "Downloads left: {count}.",
+    emailed: "We also sent the link to {email}.",
+    used: "This download has expired or was used 5 times. Reply to your order email and we will send a new link.",
     unpaid: "We could not confirm this payment yet. Refresh this page in a moment.",
     missing: "No order found. Open the link from your confirmation page again.",
     unavailable: "Checkout is not configured yet.",
@@ -159,7 +162,10 @@ const nl: Dictionary = {
   thanks: {
     title: "Bedankt. Je gids staat klaar.",
     download: "Download je gids",
-    expires: "Deze link werkt 7 dagen.",
+    expires: "Deze link werkt 7 dagen na je aankoop.",
+    left: "Nog {count} downloads over.",
+    emailed: "We hebben de link ook gemaild naar {email}.",
+    used: "Deze download is verlopen of al 5 keer gebruikt. Beantwoord de e-mail van je bestelling en we sturen een nieuwe link.",
     unpaid: "We konden deze betaling nog niet bevestigen. Ververs de pagina over een moment.",
     missing: "Geen bestelling gevonden. Open de link van je bevestigingspagina opnieuw.",
     unavailable: "De checkout is nog niet ingesteld.",

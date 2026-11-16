@@ -253,7 +253,7 @@ export default async function HomePage({ params }: Props) {
                 />
                 <span aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-night via-night/30 to-transparent" />
                 <span className="relative font-mono text-[11px] uppercase tracking-widest text-white/70">
-                  PDF · {product.pages} {t.guides.pages}
+                  PDF · {product.pages[locale]} {t.guides.pages}
                 </span>
                 <span className="relative mt-1 font-display text-3xl font-semibold leading-tight">{product.title[locale]}</span>
                 <span className="relative mt-2 text-lg font-medium text-coral">{formatPrice(locale, product.price[currency])}</span>
