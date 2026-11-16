@@ -1,27 +1,7 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// Confirmed on official pages:
-// - Taxi fares (visitaruba.com taxi guide, official fare sheet of 18 May 2026): airport to
-//   Oranjestad $26, Eagle Beach $37, Palm Beach $41; per car for up to 4 people; $5 surcharge
-//   on Sundays, holidays and 11 pm to 7 am; extra bags $3; no Uber or Lyft.
-// - Arikok National Park (acf.aw): $22 per adult, children under 17 free.
-// - Natural Pool (aruba.com): reachable only by off-road vehicle, on horseback or on a guided hike.
-// - ED card and $20 sustainability fee for air arrivals, children under 8 exempt (aruba.com).
-// - US-bound flights: be at the airport three hours ahead (airportaruba.com).
-// - Cruise port (aruba.com): north side of downtown Oranjestad, 5 to 10 minutes on foot to the
-//   main boulevard, Surfside Beach 15 minutes on foot, Eagle Beach about 10 minutes by car.
-// - Climate (aruba.com): 80 to 90 F, about 18 inches of rain a year, showers October to December,
-//   outside the hurricane belt.
-// - Antilla wreck (Wikipedia): 398 ft / 121 m, scuttled 10 May 1940, up to 60 ft / 18 m deep.
-//
-// Only found on third-party sites or written from general knowledge. Re-check before launch:
-// - Arikok opening hours (sources give 8:00 to 16:00, ticket sales to 15:30) and which
-//   vehicles may enter the park.
-// - Renaissance Island day pass: about $125, limited, released on Saturdays.
-// - Snorkel tour prices ($60 to $100) and off-road tour prices.
-// - The hidden-gems list, driving times, the sunscreen rule and tap water.
+// Fact check, 16 November 2026. Sources, changes and the items that could not be
+// verified on an official page are logged per article in FACTCHECK.md.
 
 export const arubaArticles: Article[] = [
   {
@@ -141,7 +121,7 @@ export const arubaArticles: Article[] = [
         ["Entry", "$22 per adult, under 17 free"],
         ["Size", "Almost a fifth of the island"],
         ["Natural Pool access", "Off-road vehicle, horseback or guided hike"],
-        ["Go early", "Ticket sales stop mid-afternoon"],
+        ["Open", "Daily from 8 am; San Fuego entrance until 3:30 pm"],
         ["Time needed", "Half a day"],
         ["Bring", "Water shoes, water, a hat"],
       ],
@@ -167,7 +147,7 @@ export const arubaArticles: Article[] = [
         {
           heading: "Before you go",
           paragraphs: [
-            "The pool closes to swimmers when the sea is rough, and nobody can promise it will be open on your day. Ask your tour operator which vehicles they use inside the park, because the rules for off-road vehicles have changed over the years. The entry fee funds conservation and is often not included in the tour price.",
+            "The pool closes to swimmers when the sea is rough, and nobody can promise it will be open on your day. ATVs, UTVs and motorbikes are banned in the park, so pick a jeep tour rather than a quad or buggy tour. The entry fee funds conservation and is often not included in the tour price.",
           ],
         },
       ],
@@ -188,7 +168,7 @@ export const arubaArticles: Article[] = [
         ["Entree", "$22 per volwassene, onder 17 gratis"],
         ["Grootte", "Bijna een vijfde van het eiland"],
         ["Toegang Natural Pool", "Terreinwagen, paard of begeleide wandeling"],
-        ["Ga vroeg", "De kaartverkoop stopt halverwege de middag"],
+        ["Open", "Dagelijks vanaf 8.00 uur; ingang San Fuego tot 15.30 uur"],
         ["Benodigde tijd", "Een halve dag"],
         ["Meenemen", "Waterschoenen, water, een pet"],
       ],
@@ -214,7 +194,7 @@ export const arubaArticles: Article[] = [
         {
           heading: "Voor je gaat",
           paragraphs: [
-            "Bij ruwe zee gaat het bassin dicht voor zwemmers, en niemand kan beloven dat het op jouw dag open is. Vraag je touraanbieder met welke voertuigen ze het park in gaan, want de regels voor terreinvoertuigen zijn in de loop der jaren veranderd. De entree komt ten goede aan natuurbehoud en zit vaak niet bij de tourprijs in.",
+            "Bij ruwe zee gaat het bassin dicht voor zwemmers, en niemand kan beloven dat het op jouw dag open is. Quads, buggy's (UTV's) en motoren zijn in het park verboden, dus kies een jeeptour en geen quad- of buggytour. De entree komt ten goede aan natuurbehoud en zit vaak niet bij de tourprijs in.",
           ],
         },
       ],

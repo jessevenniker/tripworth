@@ -1,21 +1,7 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// Confirmed on official pages:
-// - Colosseum (colosseo.it): ticket types and validity, tickets in the holder's name,
-//   sales open 30 days ahead, opens 8:30, free first Sunday of the month.
-// - Pantheon (direzionemuseiroma.cultura.gov.it): EUR 7 since 1 July 2026, under 18 free,
-//   9:00 to 19:00, last entry 18:30, free first Sunday without online booking.
-// - Roma Pass (museicapitolini.org): EUR 38 for 48 hours, EUR 62.90 for 72 hours.
-// - Transport (atac.roma.it): 72-hour ticket EUR 22. Taxi (adr.it): EUR 55 fixed fare.
-//
-// Only found on third-party sites, official page not reachable. Re-check before launch:
-// - Colosseum prices (EUR 18 standard, EUR 24 Full Experience).
-// - Vatican Museums price (EUR 20 plus EUR 5 booking fee) and opening hours.
-// - Borghese Gallery price (EUR 18 including booking fee) and two-hour slots.
-// - Leonardo Express EUR 14, FL1 train EUR 8, airport bus about EUR 7.
-// - Higher fare for taxis licensed in Fiumicino, Appian Way car-free Sundays, tour price ranges.
+// Fact check, 16 November 2026. Sources, changes and the items that could not be
+// verified on an official page are logged per article in FACTCHECK.md.
 
 export const romeArticles: Article[] = [
   {
@@ -31,11 +17,11 @@ export const romeArticles: Article[] = [
       title: "Colosseum tickets: which one to buy and when to book",
       description: "The three Colosseum ticket types explained, what each one includes, and how far ahead to book.",
       answer:
-        "Buy the standard timed ticket if you just want to see the Colosseum, Roman Forum and Palatine Hill; it costs about €18. Pay more for a Full Experience ticket only if you want to stand on the arena floor or go underground. Book as soon as your dates are fixed: official tickets are released about 30 days ahead and summer slots sell out within hours.",
+        "Buy the standard timed ticket if you just want to see the Colosseum, Roman Forum and Palatine Hill; it costs €18. Pay more for a Full Experience ticket only if you want to stand on the arena floor or go underground. Book as soon as your dates are fixed: official tickets are released 30 days ahead (the Arena-only ticket 7 days ahead) and summer slots sell out within hours.",
       facts: [
-        ["Standard ticket", "About €18, valid 24 hours"],
+        ["Standard ticket", "€18, valid 24 hours"],
         ["Includes", "Colosseum, Roman Forum, Palatine Hill"],
-        ["Arena and underground", "About €24 (Full Experience), valid 2 days"],
+        ["Arena and underground", "€24 (Full Experience), valid 2 days"],
         ["Book ahead", "30 days for April to October"],
         ["Time needed", "3 to 4 hours for all three sites"],
         ["Bring", "Photo ID: tickets carry your name"],
@@ -44,9 +30,9 @@ export const romeArticles: Article[] = [
         {
           heading: "The three ticket types",
           bullets: [
-            "Standard (24 hours): One timed entry to the Colosseum plus the Forum and Palatine. Right for most first-time visitors.",
-            "Full Experience Arena: Adds the reconstructed arena floor, where you look up at the stands the way a gladiator did. Valid two days and includes the extra sites in the Forum.",
-            "Full Experience Underground and Arena: Adds the tunnels and cells below the arena as well. Limited places, and the first to sell out.",
+            "Standard (24 hours): One timed entry to the Colosseum plus the Forum and Palatine. Right for most first-time visitors. You can stay 75 minutes inside the Colosseum.",
+            "Full Experience Arena: Adds the reconstructed arena floor, where you look up at the stands the way a gladiator did. Valid two days and includes the extra sites in the Forum. Sold online only from 7 days before your visit.",
+            "Full Experience Underground and Arena: Adds the tunnels and cells below the arena as well. Same €24 price, limited places, and the first to sell out.",
           ],
         },
         {
@@ -66,7 +52,7 @@ export const romeArticles: Article[] = [
       faq: [
         ["Can I buy Colosseum tickets at the door?", "There is a ticket office, but same-day tickets are rarely available from April to October. Book online in advance."],
         ["Is the Roman Forum included?", "Yes. Every Colosseum ticket includes one entry to the Roman Forum and Palatine Hill, which share a single site."],
-        ["How long do you need at the Colosseum?", "About one hour inside the Colosseum and two more for the Forum and Palatine Hill."],
+        ["How long do you need at the Colosseum?", "About one hour inside the Colosseum, where the standard ticket allows 75 minutes and Full Experience tickets 90, and two more for the Forum and Palatine Hill."],
       ],
     },
     nl: {
@@ -74,11 +60,11 @@ export const romeArticles: Article[] = [
       title: "Colosseum-tickets: welke koop je en wanneer boek je",
       description: "De drie soorten Colosseum-tickets uitgelegd, wat erbij zit en hoe ver vooruit je boekt.",
       answer:
-        "Koop het standaardticket met tijdslot als je het Colosseum, het Forum Romanum en de Palatijn wilt zien; dat kost ongeveer €18. Betaal alleen meer voor een Full Experience-ticket als je op de arenavloer wilt staan of de ondergrondse gangen in wilt. Boek zodra je data vaststaan: officiële tickets komen ongeveer 30 dagen vooruit vrij en zijn in de zomer binnen een paar uur weg.",
+        "Koop het standaardticket met tijdslot als je het Colosseum, het Forum Romanum en de Palatijn wilt zien; dat kost €18. Betaal alleen meer voor een Full Experience-ticket als je op de arenavloer wilt staan of de ondergrondse gangen in wilt. Boek zodra je data vaststaan: officiële tickets komen 30 dagen vooruit vrij (het ticket met alleen de arena 7 dagen vooruit) en zijn in de zomer binnen een paar uur weg.",
       facts: [
-        ["Standaardticket", "Ongeveer €18, 24 uur geldig"],
+        ["Standaardticket", "€18, 24 uur geldig"],
         ["Inclusief", "Colosseum, Forum Romanum, Palatijn"],
-        ["Arena en ondergronds", "Ongeveer €24 (Full Experience), 2 dagen geldig"],
+        ["Arena en ondergronds", "€24 (Full Experience), 2 dagen geldig"],
         ["Vooruit boeken", "30 dagen voor april tot en met oktober"],
         ["Benodigde tijd", "3 tot 4 uur voor alle drie"],
         ["Meenemen", "Legitimatie: tickets staan op naam"],
@@ -87,9 +73,9 @@ export const romeArticles: Article[] = [
         {
           heading: "De drie soorten tickets",
           bullets: [
-            "Standaard (24 uur): Eén toegang met tijdslot tot het Colosseum, plus het Forum en de Palatijn. Goed voor de meeste eerste bezoeken.",
-            "Full Experience Arena: Met de herbouwde arenavloer, waar je omhoogkijkt naar de tribunes zoals een gladiator dat deed. Twee dagen geldig en inclusief de extra locaties op het Forum.",
-            "Full Experience Underground and Arena: Ook met de gangen en cellen onder de arena. Beperkt aantal plaatsen en als eerste uitverkocht.",
+            "Standaard (24 uur): Eén toegang met tijdslot tot het Colosseum, plus het Forum en de Palatijn. Goed voor de meeste eerste bezoeken. Je mag 75 minuten in het Colosseum blijven.",
+            "Full Experience Arena: Met de herbouwde arenavloer, waar je omhoogkijkt naar de tribunes zoals een gladiator dat deed. Twee dagen geldig en inclusief de extra locaties op het Forum. Pas online te koop vanaf 7 dagen voor je bezoek.",
+            "Full Experience Underground and Arena: Ook met de gangen en cellen onder de arena. Dezelfde prijs van €24, een beperkt aantal plaatsen en als eerste uitverkocht.",
           ],
         },
         {
@@ -109,7 +95,7 @@ export const romeArticles: Article[] = [
       faq: [
         ["Kan ik Colosseum-tickets aan de deur kopen?", "Er is een kassa, maar van april tot en met oktober zijn er zelden tickets voor dezelfde dag. Boek vooraf online."],
         ["Zit het Forum Romanum erbij?", "Ja. Elk Colosseum-ticket geeft één keer toegang tot het Forum Romanum en de Palatijn, die samen één terrein vormen."],
-        ["Hoeveel tijd heb je nodig?", "Ongeveer een uur in het Colosseum en nog twee uur voor het Forum en de Palatijn."],
+        ["Hoeveel tijd heb je nodig?", "Ongeveer een uur in het Colosseum, waar je met het standaardticket 75 minuten mag blijven en met een Full Experience-ticket 90, en nog twee uur voor het Forum en de Palatijn."],
       ],
     },
   },
@@ -126,12 +112,12 @@ export const romeArticles: Article[] = [
       title: "Vatican Museums and Sistine Chapel tickets: what to book",
       description: "How Vatican tickets work, what skip-the-line really means, and the entry time that avoids the worst crowds.",
       answer:
-        "Book a timed ticket for the Vatican Museums online; it costs about €25 including the booking fee and it includes the Sistine Chapel. Without a reservation you can wait two hours or more in the sun. St. Peter's Basilica is separate and free, so do not pay for a ticket to enter it.",
+        "Book a timed ticket for the Vatican Museums online; it costs €25 including the booking fee and it includes the Sistine Chapel. Without a reservation you can wait two hours or more in the sun. St. Peter's Basilica is separate and free, so do not pay for a ticket to enter it.",
       facts: [
-        ["Online ticket", "About €25 (€20 plus booking fee)"],
+        ["Online ticket", "€25 (€20 plus €5 booking fee)"],
         ["Includes", "Museums and Sistine Chapel"],
         ["St. Peter's Basilica", "Free, separate entrance"],
-        ["Closed", "Sundays, except the last of the month"],
+        ["Open", "Monday to Saturday 8 am to 8 pm, last entry 6 pm; closed Sundays except the last of the month"],
         ["Time needed", "3 hours for the museums"],
         ["Dress code", "Shoulders and knees covered"],
       ],
@@ -147,7 +133,7 @@ export const romeArticles: Article[] = [
         {
           heading: "The best entry time",
           paragraphs: [
-            "The first slot of the day fills with tour groups. A slot after 2 pm is usually calmer, because morning groups have left and the museums stay open into the evening. Avoid Mondays, when other Rome museums are closed, and the free last Sunday of the month.",
+            "The first slot of the day fills with tour groups. A slot after 2 pm is usually calmer, because morning groups have left and the museums stay open until 8 pm (last entry 6 pm). Avoid Mondays, when other Rome museums are closed, and the free last Sunday of the month.",
           ],
         },
         {
@@ -169,12 +155,12 @@ export const romeArticles: Article[] = [
       title: "Tickets voor de Vaticaanse Musea en Sixtijnse Kapel: wat boek je",
       description: "Hoe Vaticaan-tickets werken, wat skip-the-line echt betekent en het tijdslot met de minste drukte.",
       answer:
-        "Boek online een ticket met tijdslot voor de Vaticaanse Musea; dat kost ongeveer €25 inclusief reserveringskosten en de Sixtijnse Kapel zit erbij. Zonder reservering sta je al snel twee uur of langer in de zon. De Sint-Pietersbasiliek staat hier los van en is gratis, dus betaal daar niet voor.",
+        "Boek online een ticket met tijdslot voor de Vaticaanse Musea; dat kost €25 inclusief reserveringskosten en de Sixtijnse Kapel zit erbij. Zonder reservering sta je al snel twee uur of langer in de zon. De Sint-Pietersbasiliek staat hier los van en is gratis, dus betaal daar niet voor.",
       facts: [
-        ["Online ticket", "Ongeveer €25 (€20 plus reserveringskosten)"],
+        ["Online ticket", "€25 (€20 plus €5 reserveringskosten)"],
         ["Inclusief", "Musea en Sixtijnse Kapel"],
         ["Sint-Pietersbasiliek", "Gratis, aparte ingang"],
-        ["Gesloten", "Zondag, behalve de laatste van de maand"],
+        ["Open", "Maandag tot en met zaterdag 8.00 tot 20.00 uur, laatste toegang 18.00 uur; zondag dicht, behalve de laatste van de maand"],
         ["Benodigde tijd", "3 uur voor de musea"],
         ["Kledingvoorschrift", "Schouders en knieën bedekt"],
       ],
@@ -190,7 +176,7 @@ export const romeArticles: Article[] = [
         {
           heading: "Het beste tijdslot",
           paragraphs: [
-            "Het eerste tijdslot zit vol met groepen. Een slot na 14.00 uur is meestal rustiger, omdat de ochtendgroepen weg zijn en de musea tot in de avond open blijven. Vermijd de maandag, als andere musea in Rome dicht zijn, en de gratis laatste zondag van de maand.",
+            "Het eerste tijdslot zit vol met groepen. Een slot na 14.00 uur is meestal rustiger, omdat de ochtendgroepen weg zijn en de musea tot 20.00 uur open blijven (laatste toegang 18.00 uur). Vermijd de maandag, als andere musea in Rome dicht zijn, en de gratis laatste zondag van de maand.",
           ],
         },
         {
@@ -406,7 +392,7 @@ export const romeArticles: Article[] = [
       tip: "Central Rome is small. From the Colosseum to the Pantheon is a 25-minute walk, and most visitors use transit less than they expect.",
       faq: [
         ["Does the Roma Pass include the Vatican?", "No. The Vatican is a separate state and its museums are not part of any Rome city pass run by the city."],
-        ["Does the Roma Pass skip the line at the Colosseum?", "No. Pass holders must still reserve a timed entry in advance, for a €2 booking fee, and those slots also sell out."],
+        ["Does the Roma Pass skip the line at the Colosseum?", "No. Pass holders must still reserve a timed entry online in advance, and those slots also sell out."],
       ],
     },
     nl: {
@@ -440,7 +426,7 @@ export const romeArticles: Article[] = [
       tip: "Het centrum van Rome is klein. Van het Colosseum naar het Pantheon is 25 minuten lopen, en de meeste bezoekers gebruiken het ov minder dan ze denken.",
       faq: [
         ["Zit het Vaticaan bij de Roma Pass?", "Nee. Het Vaticaan is een aparte staat en de musea vallen niet onder een stadspas van Rome."],
-        ["Sla je met de Roma Pass de rij bij het Colosseum over?", "Nee. Ook pashouders moeten vooraf een tijdslot reserveren, tegen €2 reserveringskosten, en ook die plekken raken op."],
+        ["Sla je met de Roma Pass de rij bij het Colosseum over?", "Nee. Ook pashouders moeten vooraf online een tijdslot reserveren, en ook die plekken raken op."],
       ],
     },
   },
@@ -472,9 +458,9 @@ export const romeArticles: Article[] = [
           ],
         },
         {
-          heading: "Arena floor as the cheaper alternative",
+          heading: "Arena floor as the fallback",
           paragraphs: [
-            "If underground places are gone, the arena floor is a good second choice. You look straight down into the corridors from the edge of the platform and get the view the fighters had of the stands.",
+            "If underground places are gone, the arena floor is a good second choice at the same €24 price. You look straight down into the corridors from the edge of the platform and get the view the fighters had of the stands.",
           ],
         },
       ],
@@ -503,9 +489,9 @@ export const romeArticles: Article[] = [
           ],
         },
         {
-          heading: "De arenavloer als goedkoper alternatief",
+          heading: "De arenavloer als alternatief",
           paragraphs: [
-            "Zijn de ondergrondse plekken op, dan is de arenavloer een goede tweede keus. Vanaf de rand van het platform kijk je recht de gangen in en zie je de tribunes zoals de vechters ze zagen.",
+            "Zijn de ondergrondse plekken op, dan is de arenavloer een goede tweede keus, voor dezelfde €24. Vanaf de rand van het platform kijk je recht de gangen in en zie je de tribunes zoals de vechters ze zagen.",
           ],
         },
       ],
@@ -726,19 +712,19 @@ export const romeArticles: Article[] = [
       title: "Fiumicino Airport to Rome city centre: train, taxi or bus",
       description: "The four ways from Fiumicino into Rome compared on price and time, and which one suits your hotel.",
       answer:
-        "The Leonardo Express train is the fastest way from Fiumicino Airport to central Rome: 32 minutes non-stop to Termini station for about €14. With two or more people and luggage, an official white taxi at the fixed fare of €55 costs little more and goes to your door. The bus is cheapest at about €7 but takes an hour or longer.",
+        "The Leonardo Express train is the fastest way from Fiumicino Airport to central Rome: 32 minutes non-stop to Termini station for about €14. With two or more people and luggage, an official white taxi at the fixed fare of €55 costs little more and goes to your door. The bus is cheapest at about €6 to €7 but takes an hour or longer.",
       facts: [
         ["Leonardo Express", "32 minutes, about €14, to Termini"],
         ["Regional train FL1", "About €8, to Trastevere and Ostiense"],
         ["Official taxi", "Fixed fare of €55 to the centre"],
-        ["Airport bus", "About €7, 55 minutes or more"],
+        ["Airport bus", "About €6 to €7, 55 minutes or more"],
         ["Private transfer", "From about €60, driver meets you"],
       ],
       sections: [
         {
           heading: "Which one to choose",
           bullets: [
-            "Staying near Termini or Monti: Leonardo Express. It runs every 15 to 30 minutes.",
+            "Staying near Termini or Monti: Leonardo Express. It runs every 15 minutes.",
             "Staying in Trastevere: The FL1 regional train stops at Trastevere station and is cheaper. It does not go to Termini.",
             "Two or more people, or late arrival: Taxi at the fixed fare. Use only white licensed taxis from the official rank.",
             "After a long-haul flight with children: A pre-booked transfer. The driver waits in arrivals and the price is fixed.",
@@ -747,14 +733,14 @@ export const romeArticles: Article[] = [
         {
           heading: "What to watch for",
           paragraphs: [
-            "Ignore anyone who approaches you inside the terminal offering a taxi. The fixed fare is per car, not per person, and applies to addresses inside the old city walls. It holds for taxis licensed by the city of Rome; taxis licensed in the town of Fiumicino may charge more, so confirm the fare before you get in. Stamp paper train tickets in the green machines on the platform before boarding, or you risk a fine.",
+            "Ignore anyone who approaches you inside the terminal offering a taxi. The fixed fare is per car, not per person, and applies to addresses inside the old city walls, supplements included. Confirm the fare with the driver before you get in. Stamp paper train tickets in the green machines on the platform before boarding, or you risk a fine.",
           ],
         },
       ],
       faq: [
-        ["How much is a taxi from Fiumicino to Rome?", "A fixed fare of €55 per car to anywhere inside the Aurelian Walls, in a taxi licensed by the city of Rome."],
+        ["How much is a taxi from Fiumicino to Rome?", "A fixed fare of €55 per car to anywhere inside the Aurelian Walls, luggage and supplements included."],
         ["Does Uber work in Rome?", "Yes, but mostly as Uber Black, which usually costs more than the fixed taxi fare."],
-        ["What about Ciampino Airport?", "Ciampino has no train. Take an airport bus to Termini or a taxi at its own lower fixed fare."],
+        ["What about Ciampino Airport?", "Ciampino has no train. Take an airport bus to Termini or a taxi at its own fixed fare of €40 to the centre."],
       ],
     },
     nl: {
@@ -762,19 +748,19 @@ export const romeArticles: Article[] = [
       title: "Van vliegveld Fiumicino naar het centrum van Rome: trein, taxi of bus",
       description: "De vier manieren van Fiumicino naar Rome vergeleken op prijs en tijd, en welke bij je hotel past.",
       answer:
-        "De Leonardo Express is de snelste manier van vliegveld Fiumicino naar het centrum van Rome: in 32 minuten zonder tussenstop naar station Termini voor ongeveer €14. Met twee of meer personen en bagage kost een officiële witte taxi tegen het vaste tarief van €55 weinig meer, en die zet je voor de deur af. De bus is met ongeveer €7 het goedkoopst, maar doet er een uur of langer over.",
+        "De Leonardo Express is de snelste manier van vliegveld Fiumicino naar het centrum van Rome: in 32 minuten zonder tussenstop naar station Termini voor ongeveer €14. Met twee of meer personen en bagage kost een officiële witte taxi tegen het vaste tarief van €55 weinig meer, en die zet je voor de deur af. De bus is met ongeveer €6 tot €7 het goedkoopst, maar doet er een uur of langer over.",
       facts: [
         ["Leonardo Express", "32 minuten, ongeveer €14, naar Termini"],
         ["Regionale trein FL1", "Ongeveer €8, naar Trastevere en Ostiense"],
         ["Officiële taxi", "Vast tarief van €55 naar het centrum"],
-        ["Vliegveldbus", "Ongeveer €7, 55 minuten of langer"],
+        ["Vliegveldbus", "Ongeveer €6 tot €7, 55 minuten of langer"],
         ["Privétransfer", "Vanaf ongeveer €60, de chauffeur wacht op je"],
       ],
       sections: [
         {
           heading: "Welke kies je",
           bullets: [
-            "Je slaapt bij Termini of in Monti: De Leonardo Express. Die rijdt elke 15 tot 30 minuten.",
+            "Je slaapt bij Termini of in Monti: De Leonardo Express. Die rijdt elke 15 minuten.",
             "Je slaapt in Trastevere: De regionale trein FL1 stopt op station Trastevere en is goedkoper. Hij rijdt niet naar Termini.",
             "Twee of meer personen, of een late aankomst: Een taxi tegen het vaste tarief. Neem alleen witte taxi's met vergunning bij de officiële standplaats.",
             "Na een lange vlucht met kinderen: Een vooraf geboekte transfer. De chauffeur wacht in de aankomsthal en de prijs ligt vast.",
@@ -783,14 +769,14 @@ export const romeArticles: Article[] = [
         {
           heading: "Waar je op let",
           paragraphs: [
-            "Negeer iedereen die je in de terminal aanspreekt met een taxi. Het vaste tarief geldt per auto, niet per persoon, en voor adressen binnen de oude stadsmuren. Het geldt voor taxi's met een vergunning van de stad Rome; taxi's met een vergunning van de gemeente Fiumicino kunnen meer rekenen, dus vraag het tarief voordat je instapt. Stempel papieren treinkaartjes af in de groene automaten op het perron voordat je instapt, anders riskeer je een boete.",
+            "Negeer iedereen die je in de terminal aanspreekt met een taxi. Het vaste tarief geldt per auto, niet per persoon, en voor adressen binnen de oude stadsmuren, inclusief alle toeslagen. Vraag de chauffeur het tarief voordat je instapt. Stempel papieren treinkaartjes af in de groene automaten op het perron voordat je instapt, anders riskeer je een boete.",
           ],
         },
       ],
       faq: [
-        ["Wat kost een taxi van Fiumicino naar Rome?", "Een vast tarief van €55 per auto naar elk adres binnen de Aureliaanse Muren, in een taxi met een vergunning van de stad Rome."],
+        ["Wat kost een taxi van Fiumicino naar Rome?", "Een vast tarief van €55 per auto naar elk adres binnen de Aureliaanse Muren, inclusief bagage en toeslagen."],
         ["Werkt Uber in Rome?", "Ja, maar vooral als Uber Black, en dat is meestal duurder dan het vaste taxitarief."],
-        ["En vliegveld Ciampino?", "Ciampino heeft geen trein. Neem een vliegveldbus naar Termini of een taxi tegen het eigen, lagere vaste tarief."],
+        ["En vliegveld Ciampino?", "Ciampino heeft geen trein. Neem een vliegveldbus naar Termini of een taxi tegen het eigen vaste tarief van €40 naar het centrum."],
       ],
     },
   },

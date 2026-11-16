@@ -1,23 +1,7 @@
 import type { Article } from "../articles";
 
-// Fact check, 11 November 2026.
-//
-// Confirmed on official pages (read through search results, not fetched directly):
-// - Statue of Liberty (nps.gov): Statue City Cruises is the only authorised ticket seller;
-//   general admission does not include the pedestal or crown; the crown is a climb of
-//   162 steps and must be booked in advance.
-// - CityPASS (citypass.com): adult price shown as $154 and $164 on different pages; covers
-//   the Empire State Building, the American Museum of Natural History and three more.
-//
-// Only found on third-party sites or written from general knowledge. Re-check before launch:
-// - Statue ferry price (sources give $25.50 to $32.50).
-// - Observation deck prices: Empire State from $44, Top of the Rock from $45, One World
-//   from about $31 to $44, Edge about $36 to $45; SUMMIT price not found.
-// - JFK: taxi flat fare $70 plus extras, AirTrain $8.75, subway $3; LaGuardia and Newark figures.
-// - 9/11 Museum price (about $33 to $36) and free Monday evening window.
-// - ESTA about $40, valid two years; Broadway discounts (TKTS up to 50 percent, rush $35 to $50).
-// - Tipping and sales-tax rates, flight time from Amsterdam, climate figures and the
-//   hidden-gems list.
+// Fact check, 16 November 2026. Sources, changes and the items that could not be
+// verified on an official page are logged per article in FACTCHECK.md.
 
 export const newYorkArticles: Article[] = [
   {
@@ -33,11 +17,11 @@ export const newYorkArticles: Article[] = [
       title: "Statue of Liberty tickets: ferry, pedestal or crown, and the one official seller",
       description: "The three Statue of Liberty tickets, what each includes, and how to avoid the ticket sellers at the Battery.",
       answer:
-        "Statue City Cruises is the only authorised seller of Statue of Liberty tickets, and its ferry is the only one that lands on the island. The basic ticket costs roughly $26 to $33 and covers the ferry, Liberty Island and Ellis Island. Pedestal and crown access cost about the same but are limited: book the crown three to four months ahead for spring and summer.",
+        "Statue City Cruises is the only authorised seller of Statue of Liberty tickets, and its ferry is the only one that lands on the island. The basic ticket costs $26 for adults and covers the ferry, Liberty Island and Ellis Island. Pedestal and crown tickets cost only 30 cents more but are limited: book the crown three to four months ahead for spring and summer.",
       facts: [
         ["Official seller", "Statue City Cruises only"],
-        ["General ticket", "Roughly $26 to $33, both islands"],
-        ["Pedestal", "Limited; book weeks ahead"],
+        ["General ticket", "$26 for adults, both islands"],
+        ["Pedestal", "$26.30; limited, book weeks ahead"],
         ["Crown", "162 steps; book 3 to 4 months ahead"],
         ["Departs from", "The Battery in Manhattan, or New Jersey"],
         ["Time needed", "4 to 5 hours for both islands"],
@@ -76,11 +60,11 @@ export const newYorkArticles: Article[] = [
       title: "Vrijheidsbeeld-tickets: veerboot, voetstuk of kroon, en de enige officiële verkoper",
       description: "De drie tickets voor het Vrijheidsbeeld, wat erbij zit en hoe je de kaartverkopers bij de Battery ontloopt.",
       answer:
-        "Statue City Cruises is de enige erkende verkoper van tickets voor het Vrijheidsbeeld, en alleen die veerboot legt aan op het eiland. Het basisticket kost ruwweg $26 tot $33 en geldt voor de veerboot, Liberty Island en Ellis Island. Toegang tot het voetstuk en de kroon kost ongeveer hetzelfde, maar is beperkt: boek de kroon voor het voorjaar en de zomer drie tot vier maanden vooruit.",
+        "Statue City Cruises is de enige erkende verkoper van tickets voor het Vrijheidsbeeld, en alleen die veerboot legt aan op het eiland. Het basisticket kost $26 voor volwassenen en geldt voor de veerboot, Liberty Island en Ellis Island. Tickets voor het voetstuk en de kroon kosten maar 30 cent meer, maar zijn beperkt: boek de kroon voor het voorjaar en de zomer drie tot vier maanden vooruit.",
       facts: [
         ["Officiële verkoper", "Alleen Statue City Cruises"],
-        ["Basisticket", "Ruwweg $26 tot $33, beide eilanden"],
-        ["Voetstuk", "Beperkt; boek weken vooruit"],
+        ["Basisticket", "$26 voor volwassenen, beide eilanden"],
+        ["Voetstuk", "$26,30; beperkt, boek weken vooruit"],
         ["Kroon", "162 treden; boek 3 tot 4 maanden vooruit"],
         ["Vertrek", "The Battery in Manhattan, of New Jersey"],
         ["Benodigde tijd", "4 tot 5 uur voor beide eilanden"],
@@ -128,12 +112,12 @@ export const newYorkArticles: Article[] = [
       title: "9/11 Memorial and Museum: what is free, what the ticket costs and how to visit",
       description: "The memorial pools are free and open to everyone. What the museum adds, what it costs and when it is free.",
       answer:
-        "The 9/11 Memorial, the two pools where the towers stood, is free and needs no ticket. The museum beneath it costs roughly $33 to $36 for adults and takes about two hours; book a timed ticket online. On Monday evenings the museum is free, with a limited number of tickets released online that morning.",
+        "The 9/11 Memorial, the two pools where the towers stood, is free and needs no ticket. The museum beneath it costs up to $36 for adults and takes 45 to 90 minutes; book a timed ticket online. On Monday evenings from 5:30 to 7 pm the museum is free, with a limited number of tickets released online that morning from 7 am.",
       facts: [
         ["Memorial pools", "Free, open daily"],
-        ["Museum, adult", "Roughly $33 to $36"],
-        ["Free museum entry", "Monday evenings, limited tickets"],
-        ["Time needed", "30 minutes for the memorial, 2 hours for the museum"],
+        ["Museum, adult", "Up to $36; open Wednesday to Monday, 9 am to 7 pm"],
+        ["Free museum entry", "Mondays 5:30 to 7 pm, limited tickets"],
+        ["Time needed", "30 minutes for the memorial, 45 to 90 minutes for the museum"],
         ["Nearest subway", "World Trade Center, Cortlandt Street"],
       ],
       sections: [
@@ -161,7 +145,7 @@ export const newYorkArticles: Article[] = [
       tip: "This is a grave site for many families. Keep voices low at the pools, and do not sit on or lean over the names.",
       faq: [
         ["Is the 9/11 Memorial free?", "Yes. The outdoor memorial is free and open daily. Only the museum charges admission."],
-        ["How long does the 9/11 Museum take?", "About two hours. Many visitors stay longer in the historical exhibition."],
+        ["How long does the 9/11 Museum take?", "The museum suggests 45 to 90 minutes. Many visitors stay longer in the historical exhibition."],
         ["Is the 9/11 Museum worth it?", "Yes. It is the most affecting museum in the city, and the artifacts carry the story better than any film."],
       ],
     },
@@ -170,12 +154,12 @@ export const newYorkArticles: Article[] = [
       title: "9/11 Memorial en Museum: wat gratis is, wat het ticket kost en hoe je het bezoekt",
       description: "De herdenkingsbassins zijn gratis en voor iedereen open. Wat het museum toevoegt, wat het kost en wanneer het gratis is.",
       answer:
-        "Het 9/11 Memorial, de twee bassins op de plek van de torens, is gratis en vraagt geen ticket. Het museum eronder kost ruwweg $33 tot $36 voor volwassenen en neemt ongeveer twee uur; boek online een ticket met tijdslot. Op maandagavond is het museum gratis, met een beperkt aantal tickets dat die ochtend online vrijkomt.",
+        "Het 9/11 Memorial, de twee bassins op de plek van de torens, is gratis en vraagt geen ticket. Het museum eronder kost tot $36 voor volwassenen en neemt 45 tot 90 minuten; boek online een ticket met tijdslot. Op maandagavond van 17.30 tot 19.00 uur is het museum gratis, met een beperkt aantal tickets dat die ochtend vanaf 7.00 uur online vrijkomt.",
       facts: [
         ["Herdenkingsbassins", "Gratis, dagelijks open"],
-        ["Museum, volwassene", "Ruwweg $33 tot $36"],
-        ["Gratis naar het museum", "Maandagavond, beperkt aantal tickets"],
-        ["Benodigde tijd", "30 minuten voor het memorial, 2 uur voor het museum"],
+        ["Museum, volwassene", "Tot $36; open woensdag tot en met maandag, 9.00 tot 19.00 uur"],
+        ["Gratis naar het museum", "Maandag 17.30 tot 19.00 uur, beperkt aantal tickets"],
+        ["Benodigde tijd", "30 minuten voor het memorial, 45 tot 90 minuten voor het museum"],
         ["Metrostation", "World Trade Center, Cortlandt Street"],
       ],
       sections: [
@@ -203,7 +187,7 @@ export const newYorkArticles: Article[] = [
       tip: "Voor veel families is dit een graf. Praat zacht bij de bassins, en ga niet op de namen zitten of leunen.",
       faq: [
         ["Is het 9/11 Memorial gratis?", "Ja. Het memorial in de buitenlucht is gratis en dagelijks open. Alleen het museum vraagt entree."],
-        ["Hoe lang duurt het 9/11 Museum?", "Ongeveer twee uur. Veel bezoekers blijven langer in de historische tentoonstelling."],
+        ["Hoe lang duurt het 9/11 Museum?", "Het museum zelf rekent op 45 tot 90 minuten. Veel bezoekers blijven langer in de historische tentoonstelling."],
         ["Is het 9/11 Museum de moeite waard?", "Ja. Het is het meest aangrijpende museum van de stad, en de voorwerpen vertellen het verhaal beter dan welke film ook."],
       ],
     },
@@ -316,13 +300,13 @@ export const newYorkArticles: Article[] = [
       title: "New York observation decks compared: which of the five is worth it",
       description: "Empire State, Top of the Rock, Edge, SUMMIT and One World side by side: the view, the price and the one to pick.",
       answer:
-        "Top of the Rock is the best observation deck for most visitors: it has open-air terraces, a full view of Central Park and the Empire State Building in the picture, from about $45. Choose the Empire State Building, from $44, for the building itself and its history. One deck is enough; go an hour before sunset and stay until the lights come on.",
+        "Top of the Rock is the best observation deck for most visitors: it has open-air terraces, a full view of Central Park and the Empire State Building in the picture, from about $45. Choose the Empire State Building, from $46, for the building itself and its history. One deck is enough; go an hour before sunset and stay until the lights come on.",
       facts: [
         ["Top of the Rock", "From about $45; best overall view"],
-        ["Empire State Building", "From $44; the classic, open-air 86th floor"],
+        ["Empire State Building", "From $46; the classic, open-air 86th floor"],
         ["SUMMIT One Vanderbilt", "Mirrored rooms; the most theatrical"],
-        ["Edge", "From about $36 to $45; glass floor over the street"],
-        ["One World Observatory", "From about $31 to $44; highest, indoors"],
+        ["Edge", "From $44; glass floor over the street"],
+        ["One World Observatory", "From $39; highest, indoors"],
         ["Best time", "One hour before sunset"],
       ],
       sections: [
@@ -364,13 +348,13 @@ export const newYorkArticles: Article[] = [
       title: "Uitkijkplatforms in New York vergeleken: welke van de vijf is het waard",
       description: "Empire State, Top of the Rock, Edge, SUMMIT en One World naast elkaar: het uitzicht, de prijs en welke je kiest.",
       answer:
-        "Top of the Rock is voor de meeste bezoekers het beste uitkijkplatform: het heeft terrassen in de buitenlucht, vol zicht op Central Park en het Empire State Building in beeld, vanaf ongeveer $45. Kies het Empire State Building, vanaf $44, voor het gebouw zelf en zijn geschiedenis. Eén platform is genoeg; ga een uur voor zonsondergang en blijf tot de lichten aangaan.",
+        "Top of the Rock is voor de meeste bezoekers het beste uitkijkplatform: het heeft terrassen in de buitenlucht, vol zicht op Central Park en het Empire State Building in beeld, vanaf ongeveer $45. Kies het Empire State Building, vanaf $46, voor het gebouw zelf en zijn geschiedenis. Eén platform is genoeg; ga een uur voor zonsondergang en blijf tot de lichten aangaan.",
       facts: [
         ["Top of the Rock", "Vanaf ongeveer $45; het mooiste uitzicht"],
-        ["Empire State Building", "Vanaf $44; de klassieker, 86e verdieping in de buitenlucht"],
+        ["Empire State Building", "Vanaf $46; de klassieker, 86e verdieping in de buitenlucht"],
         ["SUMMIT One Vanderbilt", "Spiegelzalen; het meest theatraal"],
-        ["Edge", "Vanaf ongeveer $36 tot $45; glazen vloer boven de straat"],
-        ["One World Observatory", "Vanaf ongeveer $31 tot $44; het hoogst, binnen"],
+        ["Edge", "Vanaf $44; glazen vloer boven de straat"],
+        ["One World Observatory", "Vanaf $39; het hoogst, binnen"],
         ["Beste moment", "Een uur voor zonsondergang"],
       ],
       sections: [
@@ -420,28 +404,28 @@ export const newYorkArticles: Article[] = [
       title: "Is the New York CityPASS worth it?",
       description: "Five attractions for one price. When the New York CityPASS saves money and when single tickets are cheaper.",
       answer:
-        "The New York CityPASS is worth it if you were going to visit at least four of its five attractions anyway. It costs about $154 to $164 for adults and covers the Empire State Building, the American Museum of Natural History and three more of your choice, such as the Statue of Liberty ferry, the 9/11 Museum and Top of the Rock. For three attractions or fewer, buy single tickets.",
+        "The New York CityPASS is worth it if you were going to visit at least four of its five attractions anyway. It costs $149 for adults, plus a $2 fee, and you choose five of ten attractions, such as the Empire State Building, the American Museum of Natural History, the Statue of Liberty ferry, the 9/11 Museum and Top of the Rock. For three attractions or fewer, buy single tickets.",
       facts: [
-        ["Adult price", "About $154 to $164"],
-        ["Covers", "5 attractions over 9 days"],
-        ["Always included", "Empire State Building, Natural History Museum"],
-        ["Choose 3 more", "Statue ferry, 9/11 Museum, Top of the Rock and others"],
+        ["Adult price", "$149, plus a $2 processing fee"],
+        ["Covers", "5 of 10 attractions over 9 days"],
+        ["Observation decks", "Empire State Building, Top of the Rock, Edge"],
+        ["Other options", "Natural History Museum, Statue ferry, 9/11 Museum, Circle Line, Intrepid, Guggenheim, Whitney"],
         ["Verdict", "Worth it from four attractions"],
       ],
       sections: [
         {
           heading: "The maths",
           paragraphs: [
-            "Bought separately, the Empire State Building, the Natural History Museum, the Statue of Liberty ferry, the 9/11 Museum and Top of the Rock come to roughly $180 to $200. The pass saves $20 to $40 if you use all five and breaks even at about four. It does not make an expensive city cheap: it trims the cost of a classic first visit.",
+            "Bought separately, the Empire State Building, the Natural History Museum, the Statue of Liberty ferry, the 9/11 Museum and Top of the Rock come to roughly $180 to $200. The pass saves $30 to $50 if you use all five and breaks even at about four. It does not make an expensive city cheap: it trims the cost of a classic first visit.",
           ],
         },
         {
           heading: "What to know before you buy",
           bullets: [
-            "Two observation decks: The pass includes the Empire State Building, and Top of the Rock is one of the options. Most people do not need both; choose a museum or the ferry instead.",
+            "Observation decks: The Empire State Building, Top of the Rock and Edge are all options. Most people need only one; spend the other choices on a museum or the ferry.",
             "Reservations: Most attractions still need a timed booking, made through the pass after you buy it. Do that straight away.",
             "Nine days: The pass runs for nine days from first use, so there is no need to rush.",
-            "Not included: Broadway, SUMMIT One Vanderbilt, Edge, and the crown and pedestal of the Statue of Liberty.",
+            "Not included: Broadway, SUMMIT One Vanderbilt, One World Observatory, and the crown and pedestal of the Statue of Liberty.",
           ],
         },
         {
@@ -462,28 +446,28 @@ export const newYorkArticles: Article[] = [
       title: "Is de New York CityPASS de moeite waard?",
       description: "Vijf attracties voor één prijs. Wanneer de New York CityPASS geld bespaart en wanneer losse tickets goedkoper zijn.",
       answer:
-        "De New York CityPASS is de moeite waard als je minstens vier van de vijf attracties toch al wilde bezoeken. Hij kost ongeveer $154 tot $164 voor volwassenen en geldt voor het Empire State Building, het American Museum of Natural History en nog drie naar keuze, zoals de veerboot naar het Vrijheidsbeeld, het 9/11 Museum en Top of the Rock. Voor drie attracties of minder koop je losse tickets.",
+        "De New York CityPASS is de moeite waard als je minstens vier van de vijf attracties toch al wilde bezoeken. Hij kost $149 voor volwassenen, plus $2 kosten, en je kiest vijf van tien attracties, zoals het Empire State Building, het American Museum of Natural History, de veerboot naar het Vrijheidsbeeld, het 9/11 Museum en Top of the Rock. Voor drie attracties of minder koop je losse tickets.",
       facts: [
-        ["Prijs volwassene", "Ongeveer $154 tot $164"],
-        ["Geldt voor", "5 attracties in 9 dagen"],
-        ["Altijd inbegrepen", "Empire State Building, Natural History Museum"],
-        ["Kies er 3 bij", "Veerboot Vrijheidsbeeld, 9/11 Museum, Top of the Rock en andere"],
+        ["Prijs volwassene", "$149, plus $2 kosten"],
+        ["Geldt voor", "5 van 10 attracties in 9 dagen"],
+        ["Uitkijkplatforms", "Empire State Building, Top of the Rock, Edge"],
+        ["Andere keuzes", "Natural History Museum, veerboot Vrijheidsbeeld, 9/11 Museum, Circle Line, Intrepid, Guggenheim, Whitney"],
         ["Oordeel", "De moeite waard vanaf vier attracties"],
       ],
       sections: [
         {
           heading: "De rekensom",
           paragraphs: [
-            "Los gekocht kosten het Empire State Building, het Natural History Museum, de veerboot naar het Vrijheidsbeeld, het 9/11 Museum en Top of the Rock samen ruwweg $180 tot $200. De pas bespaart $20 tot $40 als je ze alle vijf gebruikt en speelt quitte bij ongeveer vier. Hij maakt een dure stad niet goedkoop: hij haalt iets van de kosten van een klassiek eerste bezoek af.",
+            "Los gekocht kosten het Empire State Building, het Natural History Museum, de veerboot naar het Vrijheidsbeeld, het 9/11 Museum en Top of the Rock samen ruwweg $180 tot $200. De pas bespaart $30 tot $50 als je ze alle vijf gebruikt en speelt quitte bij ongeveer vier. Hij maakt een dure stad niet goedkoop: hij haalt iets van de kosten van een klassiek eerste bezoek af.",
           ],
         },
         {
           heading: "Wat je moet weten voor je koopt",
           bullets: [
-            "Twee uitkijkplatforms: Het Empire State Building zit in de pas, en Top of the Rock is een van de keuzes. De meeste mensen hebben niet allebei nodig; kies liever een museum of de veerboot.",
+            "Uitkijkplatforms: Het Empire State Building, Top of the Rock en Edge zijn alle drie keuzes. De meeste mensen hebben er één nodig; besteed de andere keuzes aan een museum of de veerboot.",
             "Reserveren: De meeste attracties vragen nog steeds een tijdslot, dat je na aankoop via de pas boekt. Doe dat meteen.",
             "Negen dagen: De pas loopt negen dagen vanaf het eerste gebruik, dus haasten hoeft niet.",
-            "Niet inbegrepen: Broadway, SUMMIT One Vanderbilt, Edge, en de kroon en het voetstuk van het Vrijheidsbeeld.",
+            "Niet inbegrepen: Broadway, SUMMIT One Vanderbilt, One World Observatory, en de kroon en het voetstuk van het Vrijheidsbeeld.",
           ],
         },
         {
@@ -742,7 +726,7 @@ export const newYorkArticles: Article[] = [
         {
           heading: "From JFK",
           bullets: [
-            "Yellow taxi: A flat fare to anywhere in Manhattan below 96th Street. Join the official line outside the terminal and ignore anyone offering a ride inside.",
+            "Yellow taxi: A flat fare to anywhere in Manhattan, plus a $5 surcharge from 4 to 8 pm on weekdays. Join the official line outside the terminal and ignore anyone offering a ride inside.",
             "AirTrain and subway: The AirTrain to Jamaica or Howard Beach, then the subway. Cheap and reliable, slow with large suitcases and stairs.",
             "AirTrain and commuter rail: The AirTrain to Jamaica, then the Long Island Rail Road to Penn Station or Grand Central. Faster and more comfortable than the subway for a few dollars more.",
             "Ride apps: Usually close to the taxi price, and higher at busy times.",
@@ -794,7 +778,7 @@ export const newYorkArticles: Article[] = [
         {
           heading: "Van het vliegveld naar Manhattan",
           bullets: [
-            "JFK, taxi: Een vast tarief naar heel Manhattan onder 96th Street. Sluit aan bij de officiële rij buiten de terminal en negeer iedereen die je binnen een rit aanbiedt.",
+            "JFK, taxi: Een vast tarief naar heel Manhattan, plus $5 toeslag op werkdagen van 16.00 tot 20.00 uur. Sluit aan bij de officiële rij buiten de terminal en negeer iedereen die je binnen een rit aanbiedt.",
             "JFK, AirTrain en metro: De AirTrain naar Jamaica of Howard Beach, daarna de metro. Goedkoop en betrouwbaar, maar traag met grote koffers en trappen.",
             "Newark: De AirTrain sluit aan op treinen die in ongeveer een half uur op Penn Station zijn. Een taxi is hier het duurst.",
           ],
