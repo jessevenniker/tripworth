@@ -1,0 +1,7 @@
+# Worktrees of parallel Claude Code sessions, local builds and secrets.
+.claude
+.next
+node_modules
+*.tsbuildinfo
+.env*
+!.env.example

@@ -1,4 +1,5 @@
 import type { Locale } from "@/i18n/config";
+import { bookingPicks, type Partner } from "./bookings";
 import type { ImageKey } from "./images";
 import { arubaArticles } from "./articles/aruba";
 import { barcelonaArticles } from "./articles/barcelona";
@@ -87,4 +88,50 @@ export function bookingLinks(query: string): { partner: string; url: string }[] 
     },
     { partner: "GetYourGuide", url: `https://www.getyourguide.com/s/?q=${q}&partner_id=${GYG_PARTNER_ID}&cmp=${GYG_CAMPAIGN}` },
   ];
+}
+
+/** Adds our partner ID (and the article as campaign, for per-article reporting) to a partner URL. */
+function withTracking(partner: Partner, rawUrl: string, campaign: string): string {
+  const url = new URL(rawUrl);
+  if (partner === "Viator") {
+    url.searchParams.set("pid", VIATOR_PARTNER_ID);
+    url.searchParams.set("mcid", VIATOR_CAMPAIGN);
+    url.searchParams.set("medium", "link");
+    url.searchParams.set("campaign", campaign);
+  } else {
+    url.searchParams.set("partner_id", GYG_PARTNER_ID);
+    url.searchParams.set("cmp", GYG_CAMPAIGN);
+  }
+  return url.toString();
+}
+
+/**
+ * Dutch visitors get GetYourGuide's Dutch site (language and euro prices).
+ * Viator stays on its default site: its Dutch URL variant could not be verified.
+ */
+function localizePartnerUrl(partner: Partner, rawUrl: string, locale: Locale): string {
+  if (locale !== "nl" || partner !== "GetYourGuide") return rawUrl;
+  const url = new URL(rawUrl);
+  url.pathname = `/nl-nl${url.pathname}`;
+  return url.toString();
+}
+
+export type BookingLink = { partner: Partner; title?: string; url: string };
+
+/**
+ * Booking links for an article: the specific tours picked in bookings.ts,
+ * or the partner search for the article's bookingQuery when nothing is picked yet.
+ */
+export function articleBookingLinks(article: Article, locale: Locale): BookingLink[] {
+  const picks = bookingPicks[article.id];
+  if (picks?.length) {
+    return picks.map((pick) => ({
+      partner: pick.partner,
+      title: pick.title,
+      url: withTracking(pick.partner, localizePartnerUrl(pick.partner, pick.url, locale), article.id),
+    }));
+  }
+  return article.bookingQuery
+    ? bookingLinks(article.bookingQuery).map((link) => ({ ...link, partner: link.partner as Partner }))
+    : [];
 }

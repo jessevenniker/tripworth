@@ -1,4 +1,4 @@
-# Travel platform
+# Tripsworth
 
 Bilingual (English/Dutch) affiliate travel site built with Next.js. The full plan is in [BOUWPLAN.md](BOUWPLAN.md).
 
@@ -18,7 +18,8 @@ npm run dev                  # http://localhost:3000, Dutch on /nl
 
 Decisions and accounts (outside the code):
 
-- [ ] Brand name and domain. Then update `SITE_NAME` in `src/i18n/config.ts`.
+- [x] Brand name: Tripsworth (`SITE_NAME` in `src/i18n/config.ts`).
+- [ ] Register tripsworth.com and tripsworth.nl (both free on 16 Nov 2026), and claim the Instagram handle.
 - [ ] Fill in `src/data/company.ts` (legal name, address, KvK, VAT number, email). Until then the legal pages show `[...]` placeholders.
 - [ ] Have `src/data/legal.ts` checked by a lawyer.
 - [ ] Re-check prices and opening hours in every article and set `updated` to the month of the check.
@@ -27,7 +28,7 @@ Hosting:
 
 - [ ] Push the repository to GitHub and import it in Vercel.
 - [ ] In Vercel, set the environment variables from `.env.example` (at least `NEXT_PUBLIC_SITE_URL` with the real domain).
-- [ ] Connect the domain in Vercel.
+- [ ] Connect the domain in Vercel, set `NEXT_PUBLIC_SITE_URL` to it and set `ALLOW_INDEXING=true` (robots.txt blocks everything until then).
 
 Measuring:
 
@@ -40,6 +41,12 @@ Payments (only once there are PDFs to sell):
 - [ ] Turn on Stripe Tax and set `STRIPE_TAX_ENABLED=true`.
 - [ ] Enter the terms URL in Stripe (Settings > Public details) and set `STRIPE_REQUIRE_TERMS=true` for the withdrawal-waiver checkbox.
 - [ ] PDFs: `private/pdfs/*.pdf` is git-ignored, so Vercel will not have them. Either commit them (private repository only) or move them to private storage such as Vercel Blob.
+
+## Booking links
+
+- `src/data/bookings.ts` holds the specific Viator and GetYourGuide product per article. `articleBookingLinks()` in `src/data/articles.ts` adds the partner IDs (and the article ID as Viator campaign) and sends Dutch visitors to GetYourGuide's Dutch site.
+- Articles without a pick fall back to a partner search for their `bookingQuery`.
+- Tours get delisted. Re-check the picks when an article is updated.
 
 ## What is indexed
 
