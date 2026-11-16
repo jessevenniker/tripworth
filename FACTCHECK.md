@@ -294,3 +294,71 @@ Economic Area more. The English pages quote the non-EEA price, the Dutch pages t
 - No changes.
 - Not verified (general knowledge): climate and sea temperatures, La Mercè and Sant Jordi dates,
   the mobile congress timing.
+
+---
+
+## New York (`new-york.ts`)
+
+### nyc-statue-of-liberty: OK
+- Changed: general admission $26 for adults (was "roughly $26 to $33"); pedestal and crown
+  tickets cost $26.30, only 30 cents more (was "about the same"). Added the pedestal price to the
+  facts. Both languages.
+- Confirmed: Statue City Cruises is the only authorised seller; crown climb of 162 steps; crown
+  tickets need advance booking (nps.gov, confirmed 11 November 2026).
+- Source: statuecitycruises.com FAQ (General Admission, Pedestal Reserve and Crown Reserve rates).
+- Not verified: "book the crown 3 to 4 months ahead" (third-party sites agree), visit length.
+
+### nyc-911-museum: OK
+- Changed: adult price "up to $36" (the official range is $24 to $36; was "roughly $33 to $36");
+  visit length 45 to 90 minutes, as the museum advises (was "about two hours"); free Monday
+  window made exact: 5:30 to 7 pm, tickets online from 7 am that Monday; added the opening
+  hours (Wednesday to Monday and many Tuesdays, 9 am to 7 pm). Both languages.
+- Confirmed: the outdoor memorial is free, open daily 8 am to 8 pm.
+- Source: 911memorial.org "Visit the Museum".
+
+### nyc-broadway: OK, open items
+- No changes.
+- Not verified: full prices ($90 to $250), TKTS discounts (up to 50 percent), rush and lottery
+  prices ($35 to $50), service fees, Monday dark day. These vary per show; no single official
+  source.
+
+### nyc-observation-decks: OK, open items
+- Changed: Empire State Building from $46 (was $44); Edge from $44 (was "about $36 to $45");
+  One World Observatory from $39 (was "about $31 to $44"). Both languages.
+- Sources: esbnyc.com "Buy tickets", edgenyc.com tickets, oneworldobservatory.com tickets.
+- Not verified: Top of the Rock "from about $45" (rockefellercenter.com refused the fetch and the
+  browser timed out), SUMMIT One Vanderbilt price (not given in the article).
+
+### nyc-citypass: OK
+- Changed: the pass was rebuilt. It now costs $149 for adults plus a $2 processing fee (was
+  "about $154 to $164") and you choose any 5 of 10 attractions: Empire State Building, American
+  Museum of Natural History, Top of the Rock, 9/11 Memorial & Museum, Statue of Liberty ferry,
+  Circle Line, Intrepid, Guggenheim, Edge and Whitney. Nothing is "always included" any more.
+  Rewrote the facts, the answer, the observation-deck bullet and "Not included" (Edge is now an
+  option; One World is not). Savings with five attractions now $30 to $50. Both languages.
+- Source: citypass.com/new-york.
+- Not verified: the separate-ticket total of $180 to $200 (it depends on the American Museum of
+  Natural History and Top of the Rock prices, which could not be fetched).
+
+### nyc-4-days: OK, open items
+- No changes. Subway fare $3 since January 2026 and the weekly cap of $35 (MTA board decision,
+  mta.info press release, via search; mta.info itself refused the fetch).
+- Not verified: tipping norms, walking distances.
+
+### nyc-hidden-gems: OK, open items
+- No changes.
+- Not verified (general knowledge): the list, Roosevelt Island Tramway fare (a subway fare).
+
+### nyc-airports: OK, open items
+- Changed: the JFK flat fare covers all of Manhattan (the article said "below 96th Street"); added
+  the $5 weekday rush-hour surcharge (4 to 8 pm). Both languages.
+- Confirmed: JFK to Manhattan flat fare $70 plus 50 cents MTA surcharge, $1 improvement
+  surcharge, $2.50 congestion surcharge, 75 cents congestion toll, $2 airport pickup fee (nyc.gov
+  TLC taxi fares); AirTrain JFK $8.75 (jfkairport.com); subway $3, so AirTrain plus subway
+  $11.75; ESTA $40, valid two years or until the passport expires (cbp.gov).
+- Not verified: total taxi cost $90 to $110, AirTrain plus LIRR $14 to $16, LaGuardia free bus
+  and taxi $40 to $60, Newark AirTrain journey time, flight time from Amsterdam.
+
+### nyc-best-time: OK, open items
+- No changes.
+- Not verified (general knowledge): climate figures, hotel price peaks, marathon date.
