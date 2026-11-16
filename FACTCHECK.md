@@ -362,3 +362,68 @@ Economic Area more. The English pages quote the non-EEA price, the Dutch pages t
 ### nyc-best-time: OK, open items
 - No changes.
 - Not verified (general knowledge): climate figures, hotel price peaks, marathon date.
+
+---
+
+## Cancún and Riviera Maya (`cancun.ts`)
+
+No official fee table (INAH, Cultur, SATQ, ADO, Xcaret) could be read: the INAH and Xcaret
+pages load their prices dynamically and the others refused or hid them. The figures below rest on
+recent press reports and the operators' booking pages where they showed a price. **Every peso and
+dollar amount in this file must be re-checked by hand before launch.**
+
+### cancun-chichen-itza: OK, open items
+- Changed: entry "about 700 pesos" on one combined ticket (was "about 680 to 700 pesos"). Since
+  27 March 2026 the INAH and state (Cultur) fees are sold as a single ticket of 697 pesos for
+  foreigners, according to Diario de Yucatán and El Cronista. Both languages.
+- Not verified: the official fee (no INAH or Cultur page readable), opening hours 8:00 to 16:00
+  with last entry at 15:00, the one-hour time difference, toll costs, tour prices.
+
+### cancun-tulum-ruins: OK, open items
+- Changed: the article told readers to "bring up to 650 pesos" because reports ranged from 100 to
+  600. Since a July 2026 decree, press reports (Tulum Times, 4 September 2026; Diario de Yucatán,
+  4 August 2026) give 265 pesos for the ruins plus 100 pesos for the Jaguar Park around them,
+  about 365 pesos in total. Rewritten with that figure and a warning to check locally. One July
+  report (Por Esto) gives 165 pesos for the ruins instead. Both languages.
+- Not verified: the official INAH fee, opening hours, travel times.
+
+### cancun-isla-mujeres: OK, open items
+- No changes. A ticket reseller quoting Ultramar's September 2026 fares gives 580 pesos round
+  trip (290 one way) per adult, plus an environmental fee of about 37 pesos, which matches the
+  article. Ultramar's own site shows tour prices in USD but not the plain ferry fare.
+- Not verified: the official fare, the crossing time (20 to 30 minutes; one source says 15),
+  catamaran tour prices, golf-cart rental.
+
+### cancun-xcaret: OK, open items
+- Changed: price per adult "about $150 to $200" (was "$100 to $160"). The official price guide on
+  xcaret.com loads its table dynamically and could not be read; resellers list Xcaret Basic at
+  about $149 to $159 and Xcaret Plus at about $179 to $199. Both languages. The official FAQ
+  confirms children pay 25 percent less than adults.
+- Not verified: the official price (high priority before launch), cenote prices.
+
+### cancun-5-days: OK, open items
+- No changes.
+- Not verified (general knowledge): the itinerary timings, the ten percent exchange-rate loss
+  when paying in dollars.
+
+### cancun-hidden-gems: OK, open items
+- No changes.
+- Not verified (general knowledge): the list, "$5 to $25 per cenote or site", rules at Akumal
+  and Cobá.
+
+### cancun-airport: OK, open items
+- No changes.
+- Not verified: Visitax. The state announced in December 2025 that it stays at 285 pesos in 2026
+  (Riviera Maya News); the state tax office (SATQ) has also been quoted at 293 pesos. The
+  article's "about 290 pesos" sits between the two. visitax.gob.mx shows no amount before
+  checkout. ADO fares (about 140 pesos to downtown Cancún, 200 to 255 pesos to Playa del Carmen
+  in third-party guides; the article says 220), private transfer prices and travel times.
+
+### cancun-best-time: OK, open items
+- No changes.
+- Not verified (general knowledge): hurricane season dates, sargassum outlook, climate figures.
+
+### cancun-cozumel-shore: OK, open items
+- No changes.
+- Not verified: the three cruise piers (Punta Langosta, International, Puerta Maya; matches the
+  11 November check of third-party sources), taxi and ferry times.
