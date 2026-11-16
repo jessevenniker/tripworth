@@ -1,0 +1,499 @@
+/* Print layout for the PDF guides. Colours match src/app/globals.css. */
+:root {
+  --night: #0b1b2b;
+  --ink: #14212e;
+  --sand: #f6efe4;
+  --paper: #fffaf2;
+  --coral: #ff6b4a;
+  --coral-soft: #ffe7e0;
+  --sea: #0e7c86;
+  --sea-soft: #e3f1f1;
+  --muted: #5b6875;
+  --line: #e4d9c8;
+}
+
+@page {
+  size: A5;
+}
+
+@page cover {
+  margin: 0;
+}
+
+@page main {
+  margin: 17mm 14mm 17mm 14mm;
+  background: var(--paper);
+  @top-left {
+    font: 500 6.5pt "Geist", sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    vertical-align: bottom;
+    padding-bottom: 3mm;
+  }
+  @bottom-right {
+    content: counter(page);
+    font: 600 7.5pt "Geist", sans-serif;
+    color: var(--coral);
+    vertical-align: top;
+    padding-top: 3mm;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  margin: 0;
+  font-family: "Geist", sans-serif;
+  font-size: 9pt;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--paper);
+  hyphens: auto;
+  orphans: 3;
+  widows: 3;
+}
+
+a {
+  color: var(--sea);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5pt;
+  text-underline-offset: 1.5pt;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* ---------- Cover ---------- */
+.cover {
+  page: cover;
+  position: relative;
+  width: 148mm;
+  height: 210mm;
+  overflow: hidden;
+  padding: 16mm 14mm;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: linear-gradient(180deg, #0b1b2b 0%, #163a5c 48%, #c9735a 82%, #f4a261 100%);
+}
+
+.cover-sun {
+  position: absolute;
+  right: -28mm;
+  bottom: 30mm;
+  width: 92mm;
+  height: 92mm;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #ffb199 0%, var(--coral) 55%, rgba(255, 107, 74, 0) 72%);
+  opacity: 0.85;
+}
+
+.cover-brand {
+  position: relative;
+  margin: 0;
+  font: 600 8pt "Geist", sans-serif;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.cover-main {
+  position: relative;
+  margin-top: 46mm;
+}
+
+.cover-kicker {
+  margin: 0 0 4mm;
+  font: 500 8pt "Geist", sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #ffd2c6;
+}
+
+.cover-title {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-weight: 650;
+  font-size: 40pt;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+}
+
+.cover-subtitle {
+  margin: 6mm 0 0;
+  max-width: 96mm;
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12.5pt;
+  line-height: 1.35;
+  color: #f6efe4;
+}
+
+.cover-foot {
+  position: relative;
+  margin: auto 0 0;
+  font: 500 7pt "Geist", sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--night);
+}
+
+/* ---------- Contents ---------- */
+main {
+  page: main;
+}
+
+.front-title {
+  margin: 0 0 5mm;
+  font-family: "Fraunces", serif;
+  font-size: 22pt;
+  font-weight: 600;
+}
+
+.toc {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: toc;
+}
+
+.toc li {
+  border-top: 0.6pt solid var(--line);
+}
+
+.toc li:last-child {
+  border-bottom: 0.6pt solid var(--line);
+}
+
+.toc a {
+  display: flex;
+  gap: 4mm;
+  align-items: baseline;
+  padding: 2.4mm 0;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.toc-eyebrow {
+  flex: 0 0 24mm;
+  font: 600 7pt "Geist", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--coral);
+}
+
+.toc-title {
+  font-family: "Fraunces", serif;
+  font-size: 11.5pt;
+  font-weight: 500;
+}
+
+.small-print {
+  margin-top: 9mm;
+  font-size: 7pt;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.small-print p {
+  margin: 0 0 1.6mm;
+}
+
+/* ---------- Chapters ---------- */
+.chapter-head {
+  break-before: page;
+  margin: 0 0 6mm;
+  padding-bottom: 4mm;
+  border-bottom: 2pt solid var(--coral);
+}
+
+.eyebrow {
+  margin: 0 0 1.5mm;
+  font: 600 7.5pt "Geist", sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--coral);
+}
+
+.chapter-head h1 {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: 24pt;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.005em;
+  color: var(--night);
+}
+
+h2 {
+  margin: 6mm 0 2mm;
+  font-family: "Fraunces", serif;
+  font-size: 13.5pt;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--night);
+  break-after: avoid;
+}
+
+h3 {
+  margin: 4.5mm 0 1.5mm;
+  font: 600 9pt "Geist", sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--sea);
+  break-after: avoid;
+}
+
+p {
+  margin: 0 0 2.4mm;
+}
+
+ul,
+ol {
+  margin: 0 0 2.6mm;
+  padding-left: 4.6mm;
+}
+
+li {
+  margin-bottom: 1.1mm;
+}
+
+li::marker {
+  color: var(--coral);
+}
+
+/* ---------- Tables ---------- */
+table {
+  width: 100%;
+  margin: 2mm 0 4mm;
+  border-collapse: collapse;
+  font-size: 8pt;
+  break-inside: avoid;
+}
+
+th {
+  text-align: left;
+  font: 600 6.8pt "Geist", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 1.6mm 2mm 1.6mm 0;
+  border-bottom: 1pt solid var(--night);
+}
+
+td {
+  padding: 1.7mm 2mm 1.7mm 0;
+  border-bottom: 0.5pt solid var(--line);
+  vertical-align: top;
+}
+
+td:first-child {
+  font-weight: 600;
+}
+
+/* ---------- Schedule ---------- */
+.schedule {
+  margin: 3mm 0 4mm;
+}
+
+.slot {
+  display: flex;
+  gap: 3.5mm;
+  padding: 2.2mm 0 1.2mm;
+  border-top: 0.6pt solid var(--line);
+  break-inside: avoid;
+}
+
+.slot:last-child {
+  border-bottom: 0.6pt solid var(--line);
+}
+
+.time {
+  flex: 0 0 15.5mm;
+  margin: 0;
+  padding-top: 0.4mm;
+  font: 600 8pt "Geist", sans-serif;
+  font-variant-numeric: tabular-nums;
+  color: var(--coral);
+  white-space: nowrap;
+}
+
+.slot-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.slot-title {
+  margin: 0 0 1mm;
+  font-family: "Fraunces", serif;
+  font-size: 10.5pt;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--night);
+}
+
+.slot-body p,
+.slot-body ul {
+  margin-bottom: 1.4mm;
+}
+
+/* ---------- Boxes ---------- */
+.box {
+  margin: 3.5mm 0 4mm;
+  padding: 3mm 3.6mm 1.2mm;
+  border-radius: 2.5mm;
+  font-size: 8.4pt;
+  break-inside: avoid;
+}
+
+.box-title {
+  margin: 0 0 1.4mm;
+  font: 600 7pt "Geist", sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.box.tip {
+  background: var(--sea-soft);
+}
+
+.box.tip .box-title {
+  color: var(--sea);
+}
+
+.box.warn {
+  background: var(--coral-soft);
+}
+
+.box.warn .box-title {
+  color: #c4442a;
+}
+
+.box.note {
+  background: var(--sand);
+}
+
+.box.note .box-title {
+  color: var(--muted);
+}
+
+.box.map {
+  background: var(--paper);
+  border: 0.8pt solid var(--line);
+  border-left: 3pt solid var(--sea);
+  border-radius: 0 2.5mm 2.5mm 0;
+}
+
+.box.map .box-title {
+  color: var(--sea);
+}
+
+.box.booking {
+  background: var(--night);
+  color: #f6efe4;
+}
+
+.box.booking .box-title {
+  color: #ffb199;
+}
+
+.box.booking a {
+  color: #fff;
+}
+
+.box.booking ol {
+  padding-left: 4.6mm;
+}
+
+.box.booking li::marker {
+  color: #ffb199;
+  font-weight: 600;
+}
+
+.box.checklist ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.box.checklist {
+  background: var(--sand);
+}
+
+.box.checklist .box-title {
+  color: var(--muted);
+}
+
+.box.checklist li {
+  padding-left: 5mm;
+  position: relative;
+}
+
+.box.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9mm;
+  width: 2.6mm;
+  height: 2.6mm;
+  border: 0.8pt solid var(--sea);
+  border-radius: 0.6mm;
+}
+
+.box > :last-child {
+  margin-bottom: 1.8mm;
+}
+
+/* ---------- Booking links ---------- */
+.book {
+  display: inline;
+}
+
+.book-label {
+  font-weight: 600;
+}
+
+.chips {
+  white-space: nowrap;
+}
+
+.chip {
+  display: inline-block;
+  margin-left: 1.4mm;
+  padding: 0.1mm 1.6mm 0.2mm;
+  border-radius: 9pt;
+  font: 600 6.4pt "Geist", sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  text-decoration: none;
+  color: #fff;
+  background: var(--coral);
+  vertical-align: 0.4pt;
+}
+
+.box.booking .chip {
+  color: var(--night);
+  background: #ffb199;
+}
+
+.chip + .chip {
+  margin-left: 1mm;
+  background: var(--sea);
+}
+
+.box.booking .chip + .chip {
+  background: #9fd3d6;
+}
+
+hr {
+  border: 0;
+  border-top: 0.6pt solid var(--line);
+  margin: 5mm 0;
+}
