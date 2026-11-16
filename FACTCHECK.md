@@ -3,7 +3,7 @@
 Checked: 16 November 2026. Scope: every article in `src/data/articles/*.ts`, both the `en` and the
 `nl` version. Prices, opening hours, booking windows, ticket types, rules and transfer costs were
 compared with official sources (attraction websites, official ticket sellers, transport operators
-and airports). Every checked article has `updated: "2026-11"`.
+and airports). Every checked article has `updated: "2026-11"`. `npm run build` passes.
 
 Status per article:
 
@@ -11,7 +11,27 @@ Status per article:
 - **OK, open items**: the article was checked and corrected where needed, but some figures could
   only be found on third-party sites or come from general knowledge. Those are listed under
   "Not verified" and must be re-checked by hand before launch. Nothing was guessed: unverified
-  figures were left as they were, or softened to a range, and are marked here.
+  figures were left as they were, or, where the old figure was clearly out of date, updated from
+  recent press reports or resellers and marked as such here.
+
+Summary: 62 articles checked (7 destinations). 19 have status **OK**, 43 **OK, open items**.
+Most open items are tour and market prices and general-knowledge facts (climate, hidden-gems
+lists, walking times), which have no official source.
+
+### Re-check by hand before launch (highest risk first)
+
+1. **Cancún, all fees.** No official INAH, Cultur, SATQ or Xcaret price could be read. Tulum
+   (about 365 pesos), Chichén Itzá (about 700 pesos), Xcaret ($150 to $200), Visitax (about
+   290 pesos) and ADO fares rest on press reports and resellers.
+2. **Barcelona airport.** R2 Nord train fare ("about €5"; sources say €2.90 or €5.50) and the
+   official tourist-tax table ("up to about €12").
+3. **New York.** Top of the Rock price ("from about $45") and the separate-ticket total in the
+   CityPASS maths ($180 to $200).
+4. **Rome airport.** FL1 train €8 and airport bus €6 to €7 (third-party only).
+5. **Aruba.** Renaissance Island day pass (about $125, third-party only).
+6. **Paris.** Seine cruise prices (€15 to €20) and the €7 booked-taxi charge.
+7. All tour price ranges (Colosseum tours, coach tours from London, Montserrat, Chichén Itzá,
+   Aruba snorkel and jeep tours): spot-check against GetYourGuide and Viator listings.
 
 Prices in the English pages stay in the local currency where that is what the visitor pays
 (euros in Rome, Paris and Barcelona, pounds in London, pesos or dollars in Mexico); Aruba and New
